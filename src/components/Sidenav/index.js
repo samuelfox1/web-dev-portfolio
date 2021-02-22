@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom"
 import "materialize-css/dist/css/materialize.min.css";
 
-export default function Sidenav() {
+export default function Sidenav({ handleUpdateTitle }) {
 
     return (
 
         <ul id="slide-out"
             className="sidenav">
             <li>
-                <a href="/"
+                <a
                     className="sidenav-close">
                     <i className="material-icons">clear</i>
                 </a>
@@ -16,27 +17,30 @@ export default function Sidenav() {
             <li className="divider" />
 
             <li>
-                <a href="/"
-                    className="waves-effect">
+                <Link to="/"
+                    onClick={() => handleUpdateTitle('Samuel Fox')}
+                    className="waves-effect sidenav-close" >
                     Home
                     {/* <i className="material-icons">cloud</i> */}
-                </a>
+                </Link>
             </li>
             <li className="divider" />
 
             <li>
-                <a href="/projects"
-                    className=" waves-effect">
+                <Link to="/projects"
+                    onClick={() => handleUpdateTitle('Projects')}
+                    className=" waves-effect sidenav-close">
                     Projects
-                        </a>
+                        </Link>
             </li>
             <li className="divider" />
 
             <li>
-                <a href="/contact"
-                    className="waves-effect">
+                <Link to="/contact"
+                    onClick={() => handleUpdateTitle('Contact')}
+                    className="waves-effect sidenav-close">
                     Contact
-                        </a>
+                        </Link>
             </li>
             <li className="divider" />
         </ul>

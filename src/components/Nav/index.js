@@ -1,15 +1,17 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom"
 import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 import Sidenav from "../Sidenav/index.js"
 
 export default function Nav() {
-
+    const [title, setTitle] = useState({ title: 'Samuel Fox' })
 
     // modified example from https://github.com/AndyBraveMX/react-learning/tree/master/react-sidenav-materializecss
     useEffect(() => {
         handleSideNAv()
     }, [])
+
 
     const handleSideNAv = () => {
         var sideNav = document.querySelector(".sidenav");
@@ -22,16 +24,20 @@ export default function Nav() {
         });
     }
 
+    const handleUpdateTitle = (x) => {
+        setTitle({ title: x })
+    }
+
 
 
     return (
         <div>
-            <nav className="dark">
+            <nav className="bg-color-dark">
                 <div className="nav-wrapper">
                     <a
-                        className="brand-logo">
-                        Samuel Fox
-                        </a>
+                        className="brand-logo center">
+                        {title.title}
+                    </a>
                     {/* <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a> */}
                     <a href=""
                         data-target="slide-out"
@@ -39,12 +45,14 @@ export default function Nav() {
                         <i className="material-icons">menu</i>
                     </a>
                     <ul className="right hide-on-med-and-down">
-                        <li><a href="/projects">Projects</a></li>
-                        <li><a href="/contact">Contact</a></li>
+                        <li>
+                            <Link to="/" onClick={() => handleUpdateTitle('Samuel Fox')}>Home</Link></li>
+                        <li><Link to="/projects" onClick={() => handleUpdateTitle('Projects')}>Projects</Link></li>
+                        <li><Link to="/contact" onClick={() => handleUpdateTitle('Contact')}>Contact</Link></li>
                     </ul>
                 </div>
             </nav>
-            <Sidenav />
+            <Sidenav handleUpdateTitle={handleUpdateTitle} />
         </div>
     )
 }
