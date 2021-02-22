@@ -1,32 +1,22 @@
-/* GLOBAL ITEMS */
 body {
-  background-image: url("./background.png");
+  background-image: url("../images/background.png");
   font-size: 1rem;
   color: rgb(214, 214, 214);
-  /* text-align: center; */
-}
-
-/* set to adjust hr spacing under titles of project cards */
-hr {
-  margin: 1rem 1rem;
 }
 
 .p1 {
   padding: .5rem .5rem !important;
-
 }
 
-    
 main {
-  margin: 2rem 1rem 2rem 1rem;    
+    margin: 0 1rem 2rem 1rem;
 }
 
-
-.top-card {
-  padding-top: 0 !important;
+.m2 {
+  margin: 2rem 2rem;
 }
 
-.dark {
+.bg-color-dark {
   color: rgb(107, 107, 112);
 }
 
@@ -38,14 +28,17 @@ main {
   background-color: rgb(125, 125, 133) !important;
 }
 
+
+/* NAVBAR */
 nav {
   background-color: #2b3035 !important ;
 }
 
 .sidenav {
   background-color: rgb(107, 107, 112) !important;
-
 }
+
+
 
 /* BUTTON & LINK BEHAVIOR */
 a:hover, i:hover {
@@ -168,7 +161,16 @@ a:-webkit-any-link{
   border-radius: 1rem !important;
 }
 
-img .rounded {
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0) !important;
+  /* width:30% !important; */
+ /* height: 250px; */
+}
+
+
+/* set to adjust hr spacing under titles of project cards */
+hr {
   margin: 1rem 1rem;
 }
 
