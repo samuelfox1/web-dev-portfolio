@@ -46,27 +46,12 @@ export default function Home() {
                             <p>❯ Technologies ❮</p>
                             <img
                                 className="z-depth-3"
-                                src="https://img.shields.io/badge/-HTML5-blue?logo=html5" alt="HTML5" />
+                                src="https://img.shields.io/badge/-HTML5-blue?logo=html5"
+                                alt="HTML5" />
                             <img
                                 className="z-depth-3"
-                                src="https://img.shields.io/badge/-javascript-yellow?logo=javascript" alt="JavaScript" />
-                            <img
-                                className="z-depth-3"
-                                src="https://img.shields.io/badge/-CSS-red?logo=css3" alt="CSS" />
-                            <img
-                                className="z-depth-3"
-                                src="https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white"
-                                alt="node.js" />
-                            <img
-                                className="z-depth-3"
-                                src="https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow"
-                                alt="ExpressJS" />
-                            <img
-                                className="z-depth-3"
-                                src="https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white" alt="MySQL" />
-                            <img
-                                className="z-depth-3"
-                                src="https://img.shields.io/badge/-handlebars.js-FF7D00" alt="handlebars.js" />
+                                src="https://img.shields.io/badge/-CSS-red?logo=css3"
+                                alt="CSS" />
                             <img
                                 className="z-depth-3"
                                 src="https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white"
@@ -75,7 +60,18 @@ export default function Home() {
                                 className="z-depth-3"
                                 src="https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white"
                                 alt="MaterializeCSS" />
-
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-javascript-yellow?logo=javascript"
+                                alt="JavaScript" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white"
+                                alt="node.js" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow"
+                                alt="ExpressJS" />
                             <a
                                 className="link"
                                 href="https://youtu.be/DLzxrzFCyOs"
@@ -86,6 +82,26 @@ export default function Home() {
                                     src="https://img.shields.io/badge/-JustForFun-white?logo=YouTube&logoColor=red"
                                     alt="rickroll" />
                             </a>
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white"
+                                alt="MySQL" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white"
+                                alt="MongoDB" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-handlebars.js-FF7D00"
+                                alt="handlebars.js" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB"
+                                alt="ReactJS" />
+                            <img
+                                className="z-depth-3"
+                                src="https://img.shields.io/badge/-npm-CB3837?logo=NPM"
+                                alt="npm" />
                         </div>
                     </div>
                 </div>
