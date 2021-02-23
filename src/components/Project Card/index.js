@@ -15,6 +15,7 @@ export default function ProjectCard({ data }) {
                 render={({ toggle, setCollapsibleElement }) => (
                     // element to activate toggle
                     <div className="card bg-color-light rounded">
+
                         <a onClick={toggle}>
                             <div className="card-image card-img-top rounded">
                                 <img className="rounded z-depth-5" src={data.img} />
