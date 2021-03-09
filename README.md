@@ -3,7 +3,7 @@
 
 >## Description 
 
-* Personal portfolio tracking the progress of my coding skills and abilities to date.
+* A personal portfolio built in React.js, tracking the progress of my coding skills and abilities.
 
 
 <br>
