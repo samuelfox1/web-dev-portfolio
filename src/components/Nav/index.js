@@ -45,14 +45,13 @@ export default function Nav() {
                         <i className="material-icons">menu</i>
                     </a>
                     <ul className="right hide-on-med-and-down">
-                        <li>
-                            <Link to="/" onClick={() => handleUpdateTitle('Samuel Fox')}>Home</Link></li>
+                        {/* <li><Link to="/" onClick={() => handleUpdateTitle('Samuel Fox')}>Home</Link></li>
                         <li><Link to="/projects" onClick={() => handleUpdateTitle('Projects')}>Projects</Link></li>
-                        <li><Link to="/contact" onClick={() => handleUpdateTitle('Contact')}>Contact</Link></li>
+                        <li><Link to="/contact" onClick={() => handleUpdateTitle('Contact')}>Contact</Link></li> */}
                     </ul>
                 </div>
             </nav>
-            <Sidenav handleUpdateTitle={handleUpdateTitle} />
+            {/* <Sidenav handleUpdateTitle={handleUpdateTitle} /> */}
         </div>
     )
 }

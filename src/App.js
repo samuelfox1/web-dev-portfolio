@@ -6,25 +6,27 @@ import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
 import Home from "./pages/Home"
 
+import Fade from 'react-reveal/Fade'
+
+
 
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <div>
-          <Nav />
-          {/* <Zoom> */}
-          <Route exact path="/" component={Home} />
-          {/* </Zoom> */}
-          <Zoom>
-            <Route path="/projects" component={Projects} />
-          </Zoom>
-          <Zoom>
-            <Route path="/contact" component={Contact} />
-          </Zoom>
-        </div>
-      </BrowserRouter>
-    </div>
+    <>
+      <Nav />
+
+      <Fade>
+        <Home />
+      </Fade>
+
+      <Fade>
+        <Projects />
+      </Fade>
+
+      <Zoom>
+        <Contact />
+      </Zoom>
+    </>
   )
 }
 
