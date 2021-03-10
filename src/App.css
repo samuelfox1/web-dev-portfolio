@@ -105,26 +105,27 @@ a:-webkit-any-link{
 }
 
 /* biography and portrait container */
-.index-row-2, .contact-row-2 {
+
+.home-card, .contact-row-2 {
   padding: 1rem;
   border-radius: .3rem;
-  text-align: left;
+  text-align: center;
+  margin: 1rem 1rem 1rem 1rem;
 }
 
 .portrait {
   display: block;
   margin: 0 1rem 0 0;
-  /* float: left; */
+  float: left;
 }
 
-/* 
-.list {
-  text-align: left;
-} */
 
 /* PORTFOLIO PAGE ===================================================== */
 .about-container {
-  margin-top: 0;
+  /* display: flex; */
+  /* width:75vw; */
+  /* flex-wrap: wrap; */
+  /* margin-top: 0; */
 }
 
 .bg-color2 {
@@ -186,7 +187,7 @@ hr {
 
 @media screen and (max-width: 500px) {
 
-  .index-row-2 {
+  .home-card {
       text-align: left ;
   }
 
@@ -195,7 +196,7 @@ hr {
       padding: 1rem;
   }
 
-  .index-row-2{
+  .home-card{
       padding-top: 0;
       text-align: center;
   }
