@@ -3,7 +3,7 @@
 
 >## Description 
 
-* Webpage to share a little about myself and showcase some projects i have built during my University of Washington Coding Bootcamp.
+* A personal portfolio built in React.js, tracking the progress of my coding skills and abilities.
 
 
 <br>
