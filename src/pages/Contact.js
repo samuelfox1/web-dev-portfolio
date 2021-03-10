@@ -1,25 +1,26 @@
 import React from "react"
 import SlideToggle from "react-slide-toggle"
+import { Container, Row } from "react-materialize"
 
 
 export default function Contact() {
     return (
-        <main className="contact-container container center-align">
+        <Container className="contact-container center-align">
 
-            <div className="row index-row-1">
+            <Row className="index-row-1">
                 <h1>👨‍💻</h1>
-            </div>
+            </Row>
 
-            <div className="row contact-row">
+            <Row className="contact-row">
                 <a href="https://www.linkedin.com/in/samuel-fox-tacoma/" target="_blank"><span className="link-btn">Linked
                         in</span></a>
-            </div>
+            </Row>
 
-            <div className="row contact-row">
+            <Row className="ontact-row">
                 <a href="https://github.com/samuelfox1" target="_blank"><span className="link-btn">GitHub</span></a>
-            </div>
+            </Row>
 
-            <div className="row contact-row">
+            <Row className="contact-row">
 
                 <SlideToggle
                     duration={1000}
@@ -55,7 +56,7 @@ export default function Contact() {
                         </div>
                     )}
                 />
-            </div>
-        </main>
+            </Row>
+        </Container>
     )
 }

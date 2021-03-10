@@ -1,5 +1,12 @@
 [
     {
+        "title": "RadCats Karaoke",
+        "img": "https://i.imgur.com/KNdwTCv.png",
+        "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password' ",
+        "repo": "https://github.com/chomieu/RadCaTS-Karaoke",
+        "deployed": "https://radcats-karaoke.herokuapp.com/"
+    },
+    {
         "title": "Voicely",
         "img": "https://i.imgur.com/KNdwTCv.png",
         "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
