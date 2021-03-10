@@ -117,16 +117,17 @@ a:-webkit-any-link{
   display: block;
   margin: 0 1rem 0 0;
   float: left;
+  width:200px
 }
 
 
 /* PORTFOLIO PAGE ===================================================== */
-.about-container {
-  /* display: flex; */
-  /* width:75vw; */
-  /* flex-wrap: wrap; */
-  /* margin-top: 0; */
-}
+/* .about-container {
+  display: flex;
+  width:75vw;
+  flex-wrap: wrap;
+  margin-top: 0;
+} */
 
 .bg-color2 {
   background-color: rgb(43, 43, 43) !important;

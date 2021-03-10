@@ -1,9 +1,10 @@
 import React from 'react'
 import { BrowserRouter, Route } from 'react-router-dom';
+import Zoom from 'react-reveal/Zoom'
 import Nav from "./components/Nav/index"
-import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import Contact from "./pages/Contact"
+import Home from "./pages/Home"
 
 
 const App = () => {
@@ -12,9 +13,15 @@ const App = () => {
       <BrowserRouter>
         <div>
           <Nav />
+          {/* <Zoom> */}
           <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
+          {/* </Zoom> */}
+          <Zoom>
+            <Route path="/projects" component={Projects} />
+          </Zoom>
+          <Zoom>
+            <Route path="/contact" component={Contact} />
+          </Zoom>
         </div>
       </BrowserRouter>
     </div>

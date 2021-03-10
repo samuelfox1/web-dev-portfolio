@@ -5,6 +5,7 @@ export default function Home() {
 
 
     return (
+
         <Container className="about-container">
             <Row className="home-card bg-color center-align mt2">
 
