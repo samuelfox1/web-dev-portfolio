@@ -25,6 +25,7 @@ export default function Nav() {
         <Navbar
             alignLinks="right"
             brand={<a className="brand-logo">Samuel Fox</a>}
+            // centerLogo
             id="mobile-nav"
             menuIcon={<Icon>menu</Icon>}
             options={{

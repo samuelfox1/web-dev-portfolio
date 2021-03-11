@@ -11,13 +11,13 @@ export default function Home() {
     return (
 
         <Container className="about-container">
-            <Row className="home-card bg-color-dark center-align mt2">
+            <Row className="home-card bg-dark center-align mt2">
 
                 <Col s={12} m={11} l={11} >
-                    <div className="card-image">
-                        <img className="rounded portrait z-depth-5" width="300" src="https://i.imgur.com/7TOJf0lm.jpg"
-                            alt="profile picture" />
-                    </div>
+                    {/* <div className="card-image"> */}
+                    <img className="rounded portrait z-depth-5" width="300" src="https://i.imgur.com/7TOJf0lm.jpg"
+                        alt="profile picture" />
+                    {/* </div> */}
 
                     <h5>Hello! </h5>
                     <p>My name is Sam.</p>
@@ -29,12 +29,12 @@ export default function Home() {
                 </Col>
             </Row>
 
-            <Row className=" center-align mt2">
+            <Row className="home-card center-align mt2">
                 <Col s={12} m={5} l={5}
-                    className="home-card bg-color-dark"
                     data-aos="fade-left"
+                    className="skills-card"
                 >
-                    <ul className="list">
+                    <ul>
                         <li><h5>Skills</h5></li>
                         <li><div className="divider"></div></li>
                         <li>▷ Attention to detail</li>
@@ -49,7 +49,6 @@ export default function Home() {
                     </ul>
                 </Col>
                 <Col s={12} m={6} l={6}
-                    className="technologies home-card bg-color-dark"
                     data-aos="fade-right"
                 >
 

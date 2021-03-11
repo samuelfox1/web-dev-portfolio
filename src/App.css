@@ -2,18 +2,17 @@ body {
   background-image: url("./images/background.png");
   font-size: 1rem;
   color: rgb(214, 214, 214);
-  width: 100vw !important;
+  width: 100vw;
 }
 
 
-.bg-color-dark {
+.bg-dark {
   /* color: rgb(107, 107, 112); */
-  /* background-color: rgb(107, 107, 112) !important; */
-  border:1px solid rgba(214, 214, 214,0.1) ;
+  background-color: rgb(107, 107, 112) !important;
 }
 
 
-.bg-color-light {
+.bg-light {
   background-color: rgb(125, 125, 133) !important;
 }
 
@@ -21,10 +20,9 @@ body {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
-img {
+/* img {
   border-radius: .25rem;
-  padding: .2rem;
-}
+} */
 
 .m2 {
   margin: 2rem 2rem;
@@ -38,13 +36,15 @@ img {
   padding: .5rem .5rem !important;
 }
 
+
 /* NAVBAR ========================================================== */
 nav {
   background-color: #2b3035 !important ;
 }
 
-.sidenav {
-  background-color: rgb(107, 107, 112) !important;
+.sidenav, .sidenav li>a {
+  color: rgb(214, 214, 214) !important ;
+  background-color: rgba(107, 107, 112,.95) !important;
 }
 
 /* BUTTON & LINK BEHAVIOR ========================================== */
@@ -94,27 +94,25 @@ a:-webkit-any-link{
   border-radius: 1rem;
 }
 
-/* welcome header on home page */
-.index-row-1 {
-  margin: 1rem auto;
-  text-align: center;
-}
-
-/* biography and portrait container */
-
-.home-card, .contact-row-2 {
-  padding: 1rem;
-  border-radius: .3rem;
-  text-align: center;
-  margin: 1rem 1rem 1rem 1rem;
-}
-
 .portrait {
   display: block;
   margin: 0 1rem 0 0;
   float: left;
-  width:200px
+  width:200px;
+  border-radius: 1rem;
 }
+
+.home-card {
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  border:1px solid rgba(214, 214, 214,0.1) ;
+  border-radius: .3rem;
+  text-align: center;
+
+  display: block;
+}
+
+
 
 
 /* PORTFOLIO PAGE ===================================================== */
@@ -156,21 +154,22 @@ a:-webkit-any-link{
   padding-right: .5rem  !important;
 }
 
-.rounded {
-  border: 1px rgba(0, 0, 0, 0) solid;
-  border-radius: 1rem !important;
-}
 
 .project-card {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 
 /* set to adjust hr spacing under titles of project cards */
-hr {
+/* hr {
   margin: 1rem 1rem;
-}
+} */
 
 /*CONTACT PAGE =========================================================== */
+.contact-h1 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
 .contact-row {
   width: 80%;
   border-radius: .3rem;
@@ -178,11 +177,24 @@ hr {
   padding: 1rem;
 }
 
+.contact-row-2 {
+  margin: 1rem 1rem 1rem 1rem;
+  padding: 1rem;
+  border:1px solid rgba(214, 214, 214,0.1) ;
+  border-radius: .3rem;
+  text-align: center;
+}
+
 .contact-item {
   margin: 1rem 0;
 }
 
 @media screen and (max-width: 500px) {
+
+  .portrait {
+      float: none;
+      margin: 1rem auto;
+  }
 
   .home-card {
       text-align: left ;
@@ -196,10 +208,6 @@ hr {
   .home-card{
       padding-top: 0;
       text-align: center;
-  }
-  .portrait {
-      float: none;
-      margin: 1rem auto;
   }
 
   .contact-row {

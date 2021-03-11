@@ -10,7 +10,7 @@ export default function Contact() {
             <h2 id="contact">Contact</h2>
 
 
-            <Row className="index-row-1">
+            <Row className="contact-h1">
                 <h1>👨‍💻</h1>
             </Row>
 
