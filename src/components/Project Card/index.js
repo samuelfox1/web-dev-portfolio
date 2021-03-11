@@ -3,9 +3,18 @@ import SlideToggle from "react-slide-toggle"
 
 // SlideToggle is modified from https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
 
-export default function ProjectCard({ data }) {
+export default function ProjectCard({ idx, data }) {
+
+    let transition = "fade-right"
+    console.log(idx)
+    if (idx === 0 || idx % 2 === 0) { transition = "fade-left" }
+
+
     return (
-        <div className="col s12 m5 center-align rounded m2 project-card">
+        <div
+            className="col s12 m5 center-align rounded m2 project-card"
+            data-aos={transition}
+        >
             <h5>{data.title}</h5>
             <hr />
 

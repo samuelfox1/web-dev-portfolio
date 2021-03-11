@@ -1,17 +1,21 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Container, Row, Col } from "react-materialize"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export default function Home() {
 
+    useEffect(() => {
 
+    }, [])
     return (
 
         <Container className="about-container">
-            <Row className="home-card bg-color center-align mt2">
+            <Row className="home-card bg-color-dark center-align mt2">
 
                 <Col s={12} m={11} l={11} >
                     <div className="card-image">
-                        <img className="rounded portrait z-depth-5" src="https://i.imgur.com/7TOJf0lm.jpg"
+                        <img className="rounded portrait z-depth-5" width="300" src="https://i.imgur.com/7TOJf0lm.jpg"
                             alt="profile picture" />
                     </div>
 
@@ -26,7 +30,10 @@ export default function Home() {
             </Row>
 
             <Row className=" center-align mt2">
-                <Col s={12} m={5} l={5} className="home-card bg-color">
+                <Col s={12} m={5} l={5}
+                    className="home-card bg-color-dark"
+                    data-aos="fade-left"
+                >
                     <ul className="list">
                         <li><h5>Skills</h5></li>
                         <li><div className="divider"></div></li>
@@ -41,7 +48,10 @@ export default function Home() {
                         <li>▷ Mechanics</li>
                     </ul>
                 </Col>
-                <Col s={12} m={6} l={6} className="technologies home-card bg-color">
+                <Col s={12} m={6} l={6}
+                    className="technologies home-card bg-color-dark"
+                    data-aos="fade-right"
+                >
 
                     <p>❯ Technologies ❮</p>
                     <img

@@ -7,6 +7,9 @@ export default function Contact() {
     return (
         <Container className="contact-container center-align">
 
+            <h2 id="contact">Contact</h2>
+
+
             <Row className="index-row-1">
                 <h1>👨‍💻</h1>
             </Row>

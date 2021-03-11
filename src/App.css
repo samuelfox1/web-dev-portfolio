@@ -2,16 +2,16 @@ body {
   background-image: url("./images/background.png");
   font-size: 1rem;
   color: rgb(214, 214, 214);
+  width: 100vw !important;
 }
 
 
 .bg-color-dark {
-  color: rgb(107, 107, 112);
+  /* color: rgb(107, 107, 112); */
+  /* background-color: rgb(107, 107, 112) !important; */
+  border:1px solid rgba(214, 214, 214,0.1) ;
 }
 
-.bg-color {
-  background-color: rgb(107, 107, 112) !important;
-}
 
 .bg-color-light {
   background-color: rgb(125, 125, 133) !important;
@@ -24,10 +24,6 @@ body {
 img {
   border-radius: .25rem;
   padding: .2rem;
-}
-
-main {
-    margin: 0 1rem 2rem 1rem;
 }
 
 .m2 {
