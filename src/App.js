@@ -1,23 +1,47 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom';
 import Nav from "./components/Nav/index"
-import Home from "./pages/Home"
 import Projects from "./pages/Projects"
-import Contact from "./pages/Contact"
+import Home from "./pages/Home"
+import Footer from "./components/Footer"
+
+
+import Aos from "aos"
+import "aos/dist/aos.css"
+
 
 
 const App = () => {
+
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+      offset: 200
+    })
+  }, [])
+
+  const aos = {
+    hello: 'flip-up',
+    project: 'flip-up',
+    projectCard1: 'fade',
+    projectCard2: 'fade',
+    footer: 'flip-up',
+    footerContainer: 'fade'
+  }
+
+
   return (
-    <div>
-      <BrowserRouter>
-        <div>
-          <Nav />
-          <Route exact path="/" component={Home} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </div>
-      </BrowserRouter>
-    </div>
+    <>
+
+      <Nav />
+
+      <Home aos={aos} />
+
+      <Projects aos={aos} />
+
+      <Footer aos={aos} />
+
+    </>
   )
 }
 
