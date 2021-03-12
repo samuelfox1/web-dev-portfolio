@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-materialize"
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-export default function Home() {
+export default function Home({ aos }) {
 
     useEffect(() => {
 
@@ -11,28 +11,32 @@ export default function Home() {
     return (
 
         <Container>
-            <Row className="about-container center-align mt2">
-
-                <Col s={12} m={11} l={11} >
-                    <h3>Hello! </h3>
+            <Row className="about-container center-align">
+                <Col s={12} m={12} l={12} >
+                    <h3
+                        id="hello"
+                        className="left-align"
+                        data-aos={aos.hello}
+                    >Hello!
+                    </h3>
                     <br />
-                    <img className="rounded portrait z-depth-5" width="300" src="https://i.imgur.com/7TOJf0lm.jpg"
+                    <img
+                        className="rounded portrait z-depth-5"
+                        width="300"
+                        src="https://i.imgur.com/7TOJf0lm.jpg"
                         alt="profile picture" />
-
                     <br />
                     <h5>My name is Sam.</h5>
                     <p>Graduate of the University of Washington's <a
                         href="https://bootcamp.uw.edu/coding/" target="_blank" className="portfolio-link">Fullstack
-                            Flex</a> web dev Coding Bootcamp.</p>
+                            Flex</a> web development Coding Bootcamp.</p>
                     <p>Pursuing a Bachelors Degree in Computer Sciences.</p>
-                    <p></p>
                 </Col>
             </Row>
-            <Row className="skills-container center-align mt2">
-
+            <Row className="skills-container center-align">
                 <Col s={12} m={6} l={6}
                     className="skills-card"
-                    data-aos="fade-left"
+                    data-aos="fade"
                 >
                     <ul>
                         <li><h5>❯ Skills ❮</h5></li>
@@ -48,12 +52,10 @@ export default function Home() {
                         <li>▷ Mechanics</li>
                     </ul>
                 </Col>
-
                 <Col s={12} m={6} l={6}
                     className="skills-card"
-                    data-aos="fade-right"
+                    data-aos="fade"
                 >
-
                     <h5>❯ Technologies ❮</h5>
                     <div className="divider"></div>
                     <img

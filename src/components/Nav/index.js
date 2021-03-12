@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, NavItem, Icon } from "react-materialize"
+import { Navbar, NavItem, Icon, SideNav, SideNavItem, Button } from "react-materialize"
 
 import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
@@ -10,24 +10,16 @@ import "materialize-css/dist/css/materialize.min.css";
 
 
 export default function Nav() {
-    const [title, setTitle] = useState({ title: 'Samuel Fox' })
-
-
-    const handleUpdateTitle = (x) => {
-        setTitle({ title: x })
-    }
-
 
 
     return (
 
-
         <Navbar
             alignLinks="right"
-            brand={<a className="brand-logo">Samuel Fox</a>}
-            // centerLogo
+            brand={<a href="/" className="brand-logo">Samuel Fox</a>}
+            fixed
             id="mobile-nav"
-            menuIcon={<Icon>menu</Icon>}
+            menuIcon={<Icon >menue</Icon>}
             options={{
                 draggable: true,
                 edge: 'right',
@@ -37,12 +29,13 @@ export default function Nav() {
                 onOpenEnd: null,
                 onOpenStart: null,
                 outDuration: 200,
-                preventScrolling: false
+                preventScrolling: true
             }}
         >
             <NavItem href="/#projects" className="sidenav-close">Projects</NavItem>
             <NavItem href="/#contact" className="sidenav-close">Contact</NavItem>
 
         </Navbar>
+
     )
 }

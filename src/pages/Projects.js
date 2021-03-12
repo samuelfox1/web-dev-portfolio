@@ -6,19 +6,19 @@ import ProjectCard from "../components/Project Card"
 
 
 
-export default function Projects() {
+export default function Projects({ aos }) {
     return (
         <>
             <Container className="portfolio-container center-align">
                 <h2
-                    className="center-align"
-                    data-aos="fade"
                     id="projects"
+                    className="left-align"
+                    data-aos={aos.project}
                 >
                     Projects
                  </h2>
 
-                {projectList.map((x, idx) => <ProjectCard key={idx} idx={idx} data={x} />)}
+                {projectList.map((x, idx) => <ProjectCard key={idx} idx={idx} data={x} aos={aos} />)}
             </Container >
         </>
     )
