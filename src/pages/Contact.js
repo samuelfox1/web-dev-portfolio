@@ -5,25 +5,20 @@ import { Container, Row } from "react-materialize"
 
 export default function Contact() {
     return (
-        <Container className="contact-container center-align">
+        <Container
+            className="contact-container center-align"
+        >
 
-            <h2 id="contact">Contact</h2>
-
-
-            <Row className="contact-h1">
-                <h1>👨‍💻</h1>
-            </Row>
-
-            <Row className="contact-row">
+            <Row className="contact-row" data-aos="fade">
                 <a href="https://www.linkedin.com/in/samuel-fox-tacoma/" target="_blank"><span className="link-btn">Linked
                         in</span></a>
             </Row>
 
-            <Row className="ontact-row">
+            <Row className="ontact-row" data-aos="fade">
                 <a href="https://github.com/samuelfox1" target="_blank"><span className="link-btn">GitHub</span></a>
             </Row>
 
-            <Row className="contact-row">
+            <Row className="contact-row" data-aos="fade">
 
                 <SlideToggle
                     duration={1000}

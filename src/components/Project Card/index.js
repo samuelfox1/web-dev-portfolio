@@ -1,4 +1,5 @@
 import React from "react"
+import { Container, Row, Col } from "react-materialize"
 import SlideToggle from "react-slide-toggle"
 
 // SlideToggle is modified from https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
@@ -12,11 +13,11 @@ export default function ProjectCard({ idx, data }) {
 
     return (
         <div
-            className="col s12 m5 center-align m2 project-card"
+            className="project-card m2"
             data-aos={transition}
         >
             <h5>{data.title}</h5>
-            <hr />
+            <div className="divider"></div>
 
             <SlideToggle
                 duration={800}
@@ -28,7 +29,7 @@ export default function ProjectCard({ idx, data }) {
                         <a onClick={toggle}>
                             <div className="card-image card-img-top">
                                 <img className="z-depth-5" src={data.img} />
-                                <span className="card-title right-align"><i className="material-icons bg-dark  z-depth-3 p1">touch_app</i></span>
+                                <span className="card-title right-align"><i className="material-icons project-icon z-depth-3 p1">touch_app</i></span>
 
                             </div>
                         </a>

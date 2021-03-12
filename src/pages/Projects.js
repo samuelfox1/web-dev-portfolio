@@ -8,9 +8,18 @@ import ProjectCard from "../components/Project Card"
 
 export default function Projects() {
     return (
-        <Container className="portfolio-container center-align">
-            <h2 id="projects">Projects</h2>
-            <Row>{projectList.map((x, idx) => <ProjectCard key={idx} idx={idx} data={x} />)}</Row>
-        </Container >
+        <>
+            <Container className="portfolio-container center-align">
+                <h2
+                    className="center-align"
+                    data-aos="fade"
+                    id="projects"
+                >
+                    Projects
+                 </h2>
+
+                {projectList.map((x, idx) => <ProjectCard key={idx} idx={idx} data={x} />)}
+            </Container >
+        </>
     )
 }
