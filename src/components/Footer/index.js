@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-materialize"
 
 export default function index() {
     return (
-        <footer className="page-footer bg-dark">
+        <footer className="page-footer bg-transparent">
 
 
             <h2 id="contact">Contact</h2>

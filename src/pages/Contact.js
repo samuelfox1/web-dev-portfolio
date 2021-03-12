@@ -9,6 +9,13 @@ export default function Contact() {
             className="contact-container center-align"
         >
 
+            <h2 id="contact" data-aos="fade">Contact</h2>
+
+
+            <Row className="contact-h1" data-aos="fade">
+                <h1>👨‍💻</h1>
+            </Row>
+
             <Row className="contact-row" data-aos="fade">
                 <a href="https://www.linkedin.com/in/samuel-fox-tacoma/" target="_blank"><span className="link-btn">Linked
                         in</span></a>
@@ -55,6 +62,7 @@ export default function Contact() {
                     )}
                 />
             </Row>
+
         </Container>
     )
 }
