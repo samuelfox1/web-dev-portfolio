@@ -113,6 +113,10 @@ export default function Home({ aos }) {
                         className="z-depth-3 shield"
                         src="https://img.shields.io/badge/-Nodemon-76D04B?logo=Nodemon&logoColor=5C5543"
                         alt="Nodemon" />
+                    <img
+                        className="z-depth-3 shield"
+                        src="https://img.shields.io/badge/-Command%20Line-4D4D4D?logo=windows%20terminal&logoColor=white"
+                        alt="Command Line" />
                 </Col>
             </Row >
         </Container >
