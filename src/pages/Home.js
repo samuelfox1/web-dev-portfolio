@@ -109,6 +109,10 @@ export default function Home({ aos }) {
                         className="z-depth-3 shield"
                         src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white"
                         alt="Git" />
+                    <img
+                        className="z-depth-3 shield"
+                        src="https://img.shields.io/badge/-Nodemon-76D04B?logo=Nodemon&logoColor=5C5543"
+                        alt="Nodemon" />
                 </Col>
             </Row >
         </Container >
