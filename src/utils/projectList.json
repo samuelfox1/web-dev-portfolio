@@ -1,44 +1,37 @@
 [
     {
         "title": "RadCats Karaoke",
-        "img": "https://i.imgur.com/KNdwTCv.png",
+        "img": "https://i.imgur.com/VcL4cwe.gif",
         "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password' ",
         "repo": "https://github.com/chomieu/RadCaTS-Karaoke",
         "deployed": "https://radcats-karaoke.herokuapp.com/"
     },
     {
         "title": "Voicely",
-        "img": "https://i.imgur.com/KNdwTCv.png",
+        "img": "https://i.imgur.com/3aCWbYf.png",
         "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
         "repo": "https://github.com/samuelfox1/Voicely",
         "deployed": "https://chomieu.github.io/Voicely/"
     },
     {
         "title": "Memory Bank",
-        "img": "https://i.imgur.com/1EohXN0.png",
+        "img": "https://i.imgur.com/aAjKQ2z.png",
         "description": "Pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank",
         "repo": "https://github.com/samuelfox1/memoryBank",
         "deployed": "https://memorybank2021.herokuapp.com/"
     },
     {
         "title": "Team Page Generator",
-        "img": "https://i.imgur.com/UUrNUax.png",
-        "description": "Easily build a professional webpage with color codeded contact cards for each employee or team member.",
+        "img": "https://i.imgur.com/NaxcctC.png",
+        "description": "Command line tool to build a professional webpage with color codeded contact cards for each employee or team member.",
         "repo": "https://samuelfox1.github.io/team-profile-generator/",
         "deployed": "https://drive.google.com/file/d/1WzvSdJ5hEFK0hBjxLI3c3xGqTGapBHTu/view"
     },
     {
         "title": "Weather e.Port",
-        "img": "https://i.imgur.com/M53j1uf.png",
+        "img": "https://i.imgur.com/pPW6QPP.png",
         "description": "Enter a location to check the current weather and 5 day forecast. Also reports today's UV-index, color coded to help you stay safe out there.Works anywhere worlwide!",
         "repo": "https://github.com/samuelfox1/Weather-e-Port",
         "deployed": "https://samuelfox1.github.io/Weather-e-Port/"
-    },
-    {
-        "title": "Daily Planner",
-        "img": "https://i.imgur.com/KUHNe4Q.png",
-        "description": "Stay on track of each day with this handy schedule app. Enter the taks for each hour and follow along as the colors change over time. A grey colored box indicates a past time slot, red indicates the current and green is the future.",
-        "repo": "https://github.com/samuelfox1/Daily-Planner",
-        "deployed": "https://samuelfox1.github.io/Daily-Planner/"
     }
 ]

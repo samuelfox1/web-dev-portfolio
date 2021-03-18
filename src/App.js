@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import { BrowserRouter, Route } from 'react-router-dom';
 import Nav from "./components/Nav/index"
 import Projects from "./pages/Projects"
 import Home from "./pages/Home"

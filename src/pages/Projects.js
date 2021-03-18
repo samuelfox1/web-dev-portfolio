@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-materialize"
+import { Container } from "react-materialize"
 import projectList from "../utils/projectList.json"
 import ProjectCard from "../components/Project Card"
 

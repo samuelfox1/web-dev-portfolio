@@ -1,6 +1,5 @@
 import React, { useEffect } from "react"
 import { Container, Row, Col } from "react-materialize"
-import Aos from "aos"
 import "aos/dist/aos.css"
 
 export default function Home({ aos }) {
