@@ -40,14 +40,14 @@ export default function Home({ aos }) {
                     <ul>
                         <li><h5>❯ Skills ❮</h5></li>
                         <li><div className="divider"></div></li>
-                        <li>▷ Attention to detail</li>
+                        <li>▷ Attention to Detail</li>
                         <li>▷ Order of Operations</li>
                         <li>▷ Critical Thinking</li>
                         <li>▷ Creative Problem Solving</li>
                         <li>▷ Efficienct Systems</li>
-                        <li>▷ Spotting Points of Failure</li>
+                        <li>▷ Detecting Points of Failure</li>
                         <li>▷ Project Management</li>
-                        <li>▷ Engineering and design</li>
+                        <li>▷ Engineering and Design</li>
                         <li>▷ Mechanics</li>
                     </ul>
                 </Col>
@@ -63,7 +63,7 @@ export default function Home({ aos }) {
                         alt="HTML5" />
                     <img
                         className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-CSS-red?logo=css3"
+                        src="https://img.shields.io/badge/-CSS3-red?logo=css3"
                         alt="CSS" />
                     <img
                         className="z-depth-3 shield"
@@ -105,6 +105,10 @@ export default function Home({ aos }) {
                         className="z-depth-3 shield"
                         src="https://img.shields.io/badge/-npm-CB3837?logo=NPM"
                         alt="npm" />
+                    <img
+                        className="z-depth-3 shield"
+                        src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white"
+                        alt="Git" />
                 </Col>
             </Row >
         </Container >
