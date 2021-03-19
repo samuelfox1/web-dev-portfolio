@@ -2,7 +2,7 @@
     {
         "title": "RadCats Karaoke",
         "img": "https://i.imgur.com/VcL4cwe.gif",
-        "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password' ",
+        "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'.",
         "repo": "https://github.com/chomieu/RadCaTS-Karaoke",
         "deployed": "https://radcats-karaoke.herokuapp.com/"
     },
@@ -16,7 +16,7 @@
     {
         "title": "Memory Bank",
         "img": "https://i.imgur.com/aAjKQ2z.png",
-        "description": "Pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank",
+        "description": "Pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank.",
         "repo": "https://github.com/samuelfox1/memoryBank",
         "deployed": "https://memorybank2021.herokuapp.com/"
     },
@@ -30,7 +30,7 @@
     {
         "title": "Weather e.Port",
         "img": "https://i.imgur.com/pPW6QPP.png",
-        "description": "Enter a location to check the current weather and 5 day forecast. Also reports today's UV-index, color coded to help you stay safe out there.Works anywhere worlwide!",
+        "description": "Allows a user to search for a City, State, or Country to explore the weather data hosted on OpenWeatherMap.org. Also reports today's UV-index, color coded to help you stay safe out there.",
         "repo": "https://github.com/samuelfox1/Weather-e-Port",
         "deployed": "https://samuelfox1.github.io/Weather-e-Port/"
     }
