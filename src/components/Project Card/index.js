@@ -43,11 +43,11 @@ export default function ProjectCard({ aos, data, idx }) {
                                 {/* content that is toggled */}
                                 <div className="card-content">
 
-                                    <p className="card-text">{data.description} <a className="portfolio-link" href={data.repo} target="_blank">Learn More</a></p>
+                                    <p className="card-text">{data.description} <a className="portfolio-link" href={data.repo} target="_blank">GitHub Repo</a></p>
                                     <br />
                                     <a className="link-btn active z-depth-3"
                                         href={data.deployed} target="_blank">
-                                        App
+                                        Deployed App
                                 </a>
                                     <br />
                                 </div>

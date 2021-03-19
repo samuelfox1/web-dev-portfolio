@@ -14,6 +14,7 @@ export default function Home({ aos }) {
         <Container>
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
+                    {/* <h1 id="top"></h1> */}
                     <h3
                         id="hello"
                         className="left-align"
@@ -42,14 +43,14 @@ export default function Home({ aos }) {
                     <ul>
                         <li><h5>❯ Skills ❮</h5></li>
                         <li><div className="divider"></div></li>
-                        <li>▷ Attention to Detail</li>
-                        <li>▷ Order of Operations</li>
                         <li>▷ Critical Thinking</li>
+                        <li>▷ System Efficiency</li>
                         <li>▷ Creative Problem Solving</li>
-                        <li>▷ Efficienct Systems</li>
-                        <li>▷ Detecting Points of Failure</li>
+                        <li>▷ Attention to Detail</li>
+                        <li>▷ Vulnerability Detection</li>
+                        <li>▷ UI & Ux Design</li>
                         <li>▷ Project Management</li>
-                        <li>▷ Engineering and Design</li>
+                        <li>▷ Engineering</li>
                         <li>▷ Mechanics</li>
                     </ul>
                 </Col>

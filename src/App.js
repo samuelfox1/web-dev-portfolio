@@ -3,11 +3,8 @@ import Nav from "./components/Nav/index"
 import Projects from "./pages/Projects"
 import Home from "./pages/Home"
 import Footer from "./components/Footer"
-
-
 import Aos from "aos"
 import "aos/dist/aos.css"
-
 
 
 const App = () => {
