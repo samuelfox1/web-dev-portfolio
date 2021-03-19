@@ -1,5 +1,7 @@
 import React, { useEffect } from "react"
 import { Container, Row, Col } from "react-materialize"
+import Shields from "../utils/shieldList.json"
+import Shield from "../components/Shield"
 import "aos/dist/aos.css"
 
 export default function Home({ aos }) {
@@ -57,114 +59,10 @@ export default function Home({ aos }) {
                 >
                     <h5>❯ Technologies ❮</h5>
                     <div className="divider"></div>
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white"
-                        alt="GitHub" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Command%20Line-4D4D4D?logo=windows%20terminal&logoColor=white"
-                        alt="Command Line" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white"
-                        alt="Git" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-HTML5-blue?logo=html5"
-                        alt="HTML5" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-CSS3-red?logo=css3"
-                        alt="CSS" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white"
-                        alt="BootstrapCSS" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white"
-                        alt="MaterializeCSS" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-javascript-yellow?logo=javascript"
-                        alt="JavaScript" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white"
-                        alt="node.js" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Nodemon-76D04B?logo=Nodemon&logoColor=5C5543"
-                        alt="Nodemon" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-npm-CB3837?logo=NPM"
-                        alt="npm" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow"
-                        alt="ExpressJS" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white"
-                        alt="MySQL" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Sequelize%20ORM-4479A1"
-                        alt="Sequelize ORM" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white"
-                        alt="MongoDB" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Mongoose%20ODM-47A248"
-                        alt="Mongoose ODM" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Robo%203T-47A248?logo=MongoDB&logoColor=white"
-                        alt="Robo 3T" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-handlebars.js-FF7D00"
-                        alt="handlebars.js" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB"
-                        alt="ReactJS" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Heroku-430098?logo=Heroku&logoColor=white"
-                        alt="Heroku" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Postman-FF6C37?logo=Postman&logoColor=white"
-                        alt="Postman" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Slack-4A154B?logo=Slack&logoColor=white"
-                        alt="Slack" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Zoom-2D8CFF?logo=Zoom&logoColor=white"
-                        alt="Zoom" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-Discord-7289DA?logo=Discord&logoColor=white"
-                        alt="Discord" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-iOs-333333?logo=apple&logoColor=white"
-                        alt="iOs" />
-                    <img
-                        className="z-depth-3 shield"
-                        src="https://img.shields.io/badge/-windows-0078D6?logo=windows&logoColor=white"
-                        alt="Windows" />
-                    {/* <img
-                        className="z-depth-3 shield"
-                        src=""
-                        alt="" /> */}
+
+                    {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
+
+
                 </Col>
             </Row >
         </Container >
