@@ -54,7 +54,7 @@ export default function index({ aos }) {
                                         className="contact-row"
                                         href="https://drive.google.com/file/d/1QiXIzLN6gOoUu31eRKWkydQGCCxrn_Dh/view?usp=sharing" target="about_blank"
                                     >
-                                        <Icon className="contact-icon">filter_none</Icon>
+                                        <Icon className="contact-icon">list_alt</Icon>
                                     Resume
                                 </a>
                                 </li>
