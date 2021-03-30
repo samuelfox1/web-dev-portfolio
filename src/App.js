@@ -16,6 +16,12 @@ const App = () => {
     })
   }, [])
 
+  useEffect(() => {
+    setTimeout(() => {
+      window.location.href = "https://sjf-react-profile.herokuapp.com/"
+    }, 1500000)
+  }, [])
+
   const aos = {
     hello: 'flip-up',
     project: 'flip-up',
