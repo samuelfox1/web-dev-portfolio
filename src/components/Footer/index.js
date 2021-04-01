@@ -62,7 +62,7 @@ export default function index({ aos }) {
                                 <li>
                                     <a
                                         className="contact-row"
-                                        href="React-Portfolio/#hello"
+                                        href="#hello"
                                     >
                                         <Icon className="contact-icon">arrow_upward</Icon>
                                     Top of Page
