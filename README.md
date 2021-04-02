@@ -27,7 +27,7 @@
 
 >## Product
 
-* [Check it out!](https://sjf-react-profile.herokuapp.com/) 
+* [Check it out!](https://samueljfox.com/) 
 
 ![Screenshot](./src/images/screenshot.png)
 
