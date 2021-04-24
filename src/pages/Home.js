@@ -25,7 +25,7 @@ export default function Home({ aos }) {
                     <img
                         className="rounded portrait z-depth-5"
                         width="300"
-                        src="https://i.imgur.com/7TOJf0lm.jpg"
+                        src="https://i.imgur.com/zEvf4P4m.jpg"
                         alt="profile picture" />
                     <br />
                     <h5>My name is Sam.</h5>
