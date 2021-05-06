@@ -43,15 +43,13 @@ export default function Home({ aos }) {
                     <ul>
                         <li><h5>❯ Skills ❮</h5></li>
                         <li><div className="divider"></div></li>
-                        <li>▷ Critical Thinking</li>
-                        <li>▷ System Efficiency</li>
                         <li>▷ Creative Problem Solving</li>
                         <li>▷ Attention to Detail</li>
-                        <li>▷ Vulnerability Detection</li>
+                        <li>▷ Critical Thinking</li>
                         <li>▷ UI & Ux Design</li>
-                        <li>▷ Project Management</li>
                         <li>▷ Engineering</li>
                         <li>▷ Mechanics</li>
+                        <li>▷ Workflow</li>
                     </ul>
                 </Col>
                 <Col s={12} m={6} l={6}

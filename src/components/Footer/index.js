@@ -52,7 +52,7 @@ export default function index({ aos }) {
                                 <li>
                                     <a
                                         className="contact-row"
-                                        href="https://drive.google.com/file/d/1b-QYCNfdz2xFDau6MQNPPufAa7h6_Sa8/view?usp=sharing" target="about_blank"
+                                        href="https://drive.google.com/file/d/1lnfsiRNEH_fBLvzMBDKLqZJ4T7OapdqO/view?usp=sharing" target="about_blank"
                                     >
                                         <Icon className="contact-icon">list_alt</Icon>
                                     Resume
