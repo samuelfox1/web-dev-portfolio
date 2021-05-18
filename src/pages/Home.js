@@ -3,36 +3,41 @@ import { Container, Row, Col } from "react-materialize"
 import Shields from "../utils/shieldList.json"
 import Shield from "../components/Shield"
 import "aos/dist/aos.css"
+import { A, Div, H1, H5, Image, Li, P, Ul } from "../components/Elements/Elements"
 
 export default function Home({ aos }) {
-
-    useEffect(() => {
-
-    }, [])
     return (
 
         <Container>
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
-                    {/* <h1 id="top"></h1> */}
-                    <h3
+                    <H1
                         id="hello"
                         className="left-align"
-                        data-aos={aos.hello}
-                    >Hello!
-                    </h3>
+                        dataAos={aos.hello}
+                        text='Hello!'
+                    >
+                    </H1>
                     <br />
-                    <img
-                        className="rounded portrait z-depth-5"
-                        width="300"
+                    <Image
                         src="https://i.imgur.com/zEvf4P4m.jpg"
+                        className="rounded portrait z-depth-5"
                         alt="profile picture" />
                     <br />
-                    <h5>My name is Sam.</h5>
-                    <p>Graduate of the University of Washington's <a
-                        href="https://bootcamp.uw.edu/coding/" target="_blank" className="portfolio-link">Fullstack
-                            Flex</a> web development Coding Bootcamp.</p>
-                    <p>Pursuing a Bachelors Degree in Computer Sciences.</p>
+                    < H5 text='My name is Sam.' />
+                    <P
+                        text="Graduate of the University of Washington's"
+                        text2="web development Coding Bootcamp."
+                    >
+                        <A
+                            href="https://bootcamp.uw.edu/coding/"
+                            className="portfolio-link"
+                            text=' Fullstack Flex ' />
+
+                    </P>
+
+
+                    <P text='Pursuing a Bachelors Degree in Computer Science.' />
                 </Col>
             </Row>
             <Row className="skills-container center-align">
@@ -40,28 +45,25 @@ export default function Home({ aos }) {
                     className="skills-card"
                     data-aos="fade"
                 >
-                    <ul>
-                        <li><h5>❯ Skills ❮</h5></li>
-                        <li><div className="divider"></div></li>
-                        <li>▷ Creative Problem Solving</li>
-                        <li>▷ Attention to Detail</li>
-                        <li>▷ Critical Thinking</li>
-                        <li>▷ UI & Ux Design</li>
-                        <li>▷ Engineering</li>
-                        <li>▷ Mechanics</li>
-                        <li>▷ Workflow</li>
-                    </ul>
+                    <Ul>
+                        <Li><H5 text='❯ Skills ❮' /></Li>
+                        <Li><Div className="divider"></Div></Li>
+                        <Li text='▷ Creative Problem Solving' />
+                        <Li text='▷ Attention to Detail' />
+                        <Li text='▷ Critical Thinking' />
+                        <Li text='▷ UI & Ux Design' />
+                        <Li text='▷ Engineering' />
+                        <Li text='▷ Mechanics' />
+                        <Li text='▷ Workflow' />
+                    </Ul>
                 </Col>
                 <Col s={12} m={6} l={6}
                     className="skills-card"
                     data-aos="fade"
                 >
-                    <h5>❯ Technologies ❮</h5>
-                    <div className="divider"></div>
-
+                    <H5 text='❯ Technologies ❮' />
+                    <Div className="divider"></Div>
                     {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
-
-
                 </Col>
             </Row >
         </Container >
