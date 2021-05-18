@@ -1,15 +1,15 @@
 import { children } from 'react'
 
 
-export const Div = ({ className, children }) => (
-    <div className={className}>{children}</div>
+export const Div = ({ className, reference, children }) => (
+    <div className={className} ref={reference}>{children}</div>
 )
 
-export const Button = ({ className, text, action }) => (
+export const Button = ({ className, text, onClick }) => (
     <button
         type="button"
         className={className}
-        onClick={action}
+        onClick={onClick}
     >
         {text}
     </button>
@@ -27,37 +27,44 @@ export const P = ({ className, text, text2, children }) => (
     </p>
 )
 
-export const A = ({ className, href, text }) => (
+export const A = ({ className, href, text, onClick, children }) => (
     <a
         href={href}
         target='_blank'
         className={className}
-    >{text}
+        onClick={onClick}
+    >
+        {text}
+        {children}
     </a>
 )
 
-export const Span = ({ className, text }) => (
-    <span className={className}>{text}</span>
+export const Span = ({ className, text, children }) => (
+    <span className={className}>{text} {children}</span>
+)
+
+export const I = ({ className, text }) => (
+    <i className={className}>{text}</i>
 )
 
 export const H1 = ({ id, className, text, dataAos }) => (
     <h1 id={id} className={className} data-aos={dataAos}>{text}</h1>
 )
 
-export const H2 = ({ className, text }) => (
-    <h2 className={className}>{text}</h2>
+export const H2 = ({ id, className, text, dataAos }) => (
+    <h2 id={id} className={className} data-aos={dataAos}>{text}</h2>
 )
 
-export const H3 = ({ className, text }) => (
-    <h3 className={className}>{text}</h3>
+export const H3 = ({ id, className, text, dataAos }) => (
+    <h3 id={id} className={className} data-aos={dataAos}>{text}</h3>
 )
 
-export const H4 = ({ className, text }) => (
-    <h4 className={className}>{text}</h4>
+export const H4 = ({ id, className, text, dataAos }) => (
+    <h4 id={id} className={className} data-aos={dataAos}>{text}</h4>
 )
 
-export const H5 = ({ className, text }) => (
-    <h5 className={className}>{text}</h5>
+export const H5 = ({ id, className, text, dataAos }) => (
+    <h5 id={id} className={className} data-aos={dataAos}>{text}</h5>
 )
 
 export const Ul = ({ children }) => (

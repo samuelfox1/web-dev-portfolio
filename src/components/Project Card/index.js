@@ -1,6 +1,9 @@
 import React from "react"
 import { Container, Row } from "react-materialize"
 import SlideToggle from "react-slide-toggle"
+import { A, Div, H5 } from "../Elements/Elements"
+import CardBody from "./CardBody"
+import CardTop from "./CardTop"
 
 // SlideToggle is modified from https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
 
@@ -15,44 +18,21 @@ export default function ProjectCard({ aos, data, idx }) {
                 data-aos={transition}
             >
 
-                <h5>{data.title}</h5>
-                <div className="divider"></div>
+                <H5 text={data.title} />
+                <Div className="divider" />
 
                 <SlideToggle
                     duration={800}
                     collapsed
                     render={({ toggle, setCollapsibleElement }) => (
-                        // element to activate toggle
-                        <div className="card bg-transparent">
-
-                            <a onClick={toggle}>
-                                <div className="card-img-top card-image">
-                                    <img className="project-img z-depth-5" src={data.img} />
-                                    <span className="card-title right-align">
-                                        <i className="material-icons project-icon z-depth-3 p1">
-                                            touch_app
-                                    </i>
-                                    </span>
-
-                                </div>
-                            </a>
-
-                            <div className=""
-                                ref={setCollapsibleElement}>
-
-                                {/* content that is toggled */}
-                                <div className="card-content">
-
-                                    <p className="card-text">{data.description} <a className="portfolio-link" href={data.repo} target="_blank">GitHub Repo</a></p>
-                                    <br />
-                                    <a className="link-btn active z-depth-3"
-                                        href={data.deployed} target="_blank">
-                                        Deployed App
-                                </a>
-                                    <br />
-                                </div>
-                            </div>
-                        </div>
+                        <Div className="card bg-transparent">
+                            <A onClick={toggle}>
+                                <CardTop data={data} />
+                            </A>
+                            <Div reference={setCollapsibleElement}>
+                                <CardBody data={data} />
+                            </Div>
+                        </Div>
                     )}
                 />
             </Row>
