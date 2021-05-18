@@ -72,6 +72,12 @@ a:hover, i:hover {
   color: rgba(230, 89, 230, 0.842) !important;
 }
 
+a:hover {
+  cursor: pointer;
+  color: rgba(230, 89, 230, 0.842) !important;
+  font-size: 1.05rem;
+}
+
 .contact-btn {
   margin: 10px;
   padding: 5px;
@@ -91,8 +97,8 @@ a:hover, i:hover {
 
 /* nav buttons and footer buttons */
 .link-btn:hover {
-  color: rgba(230, 89, 230, 0.842);
-  border: solid .1rem rgba(230, 89, 230, 0.842);
+  /* color: rgba(230, 89, 230, 0.842); */
+  border: solid .1rem rgba(230, 89, 230, 0.842) !important;
   border-radius: .3rem;
 }
 
@@ -151,6 +157,11 @@ a:-webkit-any-link{
 }
 
 .shield:hover {
+  border:3px solid rgba(0, 0, 0, 0) ;
+  border-radius: .3rem;
+}
+
+.skill:hover{
   border:3px solid rgba(0, 0, 0, 0) ;
   border-radius: .3rem;
 }

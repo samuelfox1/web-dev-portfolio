@@ -48,13 +48,13 @@ export default function Home({ aos }) {
                     <Ul>
                         <Li><H5 text='❯ Skills ❮' /></Li>
                         <Li><Div className="divider"></Div></Li>
-                        <Li text='▷ Creative Problem Solving' />
-                        <Li text='▷ Attention to Detail' />
-                        <Li text='▷ Critical Thinking' />
-                        <Li text='▷ UI & Ux Design' />
-                        <Li text='▷ Engineering' />
-                        <Li text='▷ Mechanics' />
-                        <Li text='▷ Workflow' />
+                        <Li className='skill' text='▷ Creative Problem Solving' />
+                        <Li className='skill' text='▷ Attention to Detail' />
+                        <Li className='skill' text='▷ Critical Thinking' />
+                        <Li className='skill' text='▷ UI & Ux Design' />
+                        <Li className='skill' text='▷ Engineering' />
+                        <Li className='skill' text='▷ Mechanics' />
+                        <Li className='skill' text='▷ Workflow' />
                     </Ul>
                 </Col>
                 <Col s={12} m={6} l={6}

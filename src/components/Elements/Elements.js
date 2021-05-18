@@ -71,8 +71,8 @@ export const Ul = ({ children }) => (
     <ul>{children}</ul>
 )
 
-export const Li = ({ children, text }) => (
-    <li>
+export const Li = ({ className, children, text }) => (
+    <li className={className}>
         {text}
         {children}
     </li>

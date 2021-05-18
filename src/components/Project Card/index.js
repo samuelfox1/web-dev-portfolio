@@ -5,7 +5,7 @@ import { A, Div, H5 } from "../Elements/Elements"
 import CardBody from "./CardBody"
 import CardTop from "./CardTop"
 
-// SlideToggle is modified from https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
+// SlideToggle https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
 
 export default function ProjectCard({ aos, data, idx }) {
 
