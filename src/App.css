@@ -72,7 +72,7 @@ a:hover, i:hover {
   color: rgba(230, 89, 230, 0.842) !important;
 }
 
-a:hover {
+.hover:hover {
   cursor: pointer;
   color: rgba(230, 89, 230, 0.842) !important;
   font-size: 1.05rem;

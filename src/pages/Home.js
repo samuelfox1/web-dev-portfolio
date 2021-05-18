@@ -31,7 +31,7 @@ export default function Home({ aos }) {
                     >
                         <A
                             href="https://bootcamp.uw.edu/coding/"
-                            className="portfolio-link"
+                            className="portfolio-link hover"
                             text=' Fullstack Flex ' />
 
                     </P>

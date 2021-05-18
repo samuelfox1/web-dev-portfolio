@@ -15,8 +15,8 @@ export const Button = ({ className, text, onClick }) => (
     </button>
 )
 
-export const Image = ({ src, className, alt }) => (
-    <img src={src} className={className} alt={alt} />
+export const Image = ({ src, className, width, alt }) => (
+    <img src={src} className={className} width={width} alt={alt} />
 )
 
 export const P = ({ className, text, text2, children }) => (
@@ -34,8 +34,8 @@ export const A = ({ className, href, text, onClick, children }) => (
         className={className}
         onClick={onClick}
     >
-        {text}
         {children}
+        {text}
     </a>
 )
 
@@ -67,6 +67,10 @@ export const H5 = ({ id, className, text, dataAos }) => (
     <h5 id={id} className={className} data-aos={dataAos}>{text}</h5>
 )
 
+export const H6 = ({ id, className, text, dataAos }) => (
+    <h6 id={id} className={className} data-aos={dataAos}>{text}</h6>
+)
+
 export const Ul = ({ children }) => (
     <ul>{children}</ul>
 )
@@ -76,4 +80,8 @@ export const Li = ({ className, children, text }) => (
         {text}
         {children}
     </li>
+)
+
+export const Footer = ({ className, dataAos, children }) => (
+    <footer className={className} data-aos={dataAos} >{children}</footer>
 )

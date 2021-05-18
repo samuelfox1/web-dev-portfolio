@@ -1,81 +1,73 @@
 import React from 'react'
 import { Container, Row, Col, Icon } from "react-materialize"
+import { A, Div, Footer, H2, H4, H6, Image, Li, Ul } from '../Elements/Elements'
 
 
 export default function index({ aos }) {
     return (
 
         <>
-            <h2
+            <H2
                 id="contact"
                 className="footer-title"
-                data-aos={aos.footer}
-            >Contact
-            </h2>
-            <div className="divider"></div>
+                dataAos={aos.footer}
+                text='Contact'
+            />
+            <Div className="divider"></Div>
 
-            <footer className="page-footer bg-transparent" data-aos={aos.footerContainer}>
+            <Footer className="page-footer bg-transparent" dataAos={aos.footerContainer}>
                 <Container>
                     <Row >
-                        <h4>Samuel Fox</h4>
-
                         <Col s={12} l={4}>
-                            <ul>
-
-                                <li
-                                >
-                                    <a
-                                        className="contact-row"
+                            <Ul>
+                                <Li>
+                                    <A
+                                        className="contact-row hover"
                                         href="https://github.com/samuelfox1"
                                         target="_blank"
+                                        text='GitHub'
                                     >
-                                        <img
-                                            className="contact-link"
-                                            src="./logo/github/GitHub-Mark-Light-32px.png" />
-                                GitHub
-                                </a>
-                                </li>
+                                        <Image className="contact-link" src="./logo/github/GitHub-Mark-Light-32px.png" />
+                                    </A>
+                                </Li>
 
-                                <li>
-                                    <a
-                                        className="contact-row"
+                                <Li>
+                                    <A
+                                        className="contact-row hover"
                                         href="https://www.linkedin.com/in/samuel-fox-tacoma/"
+                                        text='Linkedin'
                                     >
-                                        <img
-                                            width="32"
-                                            className="contact-link"
-                                            src="./logo/linkedin/LI-In-Bug.png" />
-                                    Linkedin
-                                </a>
-                                </li>
+                                        <Image width="32" className="contact-link" src="./logo/linkedin/LI-In-Bug.png" />
+                                    </A>
+                                </Li>
 
-                                <li>
-                                    <a
-                                        className="contact-row"
+                                <Li>
+                                    <A
+                                        className="contact-row hover"
                                         href="https://drive.google.com/file/d/1lnfsiRNEH_fBLvzMBDKLqZJ4T7OapdqO/view?usp=sharing" target="about_blank"
+                                        text='Resume'
                                     >
                                         <Icon className="contact-icon">list_alt</Icon>
-                                    Resume
-                                </a>
-                                </li>
+                                    </A>
+                                </Li>
 
-                                <li>
-                                    <a
-                                        className="contact-row"
+                                <Li>
+                                    <A
+                                        className="contact-row hover"
                                         href="#hello"
+                                        text='Top of Page'
                                     >
                                         <Icon className="contact-icon">arrow_upward</Icon>
-                                    Top of Page
-                                </a>
-                                </li>
-                            </ul>
+                                    </A>
+                                </Li>
+                            </Ul>
                         </Col>
                     </Row>
                 </Container>
-            </footer>
+            </Footer>
 
-            <div className="divider"></div>
-            <h6 className="center-align">2021</h6>
+            <Div className="divider"></Div>
+            <H6 className="center-align" text='2021' />
         </>
     )
 }
