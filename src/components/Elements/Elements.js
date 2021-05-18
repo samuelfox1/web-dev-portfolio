@@ -27,10 +27,10 @@ export const P = ({ className, text, text2, children }) => (
     </p>
 )
 
-export const A = ({ className, href, text, onClick, children }) => (
+export const A = ({ className, href, text, onClick, target, children }) => (
     <a
         href={href}
-        target='_blank'
+        target={target}
         className={className}
         onClick={onClick}
     >
