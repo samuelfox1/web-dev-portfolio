@@ -20,6 +20,10 @@ body {
   letter-spacing: .05rem;
 }
 
+#hello {
+  margin-top: 0;
+}
+
 .bg-dark {
   /* color: rgb(107, 107, 112); */
   background-color: rgb(107, 107, 112) !important;

@@ -18,7 +18,7 @@ export default function ProjectCard({ aos, data, idx }) {
                 data-aos={transition}
             >
 
-                <H5 text={data.title} />
+                <H5 >{data.title}</H5>
                 <Div className="divider" />
 
                 <SlideToggle

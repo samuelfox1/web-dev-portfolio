@@ -6,7 +6,7 @@ export default function CardTop({ data }) {
         <Div className="card-img-top card-image">
             <Image className="project-img z-depth-5" src={data.img} />
             <Span className="card-title right-align">
-                <I className="material-icons project-icon z-depth-3 p1" text='touch_app' />
+                <I className="material-icons project-icon z-depth-3 p1">touch_app</I>
             </Span>
         </Div>
     )

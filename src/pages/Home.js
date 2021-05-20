@@ -11,34 +11,30 @@ export default function Home({ aos }) {
         <Container>
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
-                    <H1
-                        id="hello"
-                        className="left-align"
-                        dataAos={aos.hello}
-                        text='Hello!'
-                    >
-                    </H1>
+
                     <br />
                     <Image
                         src="https://i.imgur.com/zEvf4P4m.jpg"
                         className="rounded portrait z-depth-5"
                         alt="profile picture" />
-                    <br />
-                    < H5 text='My name is Sam.' />
-                    <P
-                        text="Graduate of the University of Washington's"
-                        text2="web development Coding Bootcamp."
-                    >
+                    <H1
+                        id="hello"
+                        // className="left-align"
+                        dataAos={aos.hello}
+                    >Hello!
+                    </H1>
+                    < H5 >My name is Sam.</H5>
+                    <P>Graduate of the University of Washington's
                         <A
                             href="https://bootcamp.uw.edu/coding/"
                             className="portfolio-link hover"
                             target="_blank"
-                            text=' Fullstack Flex ' />
-
+                            text=' Fullstack ' />
+                            web development Coding Bootcamp."
                     </P>
 
 
-                    <P text='Pursuing a Bachelors Degree in Computer Science.' />
+                    <P>Pursuing a Bachelors Degree in Computer Science.</P>
                 </Col>
             </Row>
             <Row className="skills-container center-align">
@@ -47,22 +43,22 @@ export default function Home({ aos }) {
                     data-aos="fade"
                 >
                     <Ul>
-                        <Li><H5 text='❯ Skills ❮' /></Li>
+                        <Li><H5 >❯ Skills ❮</H5></Li>
                         <Li><Div className="divider"></Div></Li>
-                        <Li className='skill' text='▷ Creative Problem Solving' />
-                        <Li className='skill' text='▷ Attention to Detail' />
-                        <Li className='skill' text='▷ Critical Thinking' />
-                        <Li className='skill' text='▷ UI & Ux Design' />
-                        <Li className='skill' text='▷ Engineering' />
-                        <Li className='skill' text='▷ Mechanics' />
-                        <Li className='skill' text='▷ Workflow' />
+                        <Li className='skill' >▷ Creative Problem Solving</Li>
+                        <Li className='skill' >▷ Attention to Detail</Li>
+                        <Li className='skill' >▷ Critical Thinking</Li>
+                        <Li className='skill' >▷ UI & Ux Design</Li>
+                        <Li className='skill' >▷ Engineering</Li>
+                        <Li className='skill' >▷ Mechanics</Li>
+                        <Li className='skill' >▷ Workflow</Li>
                     </Ul>
                 </Col>
                 <Col s={12} m={6} l={6}
                     className="skills-card"
                     data-aos="fade"
                 >
-                    <H5 text='❯ Technologies ❮' />
+                    <H5>❯ Technologies ❮</H5>
                     <Div className="divider"></Div>
                     {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
                 </Col>
