@@ -3,36 +3,38 @@ import { Container, Row, Col } from "react-materialize"
 import Shields from "../utils/shieldList.json"
 import Shield from "../components/Shield"
 import "aos/dist/aos.css"
+import { A, Div, H1, H5, Image, Li, P, Ul } from "../components/Elements/Elements"
 
 export default function Home({ aos }) {
-
-    useEffect(() => {
-
-    }, [])
     return (
 
         <Container>
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
-                    {/* <h1 id="top"></h1> */}
-                    <h3
-                        id="hello"
-                        className="left-align"
-                        data-aos={aos.hello}
-                    >Hello!
-                    </h3>
+
                     <br />
-                    <img
-                        className="rounded portrait z-depth-5"
-                        width="300"
+                    <Image
                         src="https://i.imgur.com/zEvf4P4m.jpg"
+                        className="rounded portrait z-depth-5"
                         alt="profile picture" />
-                    <br />
-                    <h5>My name is Sam.</h5>
-                    <p>Graduate of the University of Washington's <a
-                        href="https://bootcamp.uw.edu/coding/" target="_blank" className="portfolio-link">Fullstack
-                            Flex</a> web development Coding Bootcamp.</p>
-                    <p>Pursuing a Bachelors Degree in Computer Sciences.</p>
+                    <H1
+                        id="hello"
+                        // className="left-align"
+                        dataAos={aos.hello}
+                    >Hello!
+                    </H1>
+                    < H5 >My name is Sam.</H5>
+                    <P>Graduate of the University of Washington's
+                        <A
+                            href="https://bootcamp.uw.edu/coding/"
+                            className="portfolio-link hover"
+                            target="_blank"
+                            text=' Fullstack ' />
+                            web development Coding Bootcamp."
+                    </P>
+
+
+                    <P>Pursuing a Bachelors Degree in Computer Science.</P>
                 </Col>
             </Row>
             <Row className="skills-container center-align">
@@ -40,28 +42,25 @@ export default function Home({ aos }) {
                     className="skills-card"
                     data-aos="fade"
                 >
-                    <ul>
-                        <li><h5>❯ Skills ❮</h5></li>
-                        <li><div className="divider"></div></li>
-                        <li>▷ Creative Problem Solving</li>
-                        <li>▷ Attention to Detail</li>
-                        <li>▷ Critical Thinking</li>
-                        <li>▷ UI & Ux Design</li>
-                        <li>▷ Engineering</li>
-                        <li>▷ Mechanics</li>
-                        <li>▷ Workflow</li>
-                    </ul>
+                    <Ul>
+                        <Li><H5 >❯ Skills ❮</H5></Li>
+                        <Li><Div className="divider"></Div></Li>
+                        <Li className='skill' >▷ Creative Problem Solving</Li>
+                        <Li className='skill' >▷ Attention to Detail</Li>
+                        <Li className='skill' >▷ Critical Thinking</Li>
+                        <Li className='skill' >▷ UI & Ux Design</Li>
+                        <Li className='skill' >▷ Engineering</Li>
+                        <Li className='skill' >▷ Mechanics</Li>
+                        <Li className='skill' >▷ Workflow</Li>
+                    </Ul>
                 </Col>
                 <Col s={12} m={6} l={6}
                     className="skills-card"
                     data-aos="fade"
                 >
-                    <h5>❯ Technologies ❮</h5>
-                    <div className="divider"></div>
-
+                    <H5>❯ Technologies ❮</H5>
+                    <Div className="divider"></Div>
                     {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
-
-
                 </Col>
             </Row >
         </Container >

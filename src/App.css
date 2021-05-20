@@ -20,6 +20,10 @@ body {
   letter-spacing: .05rem;
 }
 
+#hello {
+  margin-top: 0;
+}
+
 .bg-dark {
   /* color: rgb(107, 107, 112); */
   background-color: rgb(107, 107, 112) !important;
@@ -72,12 +76,10 @@ a:hover, i:hover {
   color: rgba(230, 89, 230, 0.842) !important;
 }
 
-.link-btn {
-  margin: 5rem 0;
-  padding: 10px;
-  color: rgba(255, 255, 255, 0.288);
-  border: solid .1rem rgb(185, 185, 185);
-  border-radius: .3rem;
+.hover:hover {
+  cursor: pointer;
+  color: rgba(230, 89, 230, 0.842) !important;
+  font-size: 1.05rem;
 }
 
 .contact-btn {
@@ -88,16 +90,19 @@ a:hover, i:hover {
   border-radius: .3rem;
 }
 
-/* nav buttons and footer buttons */
-.link-btn:hover {
-  color: rgba(230, 89, 230, 0.842);
-  border: solid .1rem rgba(230, 89, 230, 0.842);
-  border-radius: .3rem;
-}
-
-.active {
+.link-btn {
+  margin-top: 1rem;
+  padding: 10px;
   color: rgb(0, 204, 255)!important ;
   border: solid .1rem rgb(0, 204, 255) !important;
+  border-radius: .3rem;
+  background-color: #00000000;
+}
+
+/* nav buttons and footer buttons */
+.link-btn:hover {
+  /* color: rgba(230, 89, 230, 0.842); */
+  border: solid .1rem rgba(230, 89, 230, 0.842) !important;
   border-radius: .3rem;
 }
 
@@ -156,6 +161,11 @@ a:-webkit-any-link{
 }
 
 .shield:hover {
+  border:3px solid rgba(0, 0, 0, 0) ;
+  border-radius: .3rem;
+}
+
+.skill:hover{
   border:3px solid rgba(0, 0, 0, 0) ;
   border-radius: .3rem;
 }

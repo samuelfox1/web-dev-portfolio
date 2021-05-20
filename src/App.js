@@ -7,14 +7,9 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 
-const App = () => {
+export default function App() {
 
-  useEffect(() => {
-    Aos.init({
-      duration: 1500,
-      offset: 200
-    })
-  }, [])
+  useEffect(() => Aos.init({ duration: 1500, offset: 200 }), [])
 
   const aos = {
     hello: 'flip-up',
@@ -25,20 +20,12 @@ const App = () => {
     footerContainer: 'fade'
   }
 
-
   return (
     <>
-
       <Nav />
-
       <Home aos={aos} />
-
       <Projects aos={aos} />
-
       <Footer aos={aos} />
-
     </>
   )
 }
-
-export default App;
