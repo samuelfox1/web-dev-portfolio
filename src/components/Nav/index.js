@@ -27,6 +27,7 @@ export default function Nav() {
                 preventScrolling: true
             }}
         >
+            {/* <NavItem href="/#root" className="sidenav-close">Top</NavItem> */}
             <NavItem href="/#projects" className="sidenav-close">Projects</NavItem>
             <NavItem href="/#contact" className="sidenav-close">Contact</NavItem>
 

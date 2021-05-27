@@ -29,7 +29,7 @@ export default function Home({ aos }) {
                             className="portfolio-link hover"
                             target="_blank"
                             text=' Fullstack ' />
-                            web development Coding Bootcamp."
+                            web development Coding Bootcamp.
                     </P>
 
 
