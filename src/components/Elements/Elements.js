@@ -14,12 +14,12 @@ export const Button = ({ className, text, onClick }) => (
     </button>
 )
 
-export const Image = ({ id, src, className, width, alt }) => (
-    <img id={id} src={src} className={className} width={width} alt={alt} />
+export const Image = ({ id, src, className, width, alt, dataAos }) => (
+    <img id={id} src={src} className={className} width={width} alt={alt} data-aos={dataAos} />
 )
 
-export const P = ({ className, children }) => (
-    <p className={className}>
+export const P = ({ className, dataAos, children }) => (
+    <p className={className} data-aos={dataAos}>
         {children}
     </p>
 )
@@ -68,8 +68,8 @@ export const H6 = ({ id, className, children, dataAos }) => (
     <h6 id={id} className={className} data-aos={dataAos}>{children}</h6>
 )
 
-export const Ul = ({ children }) => (
-    <ul>{children}</ul>
+export const Ul = ({ dataAos, children }) => (
+    <ul data-aos={dataAos}>{children}</ul>
 )
 
 export const Li = ({ className, children }) => (

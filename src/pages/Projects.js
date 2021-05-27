@@ -24,15 +24,22 @@ export default function Projects({ aos }) {
                  <Div className="divider"></Div>
                 </H3>
                 <br />
-                <Image className='current-project-img' src='https://i.imgur.com/hTrf4wk.gif' alt='project screenshot' dataAos='fade' />
-                <P> A full stack application to track the progress of future projects.
-                Organize notes for solutions to tricky problems and save valuable resources discovered along the way.
-                A project built utilizing:
+                <Image
+                    className='current-project-img'
+                    src='https://i.imgur.com/hTrf4wk.gif'
+                    alt='project screenshot'
+                    dataAos="fade"
+                />
+                <P dataAos="fade"
+                > A full stack application to track the progress of future projects.
+                    Organize notes for solutions to tricky problems and save valuable resources discovered along the way.
+                    A project built utilizing:
                     <br />
                     {currentProjectTechnologies.map((x, idx) => <Shield key={idx} data={x} />)}
                     <br />
                 </P>
-                <Ul>
+                <Ul dataAos="fade"
+                >
                     <Li>Deployed Site</Li>
                     <Li><A href='http://www.trakmyproject.com/'>trakmyproject.com </A></Li>
                     <Li>(sorry for slow loading times - currently deployed on free heroku service)</Li>
