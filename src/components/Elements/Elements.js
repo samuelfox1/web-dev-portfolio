@@ -14,8 +14,8 @@ export const Button = ({ className, text, onClick }) => (
     </button>
 )
 
-export const Image = ({ src, className, width, alt }) => (
-    <img src={src} className={className} width={width} alt={alt} />
+export const Image = ({ id, src, className, width, alt }) => (
+    <img id={id} src={src} className={className} width={width} alt={alt} />
 )
 
 export const P = ({ className, children }) => (

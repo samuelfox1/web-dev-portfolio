@@ -11,7 +11,6 @@ export default function CardBody({ data }) {
             <br />
             <br />
             <A className="link-btn z-depth-3 hover" href={data.deployed} target="_blank" text='Deployed App' />
-            <br />
         </Div>
     )
 }
