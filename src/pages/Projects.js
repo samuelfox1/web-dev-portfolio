@@ -13,14 +13,14 @@ export default function Projects({ aos }) {
 
     return (
         <>
-            <Container className="portfolio-container center-align">
+            <Container id="projects"
+                className="portfolio-container center-align">
                 <br />
                 <br />
                 <H3
-                    id="projects"
                     className="left-align"
                     dataAos={aos.project}
-                >What Am I working on now?
+                >What am I working on now?
                  <Div className="divider"></Div>
                 </H3>
                 <br />

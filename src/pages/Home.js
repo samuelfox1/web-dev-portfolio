@@ -8,7 +8,8 @@ import { A, Div, H1, H5, Image, Li, P, Ul } from "../components/Elements/Element
 export default function Home({ aos }) {
     return (
 
-        <Container>
+        <Container id="hello"
+        >
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
 
@@ -18,8 +19,6 @@ export default function Home({ aos }) {
                         className="rounded portrait z-depth-5"
                         alt="profile picture" />
                     <H1
-                        id="hello"
-                        // className="left-align"
                         dataAos={aos.hello}
                     >Hello!
                     </H1>

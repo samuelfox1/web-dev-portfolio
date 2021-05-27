@@ -11,7 +11,7 @@ export default function Nav() {
 
         <Navbar
             alignLinks="right"
-            brand={<a href="/#hello" className="brand-logo">Samuel Fox</a>}
+            brand={<a href="/#root" className="brand-logo">Samuel Fox</a>}
             fixed
             id="mobile-nav"
             menuIcon={<Icon >menue</Icon>}

@@ -29,7 +29,6 @@ body {
   background-color: rgb(107, 107, 112) !important;
 }
 
-
 .bg-light {
   background-color: rgb(125, 125, 133) !important;
 }
@@ -111,12 +110,7 @@ a:-webkit-any-link{
   text-decoration:none !important;
 }
 
-/* HOME PAGE ======================================================== */
-/* main page container */
-/* .container {
-  margin: 0 auto 5% auto;
-  border-radius: 1rem;
-} */
+/* HOME ======================================================== */
 
 .about-container {
   margin: 1rem 1rem 4rem 1rem;
@@ -171,12 +165,17 @@ a:-webkit-any-link{
 }
 
 
-/* PORTFOLIO PAGE ===================================================== */
+/* PROJECTS ===================================================== */
 .portfolio-container {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* border:1px solid rgba(214, 214, 214,0.5) ; */
   border-radius: .3rem;
+}
+
+.current-project-img{
+max-width: 90vw;
+}
+
+.project-img {
+  max-width: 80vw;
 }
 
 .portfolio-link {
@@ -193,6 +192,7 @@ a:-webkit-any-link{
 }
 .card-content {
   border: 1px solid white;
+  padding-bottom: 3rem;
   border-bottom-left-radius : 1rem !important;
   border-bottom-right-radius : 1rem !important;
 }
@@ -204,6 +204,9 @@ a:-webkit-any-link{
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 4rem 1rem;
   background-color: rgba(255, 255, 255, 0) !important;
   /* width:250px; */
@@ -216,7 +219,7 @@ a:-webkit-any-link{
 }
 
 
-/*CONTACT PAGE =========================================================== */
+/*CONTACT =========================================================== */
 .contact-container {
   margin-bottom: 1rem !important;
   border:1px solid rgba(214, 214, 214,0.5) ;
@@ -283,6 +286,14 @@ a:-webkit-any-link{
 } */
 @media screen and (max-width: 500px) {
 
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center !important;
+  }
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .portrait {
       float: none;
       margin: 1rem auto;
@@ -308,6 +319,10 @@ a:-webkit-any-link{
     height: auto;
     margin: 1rem;
     padding: none;
+  }
+
+  .project-img {
+    width: 80vw;
   }
 
   .contact-row {

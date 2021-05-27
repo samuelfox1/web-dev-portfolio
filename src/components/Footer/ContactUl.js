@@ -42,7 +42,8 @@ export default function ContactUl() {
             <Li>
                 <A
                     className="contact-row hover"
-                    href="#hello"
+                    href="#root"
+                    stayOnPage={true}
                     text='Top of Page'
                 >
                     <Icon className="contact-icon">arrow_upward</Icon>

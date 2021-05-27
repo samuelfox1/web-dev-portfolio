@@ -24,10 +24,10 @@ export const P = ({ className, children }) => (
     </p>
 )
 
-export const A = ({ className, href, text, onClick, children }) => (
+export const A = ({ className, href, stayOnPage = false, text, onClick, children }) => (
     <a
         href={href}
-        target='_blank'
+        target={stayOnPage ? '' : '_blank'}
         className={className}
         onClick={onClick}
     >
