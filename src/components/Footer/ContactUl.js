@@ -31,7 +31,7 @@ export default function ContactUl() {
             <Li>
                 <A
                     className="contact-row hover"
-                    href="https://drive.google.com/file/d/1lnfsiRNEH_fBLvzMBDKLqZJ4T7OapdqO/view?usp=sharing" target="about_blank"
+                    href="https://docs.google.com/document/d/e/2PACX-1vQ6fPlacPr0qKjQBI300n0Dk8TU6UDYxGyK5KLDD5nlxcL94B409jr2MCK3nVCw5f0Zu2OLdwbXidEe/pub" target="about_blank"
                     target="_blank"
                     text='Resume'
                 >
