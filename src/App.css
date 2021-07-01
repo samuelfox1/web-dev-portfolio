@@ -306,6 +306,11 @@ max-width: 90vw;
 } */
 @media screen and (max-width: 500px) {
 
+  body {
+    background-image: none;
+    background-color: #2b3035;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     text-align: center !important;
   }
