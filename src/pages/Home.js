@@ -20,7 +20,7 @@ export default function Home({ aos }) {
                         alt="profile picture" />
                     <H1
                         dataAos={aos.hello}
-                    >Hello!
+                    >Hello :)
                     </H1>
                     < H5 >My name is Sam.</H5>
                     <P>Graduate of the University of Washington's
@@ -29,7 +29,7 @@ export default function Home({ aos }) {
                             className="portfolio-link hover"
                             target="_blank"
                             text=' Fullstack ' />
-                            web development Coding Bootcamp.
+                        web development Coding Bootcamp.
                     </P>
 
 
