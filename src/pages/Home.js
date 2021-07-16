@@ -43,17 +43,37 @@ export default function Home({ aos }) {
                     data-aos="fade"
                 >
                     <Ul>
-                        <Li><H5 >❯ Skills ❮</H5></Li>
+                        <Li><H5 >❯ Hard Skills ❮</H5></Li>
                         <Li><Div className="divider"></Div></Li>
                         <Li className='skill' >▷ Creative Problem Solving</Li>
                         <Li className='skill' >▷ Attention to Detail</Li>
                         <Li className='skill' >▷ Critical Thinking</Li>
-                        <Li className='skill' >▷ UI & Ux Design</Li>
                         <Li className='skill' >▷ Engineering</Li>
-                        <Li className='skill' >▷ Mechanics</Li>
                         <Li className='skill' >▷ Workflow</Li>
+                        <Li className='skill' >▷ CI & CD</Li>
+                        <Li className='skill' >▷ UI & Ux</Li>
+                        <Li className='skill' >▷ IAM</Li>
+                        <Li className='skill' >▷ AWS S3</Li>
+                        <Li className='skill' >▷ AWS Route53</Li>
+                        <Li className='skill' >▷ AWS CloudFront</Li>
+                        {/* <Li className='skill' >▷ </Li> */}
                     </Ul>
                 </Col>
+                {/* <Col s={12} m={6} l={6}
+                    className="skills-card"
+                    data-aos="fade"
+                >
+                    <Ul>
+                        <Li><H5 >❯ Soft Skills ❮</H5></Li>
+                        <Li><Div className="divider"></Div></Li>
+                        <Li className='skill' >▷ </Li>
+                        <Li className='skill' >▷ </Li>
+                        <Li className='skill' >▷ </Li>
+                        <Li className='skill' >▷ </Li>
+                        <Li className='skill' >▷ </Li>
+                        <Li className='skill' >▷ </Li>
+                    </Ul>
+                </Col> */}
                 <Col s={12} m={6} l={6}
                     className="skills-card"
                     data-aos="fade"
@@ -63,6 +83,17 @@ export default function Home({ aos }) {
                     {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
                 </Col>
             </Row >
+            {/* <Row>
+                <Col s={12} m={6} l={6}
+                    className="skills-card"
+                    data-aos="fade"
+                >
+                    <H5>❯ Technologies ❮</H5>
+                    <Div className="divider"></Div>
+                    {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
+                </Col>
+            </Row> */}
+
         </Container >
     )
 }
