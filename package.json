@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^12.7.1",
     "aos": "^2.3.4",
     "materialize-css": "^1.0.0",
+    "ping-url": "^1.0.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-materialize": "^3.9.7",

@@ -297,13 +297,9 @@ max-width: 90vw;
   margin-left: 2rem;
 }
 
-/* .page-footer>h2 {
-  margin: 0;
-} */
-
-/* .page-footer>h6 {
-  margin-bottom: 1rem !important;
-} */
+hr{
+width:30%
+}
 @media screen and (max-width: 500px) {
 
   body {
