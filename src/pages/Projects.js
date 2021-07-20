@@ -6,12 +6,14 @@ import ProjectCard from "../components/Project Card"
 import { A, Div, H3, Image, Li, P, Ul } from "../components/Elements/Elements"
 import Shield from "../components/Shield"
 import Ping from 'ping-url';
+import './Projects.css'
 
 
 export default function Projects({ aos }) {
 
     const [trakMyProjectURL, setTrackMyProjectURL] = useState('https://www.trakmyproject.com')
     const AWSCloudFrontURL = 'https://d3nllbgl86n32k.cloudfront.net/'
+
 
     const checkIfDomainNameIsWorkingYet = (URL, replaceWithURL) => {
         Ping.check(URL)
@@ -40,6 +42,8 @@ export default function Projects({ aos }) {
                     alt='project screenshot'
                     dataAos="fade"
                 />
+                {/* <iframe className='current-project-iframe' src={AWSCloudFrontURL} title='testing-1-2-3' /> */}
+
                 <P dataAos="fade"
                 > A full stack application to track the progress of future projects.
                     Organize notes for solutions to tricky problems and save valuable resources discovered along the way.

@@ -26,7 +26,7 @@ export default function Home({ aos }) {
                     < H5 >My name is Sam.</H5>
                     <P>Graduate of the University of Washington's
                         <A
-                            href="https://bootcamp.uw.edu/coding/"
+                            href="https://bootcamp.uw.edu/coding"
                             className="portfolio-link hover"
                             target="_blank"
                             text=' Fullstack ' />
