@@ -9,8 +9,7 @@ import { A, Div, H1, H5, Image, Li, P, Ul } from "../components/Elements/Element
 export default function Home({ aos }) {
     return (
 
-        <Container id="hello"
-        >
+        <Container id="hello">
             <Row className="about-container center-align">
                 <Col s={12} m={12} l={12} >
 
@@ -43,7 +42,7 @@ export default function Home({ aos }) {
                     data-aos="fade"
                 >
                     <Ul>
-                        <Li><H5 >❯ Hard Skills ❮</H5></Li>
+                        <Li><H5 >❯ skills ❮</H5></Li>
                         <Li><Div className="divider"></Div></Li>
                         <Li className='skill' >▷ Creative Problem Solving</Li>
                         <Li className='skill' >▷ Attention to Detail</Li>
@@ -52,7 +51,6 @@ export default function Home({ aos }) {
                         <Li className='skill' >▷ Workflow</Li>
                         <Li className='skill' >▷ CI & CD</Li>
                         <Li className='skill' >▷ UI & Ux</Li>
-                        <Li className='skill' >▷ IAM</Li>
                         <Li className='skill' >▷ AWS S3</Li>
                         <Li className='skill' >▷ AWS Route53</Li>
                         <Li className='skill' >▷ AWS CloudFront</Li>
