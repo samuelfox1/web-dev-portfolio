@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row } from "react-materialize"
+import { Columns, Container } from "react-bulma-components"
 import SlideToggle from "react-slide-toggle"
 import { A, Div, H5 } from "../Elements/Elements"
 import CardBody from "./CardBody"
@@ -14,28 +14,30 @@ export default function ProjectCard({ aos, data, idx }) {
 
     return (
         <Container >
-            <Row className="project-card center-align"
+            <Columns
+                className="project-card center-align"
                 data-aos={transition}
             >
+                <Columns.Column>
+                    <H5 >{data.title}</H5>
+                    <Div className="divider" />
 
-                <H5 >{data.title}</H5>
-                <Div className="divider" />
-
-                <SlideToggle
-                    duration={800}
-                    collapsed
-                    render={({ toggle, setCollapsibleElement }) => (
-                        <Div className="card bg-transparent">
-                            <A onClick={toggle}>
-                                <CardTop data={data} />
-                            </A>
-                            <Div reference={setCollapsibleElement}>
-                                <CardBody data={data} />
+                    <SlideToggle
+                        duration={800}
+                        collapsed
+                        render={({ toggle, setCollapsibleElement }) => (
+                            <Div className="card bg-transparent">
+                                <A onClick={toggle}>
+                                    <CardTop data={data} />
+                                </A>
+                                <Div reference={setCollapsibleElement}>
+                                    <CardBody data={data} />
+                                </Div>
                             </Div>
-                        </Div>
-                    )}
-                />
-            </Row>
+                        )}
+                    />
+                </Columns.Column>
+            </Columns>
         </Container>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from "react-materialize"
+import { Columns, Container } from 'react-bulma-components'
 import { Div, Footer, H3, H6 } from '../Elements/Elements'
 import ContactUl from './ContactUl'
 
@@ -13,16 +13,16 @@ export default function index({ aos }) {
                 className="footer-title"
                 dataAos={aos.footer}
             >Contact
-            <Div className="divider"></Div>
+                <Div className="divider"></Div>
             </H3>
 
             <Footer className="page-footer bg-transparent" dataAos={aos.footerContainer}>
                 <Container>
-                    <Row >
-                        <Col s={12} l={4}>
+                    <Columns >
+                        <Columns.Column>
                             <ContactUl />
-                        </Col>
-                    </Row>
+                        </Columns.Column>
+                    </Columns>
                 </Container>
             </Footer>
             <Div className="divider"></Div>

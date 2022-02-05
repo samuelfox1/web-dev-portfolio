@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-import { Container } from "react-materialize"
+import { Container } from "react-bulma-components"
 import currentProjectTechnologies from '../utils/currentProjectTechnologies.json'
 import projectList from "../utils/projectList.json"
 import ProjectCard from "../components/Project Card"

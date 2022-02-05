@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from "react-materialize"
+import { Icon } from "react-bulma-components"
 
 import { A, Image, Li, Ul } from '../Elements/Elements'
 

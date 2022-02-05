@@ -5,7 +5,9 @@ import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import { Preloader } from 'react-materialize'
+import './App.sass'
+// import 'bulma/css/bulma.min.css';
+
 
 
 export default function App() {
@@ -30,14 +32,14 @@ export default function App() {
   return (
     <>
       <Nav />
-      {!loaded
+      {/* {!loaded
         ? <div className="preloader"><Preloader /></div>
         : <>
           <Home aos={aos} />
           <Projects aos={aos} />
           <Footer aos={aos} />
         </>
-      }
+      } */}
     </>
   )
 }
