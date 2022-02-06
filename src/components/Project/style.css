@@ -1,0 +1,15 @@
+div#current-project-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#current-project-images div > p {
+    margin-top: 0em;
+}
+
+img.current-project {
+    margin: 1em .5em 0em .5em;
+    width: 200px;
+    border: solid black 5px;
+    border-radius: 1em;
+}

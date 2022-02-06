@@ -1,9 +1,9 @@
 import React, { useEffect } from "react"
 import { Container, Row, Col } from "react-materialize"
-import Shields from "../utils/shieldList.json"
-import Shield from "../components/Shield"
+import Shields from "../../utils/shieldList.json"
+import Shield from "../../components/Shield"
+import { A, Div, H1, H5, Image, Li, P, Ul } from "../../components/Elements/Elements"
 import "aos/dist/aos.css"
-import { A, Div, H1, H5, Image, Li, P, Ul } from "../components/Elements/Elements"
 
 
 export default function Home({ aos }) {
@@ -31,9 +31,6 @@ export default function Home({ aos }) {
                             text=' Fullstack ' />
                         web development Coding Bootcamp.
                     </P>
-
-
-                    <P>Pursuing a Bachelors Degree in Computer Science.</P>
                 </Col>
             </Row>
             <Row className="skills-container center-align">
@@ -57,21 +54,6 @@ export default function Home({ aos }) {
                         {/* <Li className='skill' >▷ </Li> */}
                     </Ul>
                 </Col>
-                {/* <Col s={12} m={6} l={6}
-                    className="skills-card"
-                    data-aos="fade"
-                >
-                    <Ul>
-                        <Li><H5 >❯ Soft Skills ❮</H5></Li>
-                        <Li><Div className="divider"></Div></Li>
-                        <Li className='skill' >▷ </Li>
-                        <Li className='skill' >▷ </Li>
-                        <Li className='skill' >▷ </Li>
-                        <Li className='skill' >▷ </Li>
-                        <Li className='skill' >▷ </Li>
-                        <Li className='skill' >▷ </Li>
-                    </Ul>
-                </Col> */}
                 <Col s={12} m={6} l={6}
                     className="skills-card"
                     data-aos="fade"
@@ -81,16 +63,6 @@ export default function Home({ aos }) {
                     {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
                 </Col>
             </Row >
-            {/* <Row>
-                <Col s={12} m={6} l={6}
-                    className="skills-card"
-                    data-aos="fade"
-                >
-                    <H5>❯ Technologies ❮</H5>
-                    <Div className="divider"></Div>
-                    {Shields.map((x, idx) => <Shield key={idx} data={x} />)}
-                </Col>
-            </Row> */}
 
         </Container >
     )
