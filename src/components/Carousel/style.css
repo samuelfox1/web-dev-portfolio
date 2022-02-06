@@ -1,0 +1,39 @@
+.carousel-wrapper {
+    border-radius: 1em;
+    padding-top: 0;
+    min-height: 70vh ;
+}
+
+.carousel {
+    height: 200px;
+}
+
+.carousel-wrapper
+.project-title-wrapper {
+    min-height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .project-title-wrapper .project-title {
+} */
+
+.carousel-project-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-project-links h3{
+    margin: 0 1em 0 1em
+}
+
+.carousel-wrapper
+.carousel-project-description{
+    margin-top: 1em;
+}
+
+/* .carousel .carousel-item>img {
+    width: 300px;
+} */
