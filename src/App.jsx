@@ -6,7 +6,6 @@ import Footer from "./components/Footer"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import './App.css'
-import ProjectsSection from './components/ProjectsSection'
 
 
 export default function App() {
@@ -33,10 +32,7 @@ export default function App() {
       <Nav />
       {
         loaded
-          ? <>
-            <Home aos={aos} />
-            <ProjectsSection aos={aos} />
-          </>
+          ? <Home aos={aos} />
           : <div className="preloader"><Preloader /></div>
       }
       <Footer aos={aos} />
