@@ -1,8 +1,11 @@
 import React from "react"
-import { Container, Row, Col } from "react-materialize"
+import { Container, Row } from "react-materialize"
 import SlideToggle from "react-slide-toggle"
+import { A, Div, H5 } from "../Elements/Elements"
+import CardBody from "./CardBody"
+import CardTop from "./CardTop"
 
-// SlideToggle is modified from https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
+// SlideToggle https://codesandbox.io/s/react-slide-toggle-y3tpn?file=/src/index.js
 
 export default function ProjectCard({ aos, data, idx }) {
 
@@ -10,54 +13,29 @@ export default function ProjectCard({ aos, data, idx }) {
     // if (idx === 0 || idx % 2 === 0) { transition = aos.projectCard2 }
 
     return (
-        <div
-            className="project-card"
-            data-aos={transition}
-        >
-            <h5>{data.title}</h5>
-            <div className="divider"></div>
+        <Container >
+            <Row className="project-card center-align"
+                data-aos={transition}
+            >
 
-            <SlideToggle
-                duration={800}
-                collapsed
-                render={({ toggle, setCollapsibleElement }) => (
-                    // element to activate toggle
-                    <div className="card bg-transparent">
+                <H5 >{data.title}</H5>
+                <Div className="divider" />
 
-                        <a onClick={toggle}>
-                            <div className="card-img-top card-image">
-                                <img className="project-img z-depth-5" src={data.img} />
-                                <span className="card-title right-align">
-                                    <i className="material-icons project-icon z-depth-3 p1">
-                                        touch_app
-                                    </i>
-                                </span>
-
-                            </div>
-                        </a>
-
-                        <div className=""
-                            ref={setCollapsibleElement}>
-
-                            {/* content that is toggled */}
-                            <div className="card-content">
-
-                                <p className="card-text">{data.description}
-                                    <a className="portfolio-link" href={data.repo} target="_blank">
-                                        Learn More
-                                    </a>
-                                </p>
-                                <br />
-                                <a className="link-btn active z-depth-3"
-                                    href={data.deployed} target="_blank">
-                                    App
-                                </a>
-                                <br />
-                            </div>
-                        </div>
-                    </div>
-                )}
-            />
-        </div>
+                <SlideToggle
+                    duration={800}
+                    collapsed
+                    render={({ toggle, setCollapsibleElement }) => (
+                        <Div className="card bg-transparent">
+                            <A onClick={toggle}>
+                                <CardTop data={data} />
+                            </A>
+                            <Div reference={setCollapsibleElement}>
+                                <CardBody data={data} />
+                            </Div>
+                        </Div>
+                    )}
+                />
+            </Row>
+        </Container>
     )
 }

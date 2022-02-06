@@ -22,12 +22,12 @@
 
 <br>
 
-![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![node.js](https://img.shields.io/badge/-node.js-339933?logo=node.js&logoColor=white)![ExpressJS](https://img.shields.io/badge/-Express-000000?logo=JavaScript&logoColor=yellow)![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white)![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white)![handlebars.js](https://img.shields.io/badge/-handlebars.js-FF7D00)![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white)![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)![ReactJS](https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB)![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white)![html](https://img.shields.io/badge/-HTML5-blue?logo=html5)![css](https://img.shields.io/badge/-CSS3-red?logo=css3)![javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)![MaterializeCSS](https://img.shields.io/badge/-MaterializeCSS-FF7F7F?logo=Material%20Design&logoColor=white)![ReactJS](https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB)![npm](https://img.shields.io/badge/-npm-CB3837?logo=NPM)
 
 
 >## Product
 
-* [Check it out!](https://sjf-react-profile.herokuapp.com/) 
+* [Check it out!](https://samueljfox.com/) 
 
 ![Screenshot](./src/images/screenshot.png)
 
@@ -38,7 +38,7 @@
 
 | Name | Email  | Github  | LinkedIn |
 | :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./src/images/logo/github.png)](https://github.com/samuelfox1) | [![LinkedIn](./src/images/logo/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./public/logo/github/GitHub-Mark-Light-64px.png)](https://github.com/samuelfox1) | [![LinkedIn](./public/logo/linkedin/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
 <br>
 
