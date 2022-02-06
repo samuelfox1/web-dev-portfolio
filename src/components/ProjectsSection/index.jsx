@@ -2,12 +2,12 @@ import React from "react"
 import { Container } from "react-materialize"
 
 import projectList from "../../utils/projectList.json"
-import ProjectCard from "../../components/Project Card"
-import { Div, H3, } from "../../components/Elements/Elements"
+import ProjectCard from "../Project Card"
+import { Div, H3, } from "../Elements/Elements"
 import currentProject from '../../utils/currentProject.json'
+import CurrentProject from "../CurrentProject"
 import './style.css'
 import { v4 } from "uuid"
-import CurrentProject from "../CurrentProject"
 
 
 const ProjectsSection = ({ aos }) => {
@@ -21,11 +21,12 @@ const ProjectsSection = ({ aos }) => {
                 <CurrentProject aos={aos} project={currentProject} />
                 <H3
                     id="projects"
-                    className="left-align"
+                    className="left-align pt-3"
                     dataAos={aos.project}
-                >Previous Projects
-                    <Div className="divider"></Div>
+                >
+                    Previous Projects
                 </H3>
+                <Div className="divider"></Div>
 
                 {projectList.map((x, idx) => <ProjectCard key={v4()} idx={idx} data={x} aos={aos} />)}
             </Container >
