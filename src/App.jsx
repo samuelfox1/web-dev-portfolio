@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { Preloader } from 'react-materialize'
 import Nav from "./components/Nav/index"
-import Projects from "./pages/Projects"
 import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import { Preloader } from 'react-materialize'
+import './App.css'
+import ProjectsSection from './components/ProjectsSection'
 
 
 export default function App() {
@@ -30,14 +31,15 @@ export default function App() {
   return (
     <>
       <Nav />
-      {!loaded
-        ? <div className="preloader"><Preloader /></div>
-        : <>
-          <Home aos={aos} />
-          <Projects aos={aos} />
-          <Footer aos={aos} />
-        </>
+      {
+        loaded
+          ? <>
+            <Home aos={aos} />
+            <ProjectsSection aos={aos} />
+          </>
+          : <div className="preloader"><Preloader /></div>
       }
+      <Footer aos={aos} />
     </>
   )
 }

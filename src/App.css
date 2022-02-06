@@ -167,18 +167,6 @@ a:-webkit-any-link{
   text-align: center;
 }
 
-.shield {
-
-  margin: .25rem;
-  border:1px solid rgba(0, 0, 0, 0.5) ;
-  border-radius: .3rem;
-}
-
-.shield:hover {
-  border:3px solid rgba(0, 0, 0, 0) ;
-  border-radius: .3rem;
-}
-
 .skill:hover{
   border:3px solid rgba(0, 0, 0, 0) ;
   border-radius: .3rem;
@@ -304,7 +292,7 @@ width:30%
 
   body {
     background-image: none;
-    background-color: #2b3035;
+    background-color: #222425;
   }
 
   h1, h2, h3, h4, h5, h6 {
