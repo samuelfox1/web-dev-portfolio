@@ -4,6 +4,7 @@ import "materialize-css/dist/css/materialize.min.css";
 import { v4 } from "uuid";
 
 import "./style.css"
+import ProjectLinks from "../ProjectLinks";
 
 
 const Carousel = ({ aus, projects }) => {
@@ -52,15 +53,8 @@ const Carousel = ({ aus, projects }) => {
                 <h4 className="project-title">{title}</h4>
             </div>
             {carousel}
-            {/* <div className="divider"></div> */}
-            <div className="carousel-project-links">
-                <h3>
-                    <a href={github} target="_blank" rel="noreferrer"><i class="fab fa-github" /></a>
-                </h3>
-                <h3>
-                    <a href={deployment} target="_blank" rel="noreferrer"><i class="fas fa-mobile-alt"></i></a>
-                </h3>
-            </div>
+
+            <ProjectLinks github={github} deployment={deployment} />
             <p className="carousel-project-description">{description}</p>
         </section >
     )

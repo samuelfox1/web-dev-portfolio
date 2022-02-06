@@ -1,11 +1,15 @@
 import React from 'react';
 
-const ProjectLinks = ({ deploymentURL, gitHubURL }) => {
+const ProjectLinks = ({ deployment, github }) => {
     return (
-        <ul >
-            <li><a href={deploymentURL} target='_blank' rel="noreferrer" >{deploymentURL.split('://')[1]}</a></li>
-            <li><a href={gitHubURL} target='_blank' rel="noreferrer" >github</a></li>
-        </ul>
+        <div className="carousel-project-links">
+            <h3>
+                <a href={github} target="_blank" rel="noreferrer"><i class="fab fa-github" /></a>
+            </h3>
+            <h3>
+                <a href={deployment} target="_blank" rel="noreferrer"><i class="fas fa-mobile-alt"></i></a>
+            </h3>
+        </div>
     );
 };
 

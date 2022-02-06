@@ -23,8 +23,8 @@ const Project = ({ aos, project }) => {
                 </h4>
                 <ProjectImages screenshots={screenshots} />
                 <div data-aos="fade">
+                    <ProjectLinks deployment={deploymentURL} github={gitHubURL} />
                     <p >{description}</p>
-                    <ProjectLinks deploymentURL={deploymentURL} gitHubURL={gitHubURL} />
                     <p>A project built utilizing:</p>
                     {shields.map((x, idx) => <Shield key={idx} data={x} />)}
                 </div>
