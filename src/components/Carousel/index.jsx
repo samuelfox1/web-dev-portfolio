@@ -9,7 +9,7 @@ import "./style.css"
 const Carousel = ({ aus, projects }) => {
     const [index, setIndex] = useState(0)
     const [project, setProject] = useState(projects[index])
-    const { description, title } = project
+    const { description, title, github, deployment } = project
 
     useEffect(() => {
         const options = {
@@ -37,9 +37,9 @@ const Carousel = ({ aus, projects }) => {
 
     const carousel = useMemo(() => (
         <div className="carousel" id="other-work">
-            {projects.map(({ img, alt }, index) => (
+            {projects.map(({ src, alt }, index) => (
                 <div className="carousel-item" key={v4()} data-index={index}>
-                    <img alt={alt} src={img} />
+                    <img alt={alt} src={src} />
                 </div>))}
         </div >
     ), []
@@ -53,7 +53,15 @@ const Carousel = ({ aus, projects }) => {
             </div>
             {carousel}
             {/* <div className="divider"></div> */}
-            <p>{description}</p>
+            <div className="carousel-project-links">
+                <h3>
+                    <a href={github} target="_blank" rel="noreferrer"><i class="fab fa-github" /></a>
+                </h3>
+                <h3>
+                    <a href={deployment} target="_blank" rel="noreferrer"><i class="fas fa-mobile-alt"></i></a>
+                </h3>
+            </div>
+            <p className="carousel-project-description">{description}</p>
         </section >
     )
 }
