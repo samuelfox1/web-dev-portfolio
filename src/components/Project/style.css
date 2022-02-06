@@ -9,7 +9,7 @@ div#current-project-images {
 
 img.current-project {
     margin: 1em .5em 0em .5em;
-    width: 200px;
+    width: 250px;
     border: solid black 5px;
     border-radius: 1em;
 }
