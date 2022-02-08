@@ -1,20 +1,24 @@
 import React from 'react';
 import { Col, Row } from 'react-materialize';
+import { aosOptions } from '../../../utils/aosConfig';
 
-const AboutSection = ({ aos }) => {
+const { fade, flipUp } = aosOptions
+
+const AboutSection = () => {
     return (
         <Row className="about-container center-align">
-            <Col s={12} m={12} l={12} >
+            <Col data-aos={fade}
+                s={12} m={12} l={12} >
 
                 <br />
                 <img
+                    data-aos={flipUp}
                     src="https://i.imgur.com/zEvf4P4m.jpg"
                     className="rounded portrait z-depth-5"
                     alt="user profile" />
-                <h1
-                    data-aos={aos.hello}
+                <h3 className='align-left'
                 > Hello !
-                </h1>
+                </h3>
                 < h5 >My name is Sam.</h5>
                 <p>Graduate of the University of Washington's
                     <a

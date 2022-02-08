@@ -1,8 +1,10 @@
 import React from 'react';
 import { Container } from 'react-materialize';
+import { aosOptions } from '../../utils/aosConfig';
 import Carousel from '../Carousel';
+const { fade } = aosOptions
 
-const OtherProjects = ({ aos, projects }) => {
+const OtherProjects = ({ projects }) => {
     return (
         <Container
             id="projects"
@@ -11,12 +13,12 @@ const OtherProjects = ({ aos, projects }) => {
             <h3
                 id="projects"
                 className="left-align pt-3"
-                data-aos={aos.project}
+                data-aos={fade}
             >
                 Previous Work
             </h3>
             <div className="divider"></div>
-            <Carousel aos={aos} projects={projects} />
+            <Carousel projects={projects} />
         </Container >
     );
 };

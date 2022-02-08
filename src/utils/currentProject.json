@@ -1,10 +1,9 @@
 {
     "appName": "tutorly",
     "deploymentURL": "https://www.tutor-me.io",
-    "description": "A PWA for tutors to manage courses, organize meetings, and automate daily tasks. A Tutor can creates courses, add students, add meetings, connect a calendly account, mangage schedules, and create custom email templates.",
     "gitHubURL": "https://github.com/samuelfox1/tutor-assistant",
     "repoName": "tutor-assistant",
-    "screenshots": [
+    "images": [
         {
             "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102210/sjf-file-uploader/d7f82a3316ef5bbe474936f63a40bd80.png",
             "alt": "PWA splash screen"
