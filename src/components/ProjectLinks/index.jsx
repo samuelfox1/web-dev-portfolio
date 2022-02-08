@@ -1,8 +1,10 @@
 import React from 'react';
+import { aosOptions } from '../../utils/aosConfig';
+const { fade } = aosOptions
 
 const ProjectLinks = ({ deployment, github }) => {
     return (
-        <div className="carousel-project-links">
+        <div className="carousel-project-links" data-aos={fade} >
             <h3>
                 <a href={github} target="_blank" rel="noreferrer"><i className="fab fa-github" /></a>
             </h3>

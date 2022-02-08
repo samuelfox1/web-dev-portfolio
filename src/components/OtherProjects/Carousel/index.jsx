@@ -3,9 +3,9 @@ import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import { v4 } from "uuid";
 
-import ProjectLinks from "../ProjectLinks";
+import ProjectLinks from "../../ProjectLinks";
 import "./style.css"
-import { aosOptions } from "../../utils/aosConfig";
+import { aosOptions } from "../../../utils/aosConfig";
 
 const { fade } = aosOptions
 
@@ -51,14 +51,15 @@ const Carousel = ({ projects }) => {
 
 
     return (
-        <section className="carousel-wrapper" data-aos={fade} >
-            <div className="project-title-wrapper">
+        <section className="carousel-wrapper" data-aos={fade}  >
+            <div className="project-title-wrapper" data-aos={fade} >
                 <h4 className="project-title">{title}</h4>
             </div>
+
             {carousel}
 
+            <p className="carousel-project-description" data-aos={fade} >{description}</p>
             <ProjectLinks github={github} deployment={deployment} />
-            <p className="carousel-project-description">{description}</p>
         </section >
     )
 }

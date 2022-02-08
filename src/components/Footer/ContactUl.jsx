@@ -1,20 +1,22 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Icon } from 'react-materialize'
+import { AppContext } from '../../context/AppProvider'
 
 
 export default function ContactUl() {
+    const { about: { gitHub, linkedIn, resume } } = useContext(AppContext)
     return (
         <ul>
             <li>
                 <a
                     className='contact-row hover'
-                    href='https://github.com/samuelfox1'
+                    href={gitHub}
                     target='_blank'
                     rel='noreferrer'
                 >
                     GitHub
                     <img
-                        className='contact-link'
+                        className='contact-icon'
                         src='./logo/github/GitHub-Mark-Light-32px.png'
                         alt='gitgub icon' />
                 </a>
@@ -23,14 +25,14 @@ export default function ContactUl() {
             <li>
                 <a
                     className='contact-row hover'
-                    href='https://www.linkedin.com/in/samuel-fox-tacoma/'
+                    href={linkedIn}
                     target='_blank'
                     rel='noreferrer'
                 >
                     Linkedin
                     <img
                         width='32'
-                        className='contact-link'
+                        className='contact-icon'
                         src='./logo/linkedin/LI-In-Bug.png'
                         alt='gitgub icon' />
                 </a>
@@ -39,7 +41,7 @@ export default function ContactUl() {
             <li>
                 <a
                     className='contact-row hover'
-                    href='https://docs.google.com/document/d/e/2PACX-1vQ6fPlacPr0qKjQBI300n0Dk8TU6UDYxGyK5KLDD5nlxcL94B409jr2MCK3nVCw5f0Zu2OLdwbXidEe/pub'
+                    href={resume}
                     target='_blank'
                     rel='noreferrer'
                 >
@@ -54,6 +56,7 @@ export default function ContactUl() {
                     href='#root'
                     text='Top of Page'
                 >
+                    To The Top
                     <Icon className='contact-icon'>arrow_upward</Icon>
                 </a>
             </li>

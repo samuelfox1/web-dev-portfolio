@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Container } from 'react-materialize';
+import { AppContext } from '../../context/AppProvider';
 import { aosOptions } from '../../utils/aosConfig';
-import Carousel from '../Carousel';
+import Carousel from './Carousel';
 const { fade } = aosOptions
 
-const OtherProjects = ({ projects }) => {
+const OtherProjects = () => {
+    const { projects: { other } } = useContext(AppContext)
     return (
         <Container
             id="projects"
@@ -18,7 +20,7 @@ const OtherProjects = ({ projects }) => {
                 Previous Work
             </h3>
             <div className="divider"></div>
-            <Carousel projects={projects} />
+            <Carousel projects={other} />
         </Container >
     );
 };

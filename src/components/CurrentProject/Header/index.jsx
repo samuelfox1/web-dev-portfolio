@@ -1,10 +1,10 @@
 import React from 'react';
 import { aosOptions } from '../../../utils/aosConfig';
-const { flipUp } = aosOptions
+const { fade } = aosOptions
 
 const Header = () => {
     return (
-        <div data-aos={flipUp}>
+        <div data-aos={fade}>
             <h4 className="left-align pt-2">
                 Current Work
             </h4>

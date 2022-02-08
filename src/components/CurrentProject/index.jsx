@@ -1,12 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../../context/AppProvider';
 import Project from '../Project';
 import Header from './Header';
 
-const CurrentProject = ({ currentProject }) => {
+const CurrentProject = () => {
+    const { projects: { current } } = useContext(AppContext)
     return (
         <>
             <Header />
-            <Project project={currentProject} />
+            <Project project={current} />
         </>
     );
 };
