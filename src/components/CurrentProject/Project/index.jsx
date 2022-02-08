@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
-import Shield from '../Shield';
+import Shield from '../../Shield';
 import ProjectImages from '../ProjectImages';
-import ProjectLinks from '../ProjectLinks';
-import { aosOptions } from '../../utils/aosConfig';
+import ProjectLinks from '../../ProjectLinks';
+import { aosOptions } from '../../../utils/aosConfig';
 import './style.css'
 import { v4 } from 'uuid';
-import { AppContext } from '../../context/AppProvider';
+import { AppContext } from '../../../context/AppProvider';
 
 const { fade } = aosOptions
 

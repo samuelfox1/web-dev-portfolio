@@ -5,9 +5,9 @@ const { fade } = aosOptions
 const Header = () => {
     return (
         <div data-aos={fade}>
-            <h4 className="left-align pt-2">
+            <h3 className="left-align pt-2">
                 Current Work
-            </h4>
+            </h3>
             <div className="divider"></div>
         </div>
 

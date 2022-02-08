@@ -26,7 +26,7 @@ const Carousel = ({ projects }) => {
             }
         };
         const el = document.querySelector('#other-work')
-        console.log(el)
+        // console.log(el)
         M.Carousel.init(el, options);
 
         // Instance Plugin
@@ -40,7 +40,7 @@ const Carousel = ({ projects }) => {
     }, [index])
 
     const carousel = useMemo(() => (
-        <div className="carousel" id="other-work">
+        <div className="carousel" id="other-work" data-aos={fade}>
             {projects.map(({ src, alt }, index) => (
                 <div className="carousel-item" key={v4()} data-index={index}>
                     <img alt={alt} src={src} />
@@ -51,7 +51,7 @@ const Carousel = ({ projects }) => {
 
 
     return (
-        <section className="carousel-wrapper" data-aos={fade}  >
+        <section className="carousel-wrapper"  >
             <div className="project-title-wrapper" data-aos={fade} >
                 <h4 className="project-title">{title}</h4>
             </div>

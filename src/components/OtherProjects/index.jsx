@@ -11,11 +11,11 @@ const OtherProjects = () => {
         <Container
             id="projects"
             className="portfolio-container center-align"
+            data-aos={fade}
         >
             <h3
                 id="projects"
                 className="left-align pt-3"
-                data-aos={fade}
             >
                 Previous Work
             </h3>

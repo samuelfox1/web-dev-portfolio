@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../../context/AppProvider';
-import Project from '../Project';
+import Project from './Project';
 import Header from './Header';
 
 const CurrentProject = () => {

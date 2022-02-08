@@ -1,6 +1,6 @@
 import React from 'react';
 import { v4 } from 'uuid';
-import { aosOptions } from '../../utils/aosConfig';
+import { aosOptions } from '../../../utils/aosConfig';
 const { fade } = aosOptions
 
 const ProjectImages = ({ images }) => {
