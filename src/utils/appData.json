@@ -1,0 +1,241 @@
+{
+    "about": {
+        "bio": "Full Stack Web Developer experienced with design, optimization, and security utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Graduate from the University of Washington’s Full Stack Flex Web Development program. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow. Backed by 10 years of experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces.",
+        "firstName": "Samuel",
+        "introduction": "Hello, My name is Sam.",
+        "lastName": "Fox",
+        "profilePicture": "https://i.imgur.com/zEvf4P4m.jpg",
+        "gitHub": "https://github.com/samuelfox1",
+        "linkedIn": "https://www.linkedin.com/in/samuel-fox-tacoma/",
+        "resume": "https://docs.google.com/document/d/e/2PACX-1vQ6fPlacPr0qKjQBI300n0Dk8TU6UDYxGyK5KLDD5nlxcL94B409jr2MCK3nVCw5f0Zu2OLdwbXidEe/pub"
+    },
+    "projects": {
+        "current": {
+            "appName": "tutorly",
+            "deploymentURL": "https://www.tutor-me.io",
+            "gitHubURL": "https://github.com/samuelfox1/tutor-assistant",
+            "repoName": "tutor-assistant",
+            "images": [
+                {
+                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102210/sjf-file-uploader/d7f82a3316ef5bbe474936f63a40bd80.png",
+                    "alt": "PWA splash screen"
+                },
+                {
+                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644104726/sjf-file-uploader/302bbf4388a025705ef85caf4ad8d793.jpg",
+                    "alt": "login"
+                },
+                {
+                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102586/sjf-file-uploader/46ae59f7a52d3e3621ddcc1090c6515f.png",
+                    "alt": "tutor home"
+                },
+                {
+                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644107090/sjf-file-uploader/b61f73913b6f1c67ffcd0d0cacdceb58.jpg",
+                    "alt": "email template designer"
+                }
+            ],
+            "technologies": [
+                "bulma",
+                "css",
+                "expressJS",
+                "git",
+                "gitHub",
+                "heroku",
+                "html",
+                "javaScript",
+                "mongoDB",
+                "mongoose",
+                "nodeJs",
+                "npm",
+                "postman",
+                "pwa",
+                "reactJS"
+            ]
+        },
+        "other": [
+            {
+                "id": 0,
+                "deployment": "https://radcats-karaoke.herokuapp.com/",
+                "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
+                "github": "https://github.com/chomieu/RadCaTS-Karaoke",
+                "src": "https://i.imgur.com/VcL4cwe.gif",
+                "technologies": [],
+                "title": "RadCats Karaoke"
+            },
+            {
+                "id": 1,
+                "deployment": "https://chomieu.github.io/Voicely/",
+                "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
+                "github": "https://github.com/samuelfox1/Voicely",
+                "src": "https://i.imgur.com/3aCWbYf.png",
+                "technologies": [],
+                "title": "Voicely"
+            },
+            {
+                "id": 2,
+                "deployment": "https://memorybank2021.herokuapp.com/",
+                "description": "Pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank.",
+                "github": "https://github.com/samuelfox1/memoryBank",
+                "src": "https://i.imgur.com/aAjKQ2z.png",
+                "technologies": [],
+                "title": "Memory Bank"
+            },
+            {
+                "id": 3,
+                "deployment": "https://drive.google.com/file/d/1WzvSdJ5hEFK0hBjxLI3c3xGqTGapBHTu/view",
+                "description": "Command line tool to build a professional webpage with color codeded contact cards for each employee or team member.",
+                "github": "https://samuelfox1.github.io/team-profile-generator/",
+                "src": "https://i.imgur.com/NaxcctC.png",
+                "technologies": [],
+                "title": "Team Page Generator"
+            },
+            {
+                "id": 4,
+                "deployment": "https://samuelfox1.github.io/Weather-e-Port/",
+                "description": "Allows a user to search for a City, State, or Country to explore the weather data hosted on OpenWeatherMap.org. Also reports today's UV-index, color coded to help you stay safe out there.",
+                "github": "https://github.com/samuelfox1/Weather-e-Port",
+                "src": "https://i.imgur.com/pPW6QPP.png",
+                "technologies": [],
+                "title": "Weather e.Port"
+            }
+        ]
+    },
+    "skills": [
+        "Creative Problem Solving",
+        "Attention to Detail",
+        "Critical Thinking",
+        "Engineering",
+        "Workflow",
+        "CI & CD",
+        "UI & Ux",
+        "AWS S3",
+        "AWS Route53",
+        "AWS CloudFront"
+    ],
+    "myTechnologies": {
+        "apolloGrapgQL": {
+            "href": "https://www.apollographql.com/",
+            "src": "https://img.shields.io/badge/-Apollo%20GraphQL-311C87?logo=Apollo%20GraphQL&logoColor=white",
+            "alt": "Apollo GraphQL"
+        },
+        "bootstrap": {
+            "href": "https://getbootstrap.com/",
+            "src": "https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white",
+            "alt": "Bootstrap"
+        },
+        "bulma": {
+            "href": "https://bulma.io/",
+            "src": "https://img.shields.io/badge/-Bulma-00D1B2?logo=Bulma&logoColor=white",
+            "alt": "Bulma"
+        },
+        "css": {
+            "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "src": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white",
+            "alt": "CSS"
+        },
+        "expressJS": {
+            "href": "https://expressjs.com/",
+            "src": "https://img.shields.io/badge/-ExpressJs-000000?logo=JavaScript&logoColor=yellow",
+            "alt": "ExpressJS"
+        },
+        "git": {
+            "href": "https://git-scm.com/",
+            "src": "https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white",
+            "alt": "Git"
+        },
+        "gitHub": {
+            "href": "https://github.com/",
+            "src": "https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white",
+            "alt": "GitHub"
+        },
+        "graphQL": {
+            "href": "https://graphql.org/",
+            "src": "https://img.shields.io/badge/-GraphQL-E10098?logo=GraphQL&logoColor=white",
+            "alt": "graphQL"
+        },
+        "handlebarsJs": {
+            "href": "https://handlebarsjs.com/",
+            "src": "https://img.shields.io/badge/-HandlebarsJs-FF7D00",
+            "alt": "HandlebarsJs"
+        },
+        "heroku": {
+            "href": "https://dashboard.heroku.com/login",
+            "src": "https://img.shields.io/badge/-Heroku-430098?logo=Heroku&logoColor=white",
+            "alt": "Heroku"
+        },
+        "html": {
+            "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+            "src": "https://img.shields.io/badge/-HTML-blue?logo=html5",
+            "alt": "HTML"
+        },
+        "javaScript": {
+            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+            "src": "https://img.shields.io/badge/-Javascript-yellow?logo=javascript",
+            "alt": "JavaScript"
+        },
+        "jQuery": {
+            "href": "https://jquery.com/",
+            "src": "https://img.shields.io/badge/-jQuery-0769AD?logo=jquery",
+            "alt": "jQuery"
+        },
+        "materialize": {
+            "href": "https://materializecss.com/",
+            "src": "https://img.shields.io/badge/-Materialize-FF7F7F?logo=Material%20Design&logoColor=white",
+            "alt": "Materialize"
+        },
+        "mongoDB": {
+            "href": "https://www.mongodb.com/",
+            "src": "https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white",
+            "alt": "MongoDB"
+        },
+        "mySQL": {
+            "href": "https://www.mysql.com/",
+            "src": "https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white",
+            "alt": "MySQL"
+        },
+        "nodeJs": {
+            "href": "https://nodejs.org/",
+            "src": "https://img.shields.io/badge/-NodeJs-339933?logo=node.js&logoColor=white",
+            "alt": "NodeJs"
+        },
+        "npm": {
+            "href": "https://www.npmjs.com/",
+            "src": "https://img.shields.io/badge/-npm-CB3837?logo=NPM",
+            "alt": "npm"
+        },
+        "mongoose": {
+            "href": "https://mongoosejs.com/",
+            "src": "https://img.shields.io/badge/-Mongoose%20ODM-47A248",
+            "alt": "Mongoose ODM"
+        },
+        "sequelize": {
+            "href": "https://sequelize.org/",
+            "src": "https://img.shields.io/badge/-Sequelize%20ORM-4479A1",
+            "alt": "Sequelize ORM"
+        },
+        "postman": {
+            "href": "https://www.postman.com/",
+            "src": "https://img.shields.io/badge/-Postman-FF6C37?logo=Postman&logoColor=white",
+            "alt": "Postman"
+        },
+        "pwa": {
+            "href": "https://web.dev/progressive-web-apps/",
+            "src": "https://img.shields.io/badge/-PWA-5A0FC8?logo=PWA&logoColor=white",
+            "alt": "PWA"
+        },
+        "reactJS": {
+            "href": "https://reactjs.org/",
+            "src": "https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB",
+            "alt": "ReactJS"
+        },
+        "sass": {
+            "href": "https://sass-lang.com/",
+            "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
+            "alt": "Sass"
+        },
+        "webpack": {
+            "href": "https://webpack.js.org/",
+            "src": "https://img.shields.io/badge/-Webpack-8DD6F9?logo=Webpack&logoColor=white",
+            "alt": "Webpack"
+        }
+    }
+}

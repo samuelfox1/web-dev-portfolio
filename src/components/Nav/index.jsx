@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Navbar, NavItem, Icon } from "react-materialize"
-
 import M from "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 
+import { AppContext } from "../../context/AppProvider";
+import './style.css'
+
 export default function Nav() {
+    const { about: { firstName, lastName } } = useContext(AppContext)
     const options = {
         draggable: true,
         edge: 'right',
@@ -16,7 +19,7 @@ export default function Nav() {
         outDuration: 200,
         preventScrolling: true
     }
-    const brand = <a href="/#root" className="brand-logo">Samuel Fox</a>
+    const brand = <a href="/#root" className="brand-logo">{`${firstName} ${lastName}`}</a>
     const menuIcon = <Icon >menue</Icon>
 
     return (

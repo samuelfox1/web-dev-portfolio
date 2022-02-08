@@ -1,4 +1,7 @@
 export const aosOptions = {
     flipUp: 'flip-up',
-    fade: 'fade',
+    flipDown: 'flip-down',
+    fade: 'fade-up',
+    // fade: 'fade',
+    fadeUp: 'fade-up',
 }

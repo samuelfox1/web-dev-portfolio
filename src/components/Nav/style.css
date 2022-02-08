@@ -1,0 +1,33 @@
+/* NAVBAR ========================================================== */
+nav {
+    background-color: #2b3035 !important ;
+  }
+  
+  .brand-logo {
+    position: absolute;
+    left: 2rem;
+  }
+  
+  .sidenav, .sidenav li>a {
+    margin: 1rem 0 0 0;
+    background-color: rgb(107, 107, 112) !important;
+    border: solid .1rem rgb(185, 185, 185);
+    border-radius: .3rem;
+    /* color: rgb(214, 214, 214) !important ; */
+    color: rgb(0, 204, 255)!important ;
+    border: solid .1rem rgb(0, 204, 255);
+    border-radius: .3rem;
+  }
+  
+  .sidenav {
+    width: 10rem;
+    height:auto;
+    background-color: rgba(0,0,0,0) !important;
+    border: none;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  
+  #mobile-nav {
+    margin-top: 0;
+  }

@@ -1,34 +1,32 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Col, Row } from 'react-materialize';
+import { AppContext } from '../../../context/AppProvider';
 import { aosOptions } from '../../../utils/aosConfig';
+import './style.css'
 
-const { fade, flipUp } = aosOptions
+const { fade } = aosOptions
 
 const AboutSection = () => {
+    const {
+        about: {
+            introduction,
+            bio,
+            profilePicture
+        }
+    } = useContext(AppContext)
     return (
-        <Row className="about-container center-align">
+        <Row className="about-container">
             <Col data-aos={fade}
                 s={12} m={12} l={12} >
-
-                <br />
                 <img
-                    data-aos={flipUp}
-                    src="https://i.imgur.com/zEvf4P4m.jpg"
-                    className="rounded portrait z-depth-5"
-                    alt="user profile" />
-                <h3 className='align-left'
-                > Hello !
-                </h3>
-                < h5 >My name is Sam.</h5>
-                <p>Graduate of the University of Washington's
-                    <a
-                        href="https://bootcamp.uw.edu/coding"
-                        className="portfolio-link hover"
-                        target="_blank"
-                        rel='noreferrer'
-                    >Fullstack</a>
-                    web development Coding Bootcamp.
-                </p>
+                    src={profilePicture}
+                    className="portrait"
+                    alt="my profile"
+                />
+
+                < h5 className='left-align' >{introduction}</h5>
+
+                <p className=''>{bio}</p>
             </Col>
         </Row>
 

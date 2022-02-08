@@ -30,10 +30,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
 }
 
 .carousel-project-links h3{
-    margin: 0 1em 0 1em
+    margin: 1em;
+    margin-top: 0;
 }
 
 .carousel-wrapper

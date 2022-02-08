@@ -3,9 +3,9 @@ import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
 import { v4 } from "uuid";
 
-import ProjectLinks from "../ProjectLinks";
+import ProjectLinks from "../../ProjectLinks";
 import "./style.css"
-import { aosOptions } from "../../utils/aosConfig";
+import { aosOptions } from "../../../utils/aosConfig";
 
 const { fade } = aosOptions
 
@@ -26,7 +26,7 @@ const Carousel = ({ projects }) => {
             }
         };
         const el = document.querySelector('#other-work')
-        console.log(el)
+        // console.log(el)
         M.Carousel.init(el, options);
 
         // Instance Plugin
@@ -40,7 +40,7 @@ const Carousel = ({ projects }) => {
     }, [index])
 
     const carousel = useMemo(() => (
-        <div className="carousel" id="other-work">
+        <div className="carousel" id="other-work" data-aos={fade}>
             {projects.map(({ src, alt }, index) => (
                 <div className="carousel-item" key={v4()} data-index={index}>
                     <img alt={alt} src={src} />
@@ -51,14 +51,15 @@ const Carousel = ({ projects }) => {
 
 
     return (
-        <section className="carousel-wrapper" data-aos={fade} >
-            <div className="project-title-wrapper">
+        <section className="carousel-wrapper"  >
+            <div className="project-title-wrapper" data-aos={fade} >
                 <h4 className="project-title">{title}</h4>
             </div>
+
             {carousel}
 
+            <p className="carousel-project-description" data-aos={fade} >{description}</p>
             <ProjectLinks github={github} deployment={deployment} />
-            <p className="carousel-project-description">{description}</p>
         </section >
     )
 }

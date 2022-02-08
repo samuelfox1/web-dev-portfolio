@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from "react-materialize"
 import { aosOptions } from '../../utils/aosConfig'
 import ContactUl from './ContactUl'
+import './style.css'
 
 const { fade } = aosOptions
 
