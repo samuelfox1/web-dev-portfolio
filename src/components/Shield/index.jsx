@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.css'
 
-export default function Shield({ data }) {
-    const { href, src, alt } = data
+export default function Shield({ technology }) {
+    const { href, src, alt } = technology
     return (
         <a href={href} target='_blank' rel='noreferrer'>
 

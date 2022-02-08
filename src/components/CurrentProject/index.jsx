@@ -2,11 +2,11 @@ import React from 'react';
 import Project from '../Project';
 import Header from './Header';
 
-const CurrentProject = ({ aos, project }) => {
+const CurrentProject = ({ currentProject }) => {
     return (
         <>
-            <Header aos={aos} />
-            <Project aos={aos} project={project} />
+            <Header />
+            <Project project={currentProject} />
         </>
     );
 };

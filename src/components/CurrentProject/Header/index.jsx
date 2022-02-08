@@ -1,11 +1,13 @@
 import React from 'react';
+import { aosOptions } from '../../../utils/aosConfig';
+const { flipUp } = aosOptions
 
-const Header = ({ aos }) => {
+const Header = () => {
     return (
-        <div data-aos={aos.project}>
-            <h3 className="left-align pt-2">
-                What am I working on now?
-            </h3>
+        <div data-aos={flipUp}>
+            <h4 className="left-align pt-2">
+                Current Work
+            </h4>
             <div className="divider"></div>
         </div>
 

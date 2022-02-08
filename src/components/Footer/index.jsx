@@ -1,22 +1,24 @@
 import React from 'react'
 import { Container, Row, Col } from "react-materialize"
-import { Div, Footer, H3, H6 } from '../Elements/Elements'
+import { aosOptions } from '../../utils/aosConfig'
 import ContactUl from './ContactUl'
+
+const { fade } = aosOptions
 
 
 export default function index({ aos }) {
     return (
 
         <>
-            <H3
+            <h3
                 id="contact"
                 className="footer-title"
-                dataAos={aos.footer}
+                data-aos={fade}
             >Contact
-            <Div className="divider"></Div>
-            </H3>
+                <div className="divider"></div>
+            </h3>
 
-            <Footer className="page-footer bg-transparent" dataAos={aos.footerContainer}>
+            <footer className="page-footer bg-transparent" data-aos={fade}>
                 <Container>
                     <Row >
                         <Col s={12} l={4}>
@@ -24,9 +26,9 @@ export default function index({ aos }) {
                         </Col>
                     </Row>
                 </Container>
-            </Footer>
-            <Div className="divider"></Div>
-            <H6 className="center-align" >2021</H6>
+            </footer>
+            <div className="divider"></div>
+            <h6 className="center-align" >2021</h6>
         </>
     )
 }

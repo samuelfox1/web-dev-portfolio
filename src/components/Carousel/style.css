@@ -8,6 +8,13 @@
     height: 200px;
 }
 
+.carousel .carousel-item>img {
+    border-radius: 4px;
+}
+.carousel .carousel-item.active>img {
+    border: solid white 1px !important;
+}
+
 .carousel-wrapper
 .project-title-wrapper {
     min-height: 8em;

@@ -1,12 +1,15 @@
 import React from 'react';
 import { v4 } from 'uuid';
+import { aosOptions } from '../../utils/aosConfig';
+const { flipUp } = aosOptions
 
-const ProjectImages = ({ screenshots }) => {
+const ProjectImages = ({ images }) => {
     return (
         <div id="current-project-images">
             {
-                screenshots.map(({ src, alt }) => (
-                    <div key={v4()} >
+                images.map(({ src, alt }) => (
+                    <div key={v4()} data-aos={flipUp}
+                    >
                         <a
                             href={src}
                             target="_blank"

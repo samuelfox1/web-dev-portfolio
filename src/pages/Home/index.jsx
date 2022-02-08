@@ -1,17 +1,17 @@
 import React from "react"
 import { Container } from "react-materialize"
 import "aos/dist/aos.css"
-import AboutSection from "./About"
-import ProjectsSection from "../../components/ProjectsSection"
-import Skills from "./Skills"
+import AboutSection from "./AboutSection"
+import ProjectsSection from "./ProjectsSection"
+import SkillsSection from "./SkillsSection"
 
 
-export default function Home({ aos }) {
+export default function Home() {
     return (
         <Container id="hello">
-            <AboutSection aos={aos} />
-            <Skills />
-            <ProjectsSection aos={aos} />
+            <AboutSection />
+            <SkillsSection />
+            <ProjectsSection />
         </Container >
     )
 }

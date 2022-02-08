@@ -14,28 +14,20 @@ export default function App() {
 
   useEffect(() => Aos.init({ duration: 1500, offset: 200 }), [])
 
-  const aos = {
-    hello: 'flip-up',
-    project: 'flip-up',
-    projectCard1: 'fade',
-    projectCard2: 'fade',
-    footer: 'flip-up',
-    footerContainer: 'fade'
-  }
 
-  window.onload = () => {
-    setLoaded(true)
-  }
+  window.onload = () => setLoaded(true)
+
+  const getComponent = () => (
+    loaded
+      ? <Home />
+      : <div className="preloader"><Preloader /></div>
+  )
 
   return (
     <>
       <Nav />
-      {
-        loaded
-          ? <Home aos={aos} />
-          : <div className="preloader"><Preloader /></div>
-      }
-      <Footer aos={aos} />
+      {getComponent()}
+      <Footer />
     </>
   )
 }
