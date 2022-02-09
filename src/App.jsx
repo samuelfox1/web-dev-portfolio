@@ -5,8 +5,6 @@ import Home from "./pages/Home"
 import Footer from "./components/Footer"
 import Aos from "aos"
 import "aos/dist/aos.css"
-import './App.css'
-
 
 export default function App() {
 
@@ -20,7 +18,11 @@ export default function App() {
   const getComponent = () => (
     loaded
       ? <Home />
-      : <div className="preloader"><Preloader /></div>
+      : (
+        <div className="preloader">
+          <Preloader />
+        </div>
+      )
   )
 
   return (

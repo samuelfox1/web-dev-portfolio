@@ -1,0 +1,9 @@
+.contact-row {
+  margin: 1em 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+footer>div>h6 {
+  padding-bottom: 1em;
+}

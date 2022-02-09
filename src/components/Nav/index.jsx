@@ -32,7 +32,8 @@ export default function Nav() {
             alignLinks="right"
             menuIcon={menuIcon}
         >
-            <NavItem href="/#projects" className="sidenav-close">Projects</NavItem>
+            <NavItem href="/#current-work" className="sidenav-close">Current Work</NavItem>
+            <NavItem href="/#previous-work" className="sidenav-close">Previous Work</NavItem>
             <NavItem href="/#contact" className="sidenav-close">Contact</NavItem>
         </Navbar>
     )
