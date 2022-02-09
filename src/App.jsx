@@ -20,7 +20,7 @@ export default function App() {
       ? <Home />
       : (
         <div className="preloader">
-          <Preloader />
+          <Preloader size='big' />
         </div>
       )
   )

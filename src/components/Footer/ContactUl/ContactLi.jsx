@@ -1,15 +1,19 @@
 import React from 'react';
 
-const ContactLi = ({ children, href }) => {
+const ContactLi = ({ href, text, icon }) => {
+
+    const getTarget = () => href.startsWith('#') ? '' : '_blank'
+
     return (
-        <li>
+        <li >
             <a
-                className='contact-row hover'
                 href={href}
-                target='_blank'
+                target={getTarget()}
                 rel='noreferrer'
+                className='hover'
             >
-                {children}
+                {text}
+                <i className={`ml-1 ${icon}`}></i>
             </a>
         </li>
     );

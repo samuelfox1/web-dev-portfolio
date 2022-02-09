@@ -1,10 +1,10 @@
 .shield {
     margin: .25rem;
     border:1px solid rgba(0, 0, 0, 0.5) ;
-    border-radius: .3rem;
+    border-radius: var(--border-radius);
   }
   
   .shield:hover {
     border:3px solid rgba(0, 0, 0, 0) ;
-    border-radius: .3rem;
+    border-radius: var(--border-radius);
   }

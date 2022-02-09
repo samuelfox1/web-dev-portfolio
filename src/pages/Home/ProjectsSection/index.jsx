@@ -1,5 +1,4 @@
 import React from "react"
-import { Container } from "react-materialize"
 
 import CurrentWork from "../../../components/CurrentWork"
 import OtherWork from "../../../components/OtherWork"
