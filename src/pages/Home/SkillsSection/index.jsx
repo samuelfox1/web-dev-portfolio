@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Col, Row } from 'react-materialize';
+import { Col, Divider, Row } from 'react-materialize';
 import { v4 } from 'uuid';
 import Shield from '../../../components/Shield';
 import { AppContext } from '../../../context/AppProvider';
@@ -18,7 +18,7 @@ const SkillsSection = () => {
             >
                 <ul>
                     <li><h5 >❯ skills ❮</h5></li>
-                    <li><div className="divider"></div></li>
+                    <li><Divider /></li>
                     {skills.map(skill => <Skill key={v4()}>{skill}</Skill>)}
                 </ul>
             </Col>
@@ -27,7 +27,7 @@ const SkillsSection = () => {
                 data-aos={fade}
             >
                 <h5>❯ Technologies ❮</h5>
-                <div className="divider"></div>
+                <Divider />
                 {Object.values(myTechnologies).map((technology) => <Shield key={v4()} technology={technology} />)}
             </Col>
         </Row >

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Col, Row } from 'react-materialize';
+import { v4 } from 'uuid';
 import { AppContext } from '../../../context/AppProvider';
 import { aosOptions } from '../../../utils/aosConfig';
 import './style.css'
@@ -24,9 +25,9 @@ const AboutSection = () => {
                     alt="my profile"
                 />
 
-                < h5 className='left-align' >{introduction}</h5>
+                < h5 className='left-align mt-0' >{introduction}</h5>
 
-                <p className=''>{bio}</p>
+                {bio.map(statement => <p key={v4()} >{statement}</p>)}
             </Col>
         </Row>
 

@@ -1,16 +1,16 @@
 import React, { useContext } from 'react';
 import { AppContext } from '../../context/AppProvider';
+import SectionHeader from '../SectionHeader';
 import Project from './Project';
-import Header from './Header';
 
-const CurrentProject = () => {
+const CurrentWork = () => {
     const { projects: { current } } = useContext(AppContext)
     return (
-        <>
-            <Header />
+        <div id='current-work'>
+            <SectionHeader >Current Work</SectionHeader>
             <Project project={current} />
-        </>
+        </div>
     );
 };
 
-export default CurrentProject;
+export default CurrentWork;

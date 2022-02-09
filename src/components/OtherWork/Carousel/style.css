@@ -1,5 +1,5 @@
 .carousel-wrapper {
-    border-radius: 1em;
+    border-radius: var(--border-radius);
     padding-top: 0;
     min-height: 70vh ;
 }
@@ -9,7 +9,7 @@
 }
 
 .carousel .carousel-item>img {
-    border-radius: 4px;
+    border-radius: var(--border-radius);
 }
 .carousel .carousel-item.active>img {
     border: solid white 1px !important;

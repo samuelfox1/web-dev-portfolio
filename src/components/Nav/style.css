@@ -1,33 +1,50 @@
-/* NAVBAR ========================================================== */
-nav {
-    background-color: #2b3035 !important ;
-  }
-  
-  .brand-logo {
-    position: absolute;
-    left: 2rem;
-  }
-  
-  .sidenav, .sidenav li>a {
-    margin: 1rem 0 0 0;
-    background-color: rgb(107, 107, 112) !important;
-    border: solid .1rem rgb(185, 185, 185);
-    border-radius: .3rem;
-    /* color: rgb(214, 214, 214) !important ; */
-    color: rgb(0, 204, 255)!important ;
-    border: solid .1rem rgb(0, 204, 255);
-    border-radius: .3rem;
-  }
-  
+nav, nav.nav-wrapper {
+  position: relative;
+  display: inline-block;
+  background: -webkit-linear-gradient(left, var(--nav-color) 0%, var(--nav-color-solid) 40%, var(--nav-color-solid) 60%, var(--nav-color) 100%);
+  /* background-color: var(--nav-color-solid); */
+}
+
+/* nav name position from left of screen, remains centeres on mobile */
+.brand-logo {
+  left: .5em;
+}
+
+/* poaition menu icon */
+nav .sidenav-trigger {
+  float: right;
+  margin: 0 0 0 0;
+}
+
+/* overwrite materialize-css */
+.sidenav {
+  /* border: solid red 1px; */
+  top: 64px;
+  background-color: var(--nav-color);
+  background: -webkit-linear-gradient(236deg, var(--nav-color-solid) 0%, var(--nav-color-solid) 30%,var(--transparent) 100%);
+
+  backdrop-filter: blur(5px);
+  box-shadow: none;
+}
+
+/* sidnav link styling */
+.sidenav li>a {
+  margin: 1em;
+  border: solid .1rem var(--theme0);
+  border-radius: var(--border-radius);
+  backdrop-filter: blur(5px);
+  text-align: center;
+  color: var(--text-light);
+}
+
+/* overwrite materialize-css */
+#mobile-nav {
+  margin-top: 0;
+}
+
+/* adjust sidenav position on tablet/mobile devices */
+@media screen and (max-width: 600px) {
   .sidenav {
-    width: 10rem;
-    height:auto;
-    background-color: rgba(0,0,0,0) !important;
-    border: none;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    top: 54px;
   }
-  
-  #mobile-nav {
-    margin-top: 0;
-  }
+}
