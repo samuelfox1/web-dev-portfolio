@@ -39,7 +39,7 @@
             "technologies": [
                 "bulma",
                 "css",
-                "expressJS",
+                "expressJs",
                 "git",
                 "gitHub",
                 "heroku",
@@ -51,12 +51,30 @@
                 "npm",
                 "postman",
                 "pwa",
-                "reactJS"
+                "reactJs"
             ]
         },
         "other": [
             {
                 "id": 0,
+                "deployment": "https://www.samueljfox.com",
+                "description": "A personal portfolio showcasing the knowledge and skills acquired in my web developer journey.",
+                "github": "https://github.com/samuelfox1/web-dev-portfolio",
+                "src": "https://raw.githubusercontent.com/samuelfox1/web-dev-portfolio/main/assets/screenshots/0.png",
+                "technologies": [],
+                "title": "Personal Portfolio"
+            },
+            {
+                "id": 1,
+                "deployment": "https://samuelfox1.github.io/crypto-keychain/",
+                "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
+                "github": "https://github.com/samuelfox1/crypto-keychain",
+                "src": "https://i.imgur.com/VcL4cwe.gif",
+                "technologies": [],
+                "title": "RadCats Karaoke"
+            },
+            {
+                "id": 2,
                 "deployment": "https://radcats-karaoke.herokuapp.com/",
                 "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
                 "github": "https://github.com/chomieu/RadCaTS-Karaoke",
@@ -65,7 +83,7 @@
                 "title": "RadCats Karaoke"
             },
             {
-                "id": 1,
+                "id": 3,
                 "deployment": "https://chomieu.github.io/Voicely/",
                 "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
                 "github": "https://github.com/samuelfox1/Voicely",
@@ -74,31 +92,13 @@
                 "title": "Voicely"
             },
             {
-                "id": 2,
-                "deployment": "https://memorybank2021.herokuapp.com/",
-                "description": "Pause and reflect on your daily horoscope and mental space. Save each day's reflection as a memory in your memory bank.",
-                "github": "https://github.com/samuelfox1/memoryBank",
-                "src": "https://i.imgur.com/aAjKQ2z.png",
-                "technologies": [],
-                "title": "Memory Bank"
-            },
-            {
-                "id": 3,
+                "id": 5,
                 "deployment": "https://drive.google.com/file/d/1WzvSdJ5hEFK0hBjxLI3c3xGqTGapBHTu/view",
                 "description": "Command line tool to build a professional webpage with color codeded contact cards for each employee or team member.",
                 "github": "https://samuelfox1.github.io/team-profile-generator/",
                 "src": "https://i.imgur.com/NaxcctC.png",
                 "technologies": [],
                 "title": "Team Page Generator"
-            },
-            {
-                "id": 4,
-                "deployment": "https://samuelfox1.github.io/Weather-e-Port/",
-                "description": "Allows a user to search for a City, State, or Country to explore the weather data hosted on OpenWeatherMap.org. Also reports today's UV-index, color coded to help you stay safe out there.",
-                "github": "https://github.com/samuelfox1/Weather-e-Port",
-                "src": "https://i.imgur.com/pPW6QPP.png",
-                "technologies": [],
-                "title": "Weather e.Port"
             }
         ]
     },
@@ -135,15 +135,20 @@
             "src": "https://img.shields.io/badge/-Bulma-00D1B2?logo=Bulma&logoColor=white",
             "alt": "Bulma"
         },
+        "cryptoJs": {
+            "href": "https://github.com/brix/crypto-js",
+            "src": "https://img.shields.io/badge/-cryptoJs-white?logo=javascript&logoColor=black",
+            "alt": "CryptoJs"
+        },
         "css": {
             "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
             "src": "https://img.shields.io/badge/-CSS-white?logo=css3&logoColor=1572B6",
             "alt": "CSS"
         },
-        "expressJS": {
-            "href": "https://expressjs.com/",
+        "expressJs": {
+            "href": "https://expressJs.com/",
             "src": "https://img.shields.io/badge/-ExpressJs-000000?logo=JavaScript&logoColor=yellow",
-            "alt": "ExpressJS"
+            "alt": "ExpressJs"
         },
         "git": {
             "href": "https://git-scm.com/",
@@ -177,7 +182,7 @@
         },
         "javaScript": {
             "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-            "src": "https://img.shields.io/badge/-Javascript-yellow?logo=javascript",
+            "src": "https://img.shields.io/badge/-Javascript-232F3E?logo=javascript",
             "alt": "JavaScript"
         },
         "jQuery": {
@@ -230,10 +235,10 @@
             "src": "https://img.shields.io/badge/-PWA-5A0FC8?logo=PWA&logoColor=white",
             "alt": "PWA"
         },
-        "reactJS": {
+        "reactJs": {
             "href": "https://reactjs.org/",
-            "src": "https://img.shields.io/badge/-ReactJS-000000?logo=React&logoColor=61DAFB",
-            "alt": "ReactJS"
+            "src": "https://img.shields.io/badge/-ReactJs-000000?logo=React&logoColor=61DAFB",
+            "alt": "ReactJs"
         },
         "sass": {
             "href": "https://sass-lang.com/",
