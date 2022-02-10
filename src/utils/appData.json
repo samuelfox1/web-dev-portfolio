@@ -120,6 +120,11 @@
             "src": "https://img.shields.io/badge/-Apollo%20GraphQL-311C87?logo=Apollo%20GraphQL&logoColor=white",
             "alt": "Apollo GraphQL"
         },
+        "amazonAws": {
+            "href": "https://aws.amazon.com/",
+            "src": "https://img.shields.io/badge/-Amazon%20AWS-232F3E?logo=Amazon%20AWS&logoColor=FF9900",
+            "alt": "Amazon AWS"
+        },
         "bootstrap": {
             "href": "https://getbootstrap.com/",
             "src": "https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white",
@@ -132,7 +137,7 @@
         },
         "css": {
             "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "src": "https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white",
+            "src": "https://img.shields.io/badge/-CSS-white?logo=css3&logoColor=1572B6",
             "alt": "CSS"
         },
         "expressJS": {
@@ -167,7 +172,7 @@
         },
         "html": {
             "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
-            "src": "https://img.shields.io/badge/-HTML-blue?logo=html5",
+            "src": "https://img.shields.io/badge/-HTML-white?logo=html5",
             "alt": "HTML"
         },
         "javaScript": {
@@ -234,6 +239,11 @@
             "href": "https://sass-lang.com/",
             "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
             "alt": "Sass"
+        },
+        "visualStudioCode": {
+            "href": "https://code.visualstudio.com/",
+            "src": "https://img.shields.io/badge/-Visual%20Studio%20Code-white?logo=Visual%20Studio%20Code&logoColor=007ACC",
+            "alt": "Visual Studio Code"
         },
         "webpack": {
             "href": "https://webpack.js.org/",

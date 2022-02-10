@@ -16,19 +16,19 @@ const SkillsSection = () => {
                 className="skills-card"
                 data-aos={fade}
             >
-                <ul>
-                    <li><h5 >❯ skills ❮</h5></li>
-                    <li><Divider /></li>
-                    {skills.map(skill => <Skill key={v4()}>{skill}</Skill>)}
-                </ul>
+                <h5>❯ Technologies ❮</h5>
+                <Divider />
+                {Object.values(myTechnologies).map((technology) => <Shield key={v4()} technology={technology} />)}
             </Col>
             <Col s={12} m={6} l={6}
                 className="skills-card"
                 data-aos={fade}
             >
-                <h5>❯ Technologies ❮</h5>
-                <Divider />
-                {Object.values(myTechnologies).map((technology) => <Shield key={v4()} technology={technology} />)}
+                <ul>
+                    <li><h5 >❯ skills ❮</h5></li>
+                    <li><Divider /></li>
+                    {skills.map(skill => <Skill key={v4()}>{skill}</Skill>)}
+                </ul>
             </Col>
         </Row >
     );
