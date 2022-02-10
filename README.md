@@ -23,8 +23,10 @@ A personal portfolio showcasing the knowledge and skills acquired in my web deve
 
 <br/>
 
+<div style="display:flex; flex-wrap:wrap;">
 <img src="assets/screenshots/0.png" width="300px" alt="screenshot"/>
 <img src="assets/screenshots/1.png" width="300px" alt="screenshot"/>
+</div>
 
 ## Questions
 
