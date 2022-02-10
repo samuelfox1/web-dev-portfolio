@@ -23,9 +23,8 @@ A personal portfolio showcasing the knowledge and skills acquired in my web deve
 
 <br/>
 
-<img src="https://res.cloudinary.com/memorybank/image/upload/v1644511935/sjf-file-uploader/7bf152e9b49aeace612f7e9ddd67d0f4.png" width="400px" alt="screenshot"/>
-<img src="https://res.cloudinary.com/memorybank/image/upload/v1644511976/sjf-file-uploader/0cad20412604696ac050513da6d14492.png" width="400px" alt="screenshot"/>
-
+<img src="assets/screenshots/0.png" width="400px" alt="screenshot"/>
+<img src="assets/screenshots/1.png" width="400px" alt="screenshot"/>
 
 ## Questions
 
