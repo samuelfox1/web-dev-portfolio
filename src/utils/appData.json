@@ -104,15 +104,12 @@
     },
     "skills": [
         "Creative Problem Solving",
-        "Attention to Detail",
         "Critical Thinking",
+        "Team Oriented",
         "Engineering",
         "Workflow",
         "CI & CD",
-        "UI & Ux",
-        "AWS S3",
-        "AWS Route53",
-        "AWS CloudFront"
+        "UI & Ux"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
