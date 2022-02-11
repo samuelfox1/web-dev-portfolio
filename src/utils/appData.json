@@ -1,11 +1,11 @@
 {
     "about": {
         "bio": [
-            "Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
+            "My name is Sam, I am a Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
             "Graduate from the University of Washington's Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
         ],
         "firstName": "Samuel",
-        "introduction": "Hello, My name is Sam.",
+        "introduction": "Welcome!",
         "lastName": "Fox",
         "profilePicture": "https://i.imgur.com/zEvf4P4m.jpg",
         "gitHub": "https://github.com/samuelfox1",
