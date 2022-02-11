@@ -1,42 +1,37 @@
-import React, { useContext } from 'react';
-import { v4 } from 'uuid';
+import React, { useContext } from "react";
+import { v4 } from "uuid";
 
-import Shield from '../../Shield';
-import ProjectImages from '../ProjectImages';
-import ProjectLinks from '../../ProjectLinks';
-import { aosOptions } from '../../../utils/aosConfig';
-import { AppContext } from '../../../context/AppProvider';
+import Shield from "../../Shield";
+import ProjectImages from "../ProjectImages";
+import ProjectLinks from "../../ProjectLinks";
+import { AppContext } from "../../../context/AppProvider";
 
-import './style.css'
-
-const { fade } = aosOptions
+import "./style.css";
 
 const Project = ({ project }) => {
-    const { myTechnologies } = useContext(AppContext)
+  const { myTechnologies } = useContext(AppContext);
 
-    const {
-        appName,
-        deploymentURL,
-        description,
-        gitHubURL,
-        technologies,
-        images,
-    } = project
+  const {
+    appName,
+    deploymentURL,
+    description,
+    gitHubURL,
+    technologies,
+    images,
+  } = project;
 
-    return (
-        <div data-aos={fade}>
-            <h5 className="pt-1">
-                Welcome to {appName}
-            </h5>
-            <ProjectImages images={images} />
-            <div data-aos={fade}>
-                <ProjectLinks deployment={deploymentURL} github={gitHubURL} />
-                <p >{description}</p>
-                <p>A project built utilizing:</p>
-                {technologies.map((technology) => <Shield key={v4()} technology={myTechnologies[technology]} />)}
-            </div>
-        </div>
-    )
+  return (
+    <>
+      <h5 className="left-align pt-1">Welcome to {appName}</h5>
+      <ProjectImages images={images} />
+      <ProjectLinks deployment={deploymentURL} github={gitHubURL} />
+      <p>{description}</p>
+      <p className="left-align pt-1">Tools & Tech:</p>
+      {technologies.map((technology) => (
+        <Shield key={v4()} technology={myTechnologies[technology]} />
+      ))}
+    </>
+  );
 };
 
 export default Project;

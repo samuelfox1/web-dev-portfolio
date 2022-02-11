@@ -1,18 +1,13 @@
-import React from 'react'
+import React from "react";
 
-import './style.css'
+import "./style.css";
 
 const Button = ({ children, href }) => {
-    return (
-        <a
-            href={href}
-            className="btn-custom"
-            target="_blank"
-            rel="noreferrer"
-        >
-            {children}
-        </a>
-    )
-}
+  return (
+    <a href={href} className="btn-custom" target="_blank" rel="noreferrer">
+      {children}
+    </a>
+  );
+};
 
-export default Button
+export default Button;
