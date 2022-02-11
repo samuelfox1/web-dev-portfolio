@@ -104,12 +104,12 @@
     },
     "skills": [
         "Creative Problem Solving",
+        "Google + StackOverflow",
+        "Reads Error Messages",
+        "Naming Conventions",
         "Critical Thinking",
-        "Team Oriented",
-        "Engineering",
-        "Workflow",
-        "CI & CD",
-        "UI & Ux"
+        "Reads the Docs",
+        "Team Player"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
