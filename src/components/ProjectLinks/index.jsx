@@ -1,16 +1,29 @@
 import React from 'react';
+import { FaGithubSquare } from 'react-icons/fa'
+import { IoIosRocket } from 'react-icons/io'
+
+import Button from '../Button';
+
 import { aosOptions } from '../../utils/aosConfig';
+import './style.css'
+
 const { fade } = aosOptions
 
 const ProjectLinks = ({ deployment, github }) => {
+
     return (
-        <div className="carousel-project-links" data-aos={fade} >
-            <h3>
-                <a href={github} target="_blank" rel="noreferrer"><i className="fab fa-github" /></a>
-            </h3>
-            <h3>
-                <a href={deployment} target="_blank" rel="noreferrer"><i className="fas fa-mobile-alt"></i></a>
-            </h3>
+        <div className="project-links" data-aos={fade} >
+            <Button href={github}>
+                Github
+                <FaGithubSquare className='ml-1' size={30} />
+            </Button>
+            <Button
+                href={deployment}
+            >
+                Deployment
+                <IoIosRocket className='ml-1' size={30} />
+            </Button>
+            {/* <a className="btn">test</a> */}
         </div>
     );
 };

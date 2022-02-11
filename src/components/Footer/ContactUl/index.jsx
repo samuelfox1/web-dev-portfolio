@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
-import { Container, Row } from 'react-materialize'
+import { FaGithubSquare, FaLinkedin, FaFile, FaLevelUpAlt } from 'react-icons/fa'
+
 import { AppContext } from '../../../context/AppProvider'
 import ContactLi from './ContactLi'
 
@@ -20,23 +21,31 @@ export default function ContactUl() {
             <ContactLi
                 href={gitHub}
                 icon='fab fa-github-square'
-                text='GitHub'
-            />
+            >
+                GitHub
+                <FaGithubSquare className='ml-1' size={30} />
+            </ContactLi>
             <ContactLi
                 href={linkedIn}
                 icon='fab fa-linkedin'
-                text='LinkedIn'
-            />
+            >
+                LinkedIn
+                <FaLinkedin className='ml-1' size={30} />
+            </ContactLi>
             <ContactLi
                 href={resume}
                 icon='fas fa-file-alt'
-                text='Resume'
-            />
+            >
+                Resume
+                <FaFile className='ml-1' size={30} />
+            </ContactLi>
             <ContactLi
                 href='#root'
                 icon='fas fa-level-up'
-                text='Top'
-            />
+            >
+                Top
+                <FaLevelUpAlt className='ml-1' size={30} />
+            </ContactLi>
         </ul>
     )
 }

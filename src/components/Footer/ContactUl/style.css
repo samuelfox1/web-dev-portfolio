@@ -22,5 +22,10 @@
     width:  fit-content;
     font-size: 1.3em;
     line-height: 3em;
-    color: var(--theme0);
+    color: var(--color-text);
+}
+
+/* footer icon */
+#contact ul li a svg {
+    color: var(--color-theme);
 }

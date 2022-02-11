@@ -58,8 +58,8 @@ const Carousel = ({ projects }) => {
 
             {carousel}
 
-            <p className="carousel-project-description" data-aos={fade} >{description}</p>
             <ProjectLinks github={github} deployment={deployment} />
+            <p className="carousel-project-description" data-aos={fade} >{description}</p>
         </section >
     )
 }

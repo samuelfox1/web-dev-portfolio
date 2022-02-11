@@ -1,6 +1,11 @@
 /* overwrite materialize */
 .page-footer {
-    background-color: var(--transparent);
+    background-color: var(--color-none);
     display: flex;
     justify-content: flex-end;
+}
+
+footer h6 {
+    margin: 1em 0;
+    color: var(--color-text-lightest);
 }
