@@ -70,13 +70,16 @@ a:-webkit-any-link{
 /* center text on mobile devices */
 @media screen and (max-width: 480px) {
 
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800) {
+  
   body {
     background-size: inherit;
     background-position: inherit;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    text-align: center;
   }
 }
 
