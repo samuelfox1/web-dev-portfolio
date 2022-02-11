@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Navbar, NavItem, Icon } from "react-materialize"
-import "materialize-css/dist/js/materialize.min.js";
+import { FaGlasses } from 'react-icons/fa'
+// import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 
 import { AppContext } from "../../context/AppProvider";
@@ -33,9 +34,27 @@ export default function Nav() {
             alignLinks="right"
             menuIcon={menuIcon}
         >
-            <NavItem href="/#current-work" className="sidenav-close">Current Work</NavItem>
-            <NavItem href="/#previous-work" className="sidenav-close">Previous Work</NavItem>
-            <NavItem href="/#contact" className="sidenav-close" >Contact</NavItem>
+            <NavItem
+                href="/#current-work"
+                className="sidenav-close"
+            >
+                Current Work
+                <FaGlasses />
+            </NavItem>
+            <NavItem
+                href="/#previous-work"
+                className="sidenav-close"
+            >
+                Previous Work
+                <FaGlasses />
+            </NavItem>
+            <NavItem
+                href="/#contact"
+                className="sidenav-close"
+            >
+                Contact
+                <FaGlasses />
+            </NavItem>
         </Navbar>
     )
 }

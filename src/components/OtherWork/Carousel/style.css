@@ -8,6 +8,11 @@
     height: 200px;
 }
 
+.carousel .carousel-item {
+    overflow-x: scroll;
+}
+
+
 .carousel .carousel-item>img {
     border-radius: var(--border-radius);
 }
@@ -23,20 +28,6 @@
     align-items: center;
 }
 
-/* .project-title-wrapper .project-title {
-} */
-
-.carousel-project-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0;
-}
-
-.carousel-project-links h3{
-    margin: 1em;
-    margin-top: 0;
-}
 
 .carousel-wrapper
 .carousel-project-description{

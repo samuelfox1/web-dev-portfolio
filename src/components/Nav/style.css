@@ -1,8 +1,8 @@
 nav, nav.nav-wrapper {
   position: relative;
   display: inline-block;
-  background: -webkit-linear-gradient(left, var(--nav-color) 0%, var(--nav-color-solid) 40%, var(--nav-color-solid) 60%, var(--nav-color) 100%);
-  /* background-color: var(--nav-color-solid); */
+  background-color: var(--color-nav);
+  border-bottom: solid var(--color-theme-lighter) 1px;
 }
 
 /* nav name position from left of screen, remains centeres on mobile */
@@ -20,21 +20,21 @@ nav .sidenav-trigger {
 .sidenav {
   /* border: solid red 1px; */
   top: 64px;
-  background-color: var(--nav-color);
-  background: -webkit-linear-gradient(236deg, var(--nav-color-solid) 0%, var(--nav-color-solid) 30%,var(--transparent) 100%);
-
+  width: fit-content;
+  background: -webkit-linear-gradient(236deg, var(--color-nav) 0%, var(--color-nav) 30%,var(--color-none) 100%);
   backdrop-filter: blur(5px);
   box-shadow: none;
 }
 
-/* sidnav link styling */
-.sidenav li>a {
-  margin: 1em;
-  border: solid .1rem var(--theme0);
-  border-radius: var(--border-radius);
-  backdrop-filter: blur(5px);
-  text-align: center;
-  color: var(--text-light);
+/* align button contents to right */
+.sidenav li>a.sidenav-close {
+  justify-content: flex-end;
+}
+
+/* space between button text and icon */
+.sidenav-close svg {
+  margin-left: .5em;
+  color: var(--color-theme);
 }
 
 /* overwrite materialize-css */
@@ -44,6 +44,10 @@ nav .sidenav-trigger {
 
 /* adjust sidenav position on tablet/mobile devices */
 @media screen and (max-width: 600px) {
+  nav, nav.nav-wrapper {
+    background: -webkit-linear-gradient(left, var(--color-nav-lighter) 0%, var(--color-nav) 40%, var(--color-nav) 60%, var(--color-nav-lighter) 100%);
+  }
+
   .sidenav {
     top: 54px;
   }

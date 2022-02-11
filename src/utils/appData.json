@@ -2,7 +2,7 @@
     "about": {
         "bio": [
             "Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
-            "Graduate from the University of Washington’s Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
+            "Graduate from the University of Washington's Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
         ],
         "firstName": "Samuel",
         "introduction": "Hello, My name is Sam.",
@@ -69,9 +69,9 @@
                 "deployment": "https://samuelfox1.github.io/crypto-keychain/",
                 "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
                 "github": "https://github.com/samuelfox1/crypto-keychain",
-                "src": "https://i.imgur.com/VcL4cwe.gif",
+                "src": "https://raw.githubusercontent.com/samuelfox1/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
                 "technologies": [],
-                "title": "RadCats Karaoke"
+                "title": "Crypto Keychain"
             },
             {
                 "id": 2,
