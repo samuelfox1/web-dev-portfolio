@@ -1,8 +1,15 @@
 nav, nav.nav-wrapper {
   position: relative;
   display: inline-block;
-  background-color: var(--color-nav);
-  border-bottom: solid var(--color-theme-lighter) 1px;
+  background-color: var(--color-nav-lighter);
+
+  background: -webkit-linear-gradient(
+    left, 
+    var(--color-nav-lighter) 0%,
+    var(--color-nav) 40%,
+    var(--color-nav) 60%,
+    var(--color-nav-lighter) 100%
+  );
 }
 
 /* nav name position from left of screen, remains centeres on mobile */
@@ -21,7 +28,14 @@ nav .sidenav-trigger {
   /* border: solid red 1px; */
   top: 64px;
   width: fit-content;
-  background: -webkit-linear-gradient(236deg, var(--color-nav) 0%, var(--color-nav) 30%,var(--color-none) 100%);
+
+  background: -webkit-linear-gradient(
+    236deg,
+    var(--color-nav) 0%,
+    var(--color-nav) 30%,
+    var(--color-none) 100%
+  );
+
   backdrop-filter: blur(5px);
   box-shadow: none;
 }
@@ -44,9 +58,6 @@ nav .sidenav-trigger {
 
 /* adjust sidenav position on tablet/mobile devices */
 @media screen and (max-width: 600px) {
-  nav, nav.nav-wrapper {
-    background: -webkit-linear-gradient(left, var(--color-nav-lighter) 0%, var(--color-nav) 40%, var(--color-nav) 60%, var(--color-nav-lighter) 100%);
-  }
 
   .sidenav {
     top: 54px;
