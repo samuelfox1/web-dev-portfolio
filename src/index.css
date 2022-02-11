@@ -75,8 +75,8 @@ a:-webkit-any-link{
   }
 }
 
-@media screen and (max-width: 800) {
-  
+@media screen and (max-width: 800px) {
+
   body {
     background-size: inherit;
     background-position: inherit;
