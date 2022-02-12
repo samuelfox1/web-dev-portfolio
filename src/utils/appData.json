@@ -103,13 +103,13 @@
         ]
     },
     "skills": [
-        "Creative Problem Solving",
-        "Google + StackOverflow",
-        "Reads Error Messages",
-        "Naming Conventions",
-        "Critical Thinking",
+        "Team Player",
         "Reads the Docs",
-        "Team Player"
+        "Critical Thinking",
+        "Naming Conventions",
+        "Reads Error Messages",
+        "Google + StackOverflow",
+        "Creative Problem Solving"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
