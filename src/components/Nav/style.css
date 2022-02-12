@@ -1,10 +1,11 @@
-nav, nav.nav-wrapper {
+nav,
+nav.nav-wrapper {
   position: relative;
   display: inline-block;
   background-color: var(--color-nav-lighter);
 
   background: -webkit-linear-gradient(
-    left, 
+    left,
     var(--color-nav-lighter) 0%,
     var(--color-nav) 40%,
     var(--color-nav) 60%,
@@ -14,7 +15,7 @@ nav, nav.nav-wrapper {
 
 /* nav name position from left of screen, remains centeres on mobile */
 .brand-logo {
-  left: .5em;
+  left: 0.5em;
 }
 
 /* poaition menu icon */
@@ -41,13 +42,13 @@ nav .sidenav-trigger {
 }
 
 /* align button contents to right */
-.sidenav li>a.sidenav-close {
+.sidenav li > a.sidenav-close {
   justify-content: flex-end;
 }
 
 /* space between button text and icon */
 .sidenav-close svg {
-  margin-left: .5em;
+  margin-left: 0.5em;
   color: var(--color-theme);
 }
 
@@ -58,7 +59,6 @@ nav .sidenav-trigger {
 
 /* adjust sidenav position on tablet/mobile devices */
 @media screen and (max-width: 600px) {
-
   .sidenav {
     top: 54px;
   }

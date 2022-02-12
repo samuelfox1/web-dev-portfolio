@@ -5,6 +5,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import AllSections from "./components/AllSections";
 import Preloader from "./components/Preloader";
+import BackgroundImage from "./components/BackgroundImage";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -19,6 +20,7 @@ export default function App() {
       <Nav />
       {getComponent()}
       <Footer />
+      <BackgroundImage />
     </>
   );
 }
