@@ -242,6 +242,11 @@
             "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
             "alt": "Sass"
         },
+        "socketIo": {
+            "href": "https://socket.io/",
+            "src": "https://img.shields.io/badge/-Socket.io-010101?logo=socket.io",
+            "alt": "Socket.io"
+        },
         "visualStudioCode": {
             "href": "https://code.visualstudio.com/",
             "src": "https://img.shields.io/badge/-Visual%20Studio%20Code-white?logo=Visual%20Studio%20Code&logoColor=007ACC",
