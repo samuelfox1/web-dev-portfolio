@@ -56,20 +56,20 @@
         },
         "other": [
             {
-                "deployment": "https://samuelfox1.github.io/crypto-keychain/",
-                "description": "Create custom passwords, build encrypted kechains, and generate secure backups with this all in one solution.",
-                "github": "https://github.com/samuelfox1/crypto-keychain",
-                "src": "https://raw.githubusercontent.com/samuelfox1/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
-                "technologies": [],
-                "title": "Crypto Keychain"
-            },
-            {
                 "deployment": "https://radcats-karaoke.herokuapp.com/",
                 "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
                 "github": "https://github.com/chomieu/RadCaTS-Karaoke",
                 "src": "https://i.imgur.com/VcL4cwe.gif",
                 "technologies": [],
                 "title": "RadCats Karaoke"
+            },
+            {
+                "deployment": "https://samuelfox1.github.io/crypto-keychain/",
+                "description": "Create custom passwords, build encrypted kechains, and generate secure backups with this all in one solution.",
+                "github": "https://github.com/samuelfox1/crypto-keychain",
+                "src": "https://raw.githubusercontent.com/samuelfox1/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
+                "technologies": [],
+                "title": "Crypto Keychain"
             },
             {
                 "deployment": "https://chomieu.github.io/Voicely/",

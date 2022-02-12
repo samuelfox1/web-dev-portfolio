@@ -7,22 +7,27 @@ import ProjectLinks from "../../ProjectLinks";
 import "./style.css";
 
 const Carousel = ({ projects }) => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(localStorage.getItem("project-idx") || 0);
   const [project, setProject] = useState(projects[index]);
   const { description, title, github, deployment } = project;
+
+  const advanceCarousel = (idx) => {
+    console.log(idx);
+    setIndex(idx);
+    localStorage.setItem("project-idx", idx);
+    setProject(projects[idx]);
+  };
 
   useEffect(() => {
     const options = {
       duration: 300,
       dist: -100,
       indicators: true,
-      onCycleTo: ({ dataset: { index } }) => {
-        setIndex(index);
-        // console.log(dataset);
+      onCycleTo: ({ dataset: { idx } }) => {
+        advanceCarousel(idx);
       },
     };
     const el = document.querySelector("#other-work");
-    // console.log(el)
     M.Carousel.init(el, options);
 
     // Instance Plugin
@@ -30,21 +35,17 @@ const Carousel = ({ projects }) => {
     instance.next(index);
   }, []);
 
-  useEffect(() => {
-    setProject(projects[index]);
-  }, [index]);
-
   const carousel = useMemo(
     () => (
       <div className="carousel" id="other-work">
-        {projects.map(({ src, alt }, index) => (
-          <div className="carousel-item" key={v4()} data-index={index}>
+        {projects.map(({ src, alt }, idx) => (
+          <div className="carousel-item" key={v4()} data-idx={idx}>
             <img alt={alt} src={src} />
           </div>
         ))}
       </div>
     ),
-    []
+    [projects]
   );
 
   return (
