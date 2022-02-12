@@ -1,14 +1,14 @@
 /* flex container */
 #current-project-image-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* images in flex container */
-.current-project-image{
-    margin: 1em .5em 0em .5em;
-    width: 250px;
-    border: solid black 5px;
-    border-radius: var(--border-radius-project-img);
+.current-project-image {
+  margin: 1em 0.5em 0em 0.5em;
+  width: 250px;
+  border: solid var(--color-theme-lighter) 5px;
+  border-radius: var(--border-radius-project-img);
 }
