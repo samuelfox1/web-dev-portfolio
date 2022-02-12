@@ -26,7 +26,7 @@ const Project = ({ project }) => {
       <ProjectImages images={images} />
       <ProjectLinks deployment={deploymentURL} github={gitHubURL} />
       <p>{description}</p>
-      <p className="left-align pt-1">Tools & Tech:</p>
+      <p className="left-align py-0">Tools & Tech:</p>
       {technologies.map((technology) => (
         <Shield key={v4()} technology={myTechnologies[technology]} />
       ))}

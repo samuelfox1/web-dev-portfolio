@@ -1,5 +1,8 @@
 import React, { useContext } from "react";
+import { Col } from "react-materialize";
 import { AppContext } from "../../context/AppProvider";
+import BlurBox from "../BlurBox";
+import Section from "../Section";
 import SectionHeader from "../SectionHeader";
 import Project from "./Project";
 
@@ -8,10 +11,13 @@ const CurrentWork = () => {
     projects: { current },
   } = useContext(AppContext);
   return (
-    <div id="current-work" className="my-3">
-      <SectionHeader>Current Work</SectionHeader>
-      <Project project={current} />
-    </div>
+    <Section id="current-work">
+      <BlurBox />
+      <Col className="mb-1">
+        <SectionHeader>Current Work</SectionHeader>
+        <Project project={current} />
+      </Col>
+    </Section>
   );
 };
 

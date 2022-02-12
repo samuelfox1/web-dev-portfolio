@@ -6,6 +6,7 @@ import Section from "../../../components/Section";
 import Shield from "../../../components/Shield";
 
 import { AppContext } from "../../../context/AppProvider";
+import BlurBox from "../../BlurBox";
 
 import "./style.css";
 
@@ -13,6 +14,7 @@ const SkillsSection = () => {
   const { skills, myTechnologies } = useContext(AppContext);
   return (
     <Section className="skills-container">
+      <BlurBox />
       <ListOfItems title="Technologies">
         {Object.values(myTechnologies).map((technology) => (
           <Shield key={v4()} technology={technology} />

@@ -1,4 +1,6 @@
 .custom-section {
-    /* border: solid var(--color-theme-lighter) 1px; */
-    /* border-radius: var(--border-radius); */
+  position: relative;
+  border: solid var(--color-theme-lighter) 1px;
+  border-radius: var(--border-radius);
+  z-index: 1;
 }
