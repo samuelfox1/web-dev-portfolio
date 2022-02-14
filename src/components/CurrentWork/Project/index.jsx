@@ -1,35 +1,41 @@
-import React, { useContext } from "react";
-import { v4 } from "uuid";
-
-import Shield from "../../Shield";
-import ProjectImages from "../ProjectImages";
-import ProjectLinks from "../../ProjectLinks";
+import React, { useContext, useState } from "react";
 import { AppContext } from "../../../context/AppProvider";
+import Carousel, { getCarouselLocation } from "../../Carousel";
+
+import ProjectDescription from "../../ProjectDescription";
+import ProjectLinks from "../../ProjectLinks";
+import ProjectTechnologies from "../../ProjectTechnologies";
+import ProjectTitle from "../../ProjectTitle";
 
 import "./style.css";
 
-const Project = ({ project }) => {
-  const { myTechnologies } = useContext(AppContext);
-
+const Project = () => {
   const {
-    appName,
-    deploymentURL,
-    description,
-    gitHubURL,
-    technologies,
-    images,
-  } = project;
+    projects: {
+      current: {
+        appName,
+        deploymentURL,
+        description,
+        gitHubURL,
+        technologies,
+        images,
+      },
+    },
+  } = useContext(AppContext);
+  const id = "current-project";
+  const [index, setIndex] = useState(getCarouselLocation(id) || 0);
 
   return (
     <>
-      <h5 className="left-align pt-1">Welcome to {appName}</h5>
-      <ProjectImages images={images} />
-      <ProjectLinks deployment={deploymentURL} github={gitHubURL} />
-      <p>{description}</p>
-      <p className="left-align py-0">Tools & Tech:</p>
-      {technologies.map((technology) => (
-        <Shield key={v4()} technology={myTechnologies[technology]} />
-      ))}
+      <ProjectTitle>{appName}</ProjectTitle>
+      <ProjectDescription className="mb-0">{description}</ProjectDescription>
+      <Carousel id={id} index={index} setIndex={setIndex} images={images} />
+      <ProjectLinks
+        className="my-1"
+        deployment={deploymentURL}
+        github={gitHubURL}
+      />
+      <ProjectTechnologies technologies={technologies} />
     </>
   );
 };

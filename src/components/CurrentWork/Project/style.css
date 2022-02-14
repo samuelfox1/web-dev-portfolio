@@ -1,14 +1,6 @@
-/* flex container */
-#current-project-image-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+#current-project.carousel {
+  height: 520px;
 }
-
-/* images in flex container */
-.current-project-image {
-  margin: 1em 0.5em 0em 0.5em;
-  width: 250px;
-  border: solid var(--color-theme-lighter) 5px;
-  border-radius: var(--border-radius-project-img);
+#current-project.carousel .carousel-item {
+  height: fit-content;
 }
