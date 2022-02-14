@@ -35,7 +35,7 @@ const Project = () => {
         deployment={deploymentURL}
         github={gitHubURL}
       />
-      <ProjectTechnologies technologies={technologies} />
+      <ProjectTechnologies className="mb-1" technologies={technologies} />
     </>
   );
 };

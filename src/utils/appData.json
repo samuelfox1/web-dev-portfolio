@@ -61,7 +61,20 @@
                 "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
                 "github": "https://github.com/chomieu/RadCaTS-Karaoke",
                 "src": "https://i.imgur.com/VcL4cwe.gif",
-                "technologies": [],
+                "technologies": [
+                    "css",
+                    "expressJs",
+                    "git",
+                    "gitHub",
+                    "heroku",
+                    "html",
+                    "javaScript",
+                    "mongoDB",
+                    "mongoose",
+                    "nodeJs",
+                    "reactSpeechRecognition",
+                    "reactJs"
+                ],
                 "title": "RadCats Karaoke"
             },
             {
@@ -69,7 +82,17 @@
                 "description": "Create custom passwords, build encrypted kechains, and generate secure backups with this all in one solution.",
                 "github": "https://github.com/samuelfox1/crypto-keychain",
                 "src": "https://raw.githubusercontent.com/samuelfox1/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
-                "technologies": [],
+                "technologies": [
+                    "bootstrap",
+                    "css",
+                    "cryptoJs",
+                    "git",
+                    "gitHub",
+                    "html",
+                    "javaScript",
+                    "npm",
+                    "reactJs"
+                ],
                 "title": "Crypto Keychain"
             },
             {
@@ -77,7 +100,15 @@
                 "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
                 "github": "https://github.com/samuelfox1/Voicely",
                 "src": "https://i.imgur.com/3aCWbYf.png",
-                "technologies": [],
+                "technologies": [
+                    "css",
+                    "git",
+                    "gitHub",
+                    "html",
+                    "javaScript",
+                    "materialize",
+                    "microsoftSpeech"
+                ],
                 "title": "Voicely"
             },
             {
@@ -85,7 +116,15 @@
                 "description": "A personal portfolio showcasing the knowledge and skills acquired in my web developer journey.",
                 "github": "https://github.com/samuelfox1/web-dev-portfolio",
                 "src": "https://raw.githubusercontent.com/samuelfox1/web-dev-portfolio/main/assets/screenshots/0.png",
-                "technologies": [],
+                "technologies": [
+                    "css",
+                    "git",
+                    "gitHub",
+                    "html",
+                    "javaScript",
+                    "materialize",
+                    "reactJs"
+                ],
                 "title": "Personal Portfolio"
             }
         ]
@@ -180,10 +219,20 @@
             "src": "https://img.shields.io/badge/-Materialize-FF7F7F?logo=Material%20Design&logoColor=white",
             "alt": "Materialize"
         },
+        "microsoftSpeech": {
+            "href": "https://docs.microsoft.com/en-us/javascript/api/microsoft-cognitiveservices-speech-sdk/?view=azure-node-latest",
+            "src": "https://img.shields.io/badge/-microsoft%20speech-5E5E5E?logo=microsoft",
+            "alt": "microsoft speech"
+        },
         "mongoDB": {
             "href": "https://www.mongodb.com/",
             "src": "https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white",
             "alt": "MongoDB"
+        },
+        "mongoose": {
+            "href": "https://mongoosejs.com/",
+            "src": "https://img.shields.io/badge/-Mongoose%20ODM-47A248",
+            "alt": "Mongoose ODM"
         },
         "mySQL": {
             "href": "https://www.mysql.com/",
@@ -200,10 +249,10 @@
             "src": "https://img.shields.io/badge/-npm-CB3837?logo=NPM",
             "alt": "npm"
         },
-        "mongoose": {
-            "href": "https://mongoosejs.com/",
-            "src": "https://img.shields.io/badge/-Mongoose%20ODM-47A248",
-            "alt": "Mongoose ODM"
+        "reactSpeechRecognition": {
+            "href": "https://github.com/JamesBrill/react-speech-recognition",
+            "src": "https://img.shields.io/badge/-react%20speech%20recognition-black",
+            "alt": "react-speech-recognition"
         },
         "sequelize": {
             "href": "https://sequelize.org/",

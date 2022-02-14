@@ -6,11 +6,11 @@ import Shield from "../Shield";
 
 import "./style.css";
 
-const ProjectTechnologies = ({ technologies }) => {
+const ProjectTechnologies = ({ className, technologies }) => {
   const { myTechnologies } = useContext(AppContext);
 
   return (
-    <div className="project-technologies">
+    <div className={`project-technologies ${className || ""}`}>
       {technologies.map((technology) => (
         <Shield key={v4()} technology={myTechnologies[technology]} />
       ))}
