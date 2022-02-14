@@ -12,4 +12,8 @@ footer h6 {
 
 footer section.custom-section {
   margin-bottom: 0;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-radius: 0;
 }

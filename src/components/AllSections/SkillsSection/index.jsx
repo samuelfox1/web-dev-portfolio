@@ -13,7 +13,7 @@ import "./style.css";
 const SkillsSection = () => {
   const { skills, myTechnologies } = useContext(AppContext);
   return (
-    <Section className="skills-container">
+    <Section className="skills">
       <BlurBox />
       <ListOfItems title="Technologies">
         {Object.values(myTechnologies).map((technology) => (

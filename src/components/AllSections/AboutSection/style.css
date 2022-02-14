@@ -1,23 +1,21 @@
-.about-container p {
+section.about p {
   text-indent: 2em;
 }
 
 .portrait {
   display: block;
-  margin: 0 1em 0 ;
+  margin: 0 1em 0;
   float: left;
-  width:200px;
+  width: 200px;
   border-radius: 50%;
 }
 
-
 @media screen and (max-width: 480px) {
-
-  .about-container {
+  section.about {
     display: flex;
     flex-direction: column;
   }
-  .about-container p {
+  section.about p {
     margin-left: 1em;
   }
 

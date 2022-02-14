@@ -1,15 +1,13 @@
-.skills-container {
-    margin: 2rem 1rem 1rem 1rem;
-    display: flex;
-  }
+section.skills {
+  display: flex;
+}
 
-.skill:hover{
+.skill:hover {
   transform: scale(1.05);
 }
 
 @media screen and (max-width: 480px) {
-
-  .skills-container {
+  section.skills {
     flex-direction: column;
     margin-top: 0;
   }

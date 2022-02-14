@@ -14,7 +14,7 @@ const AboutSection = () => {
     about: { introduction, bio, profilePicture },
   } = useContext(AppContext);
   return (
-    <Section className="about-container">
+    <Section className="about">
       <BlurBox />
       <Col data-aos={fade} s={12} m={12} l={12}>
         <img src={profilePicture} className="portrait mt-1" alt="my profile" />
