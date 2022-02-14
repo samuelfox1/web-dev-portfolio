@@ -9,9 +9,9 @@ import "./style.css";
 
 const { fade } = aosOptions;
 
-const ProjectLinks = ({ deployment, github }) => {
+const ProjectLinks = ({ className, deployment, github }) => {
   return (
-    <div className="project-links" data-aos={fade}>
+    <div className={`project-links ${className || ""}`} data-aos={fade}>
       <Button href={github}>
         Github
         <FaGithubSquare className="ml-1" size={30} />

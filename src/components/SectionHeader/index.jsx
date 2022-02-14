@@ -7,9 +7,9 @@ const { fade } = aosOptions;
 
 const SectionHeader = ({ children, className }) => {
   return (
-    <div className="section-header" data-aos={fade}>
+    <div className="section-header pt-1" data-aos={fade}>
       {/* padding-top 2em used for nav button click focus */}
-      <h3 className={`left-align ${className}`}>{children}</h3>
+      <h3 className={`left-align my-0 ${className || ""}`}>{children}</h3>
       <Divider />
     </div>
   );
