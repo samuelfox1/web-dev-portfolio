@@ -23,7 +23,7 @@ const Project = () => {
     },
   } = useContext(AppContext);
   const id = "current-project";
-  const [index, setIndex] = useState(getCarouselLocation(id) || 0);
+  const [index, setIndex] = useState(getCarouselLocation(id));
 
   return (
     <>

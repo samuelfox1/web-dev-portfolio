@@ -11,11 +11,10 @@ export const setCarouselLocation = (id, idx) =>
   localStorage.setItem(getLocalStorageKey(id), idx);
 
 export const getCarouselLocation = (id) =>
-  localStorage.getItem(getLocalStorageKey(id));
+  parseInt(localStorage.getItem(getLocalStorageKey(id))) || 0;
 
 const Carousel = ({ id, images, index, setIndex }) => {
   const advanceCarousel = (idx) => {
-    console.log(idx);
     setIndex(idx);
     setCarouselLocation(id, idx);
   };
@@ -32,7 +31,7 @@ const Carousel = ({ id, images, index, setIndex }) => {
     const el = document.querySelector(`#${id}`);
     M.Carousel.init(el, options);
 
-    // sroll carousel to last selected project
+    // sroll carousel to last selected project on mount
     let instance = M.Carousel.getInstance(el);
     instance.next(index);
   }, []);
