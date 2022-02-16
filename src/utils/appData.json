@@ -130,13 +130,13 @@
         ]
     },
     "skills": [
-        "Team Player",
-        "Reads the Docs",
-        "Critical Thinking",
-        "Naming Conventions",
-        "Reads Error Messages",
-        "Google + StackOverflow",
-        "Creative Problem Solving"
+        "Routine Prethought & Planning",
+        "Google, MDN, StackOverflow",
+        "Creative Problem Solving",
+        "Reading Documentation",
+        "Deductive Reasoning",
+        "Self-Motivated",
+        "Team Player"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
