@@ -58,7 +58,7 @@
         "other": [
             {
                 "deployment": "https://radcats-karaoke.herokuapp.com/",
-                "description": "A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'. (sorry for slow loading times - currently deployment on free heroku service)",
+                "description": "** Best Functionality ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'.",
                 "github": "https://github.com/chomieu/RadCaTS-Karaoke",
                 "src": "https://i.imgur.com/VcL4cwe.gif",
                 "technologies": [
@@ -97,7 +97,7 @@
             },
             {
                 "deployment": "https://chomieu.github.io/Voicely/",
-                "description": "Online notepad that recognizes and transcribes voice into text, with the ability to parse matching text to emoji. Winner of the Best Functionality and People's Choice awards for the Winter 2020 University of Washington coding bootcamp.",
+                "description": "** Best Functionality & People's Choice ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. An online speech-to-text notepad, with the ability to parse matching text to emoji.",
                 "github": "https://github.com/samuelfox1/Voicely",
                 "src": "https://i.imgur.com/3aCWbYf.png",
                 "technologies": [
@@ -130,13 +130,13 @@
         ]
     },
     "skills": [
-        "Routine Prethought & Planning",
+        "Technical & non-technical communication",
+        "Logical & creative problem solving",
         "Google, MDN, StackOverflow",
-        "Creative Problem Solving",
-        "Reading Documentation",
-        "Deductive Reasoning",
-        "Self-Motivated",
-        "Team Player"
+        "Self-motivated team player",
+        "Deductive reasoning",
+        "Technical curiosity",
+        "Numeracy"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
