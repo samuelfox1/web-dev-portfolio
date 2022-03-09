@@ -130,13 +130,14 @@
         ]
     },
     "skills": [
-        "Technical & non-technical communication",
-        "Logical & creative problem solving",
-        "Google, MDN, StackOverflow",
-        "Self-motivated team player",
-        "Deductive reasoning",
-        "Technical curiosity",
-        "Numeracy"
+        "- Technical & non-technical communication",
+        "- Logical & creative problem solving",
+        "- Self-motivated & team oriented",
+        "- Google, MDN, StackOverflow",
+        "- Continuous development",
+        "- Deductive reasoning",
+        "- Data Structures",
+        "- Algorithms"
     ],
     "myTechnologies": {
         "apolloGrapgQL": {
@@ -168,6 +169,11 @@
             "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
             "src": "https://img.shields.io/badge/-CSS-white?logo=css3&logoColor=1572B6",
             "alt": "CSS"
+        },
+        "docker": {
+            "href": "https://www.docker.com/",
+            "src": "https://img.shields.io/badge/-docker-2496ED?logo=docker&logoColor=white",
+            "alt": "docker"
         },
         "expressJs": {
             "href": "https://expressJs.com/",
