@@ -7,20 +7,20 @@ import Nav from './components/Nav/index';
 import Preloader from './components/Preloader';
 
 export default function App() {
-    const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
-    useEffect(() => {
-        window.onload = () => setLoading(false);
-    }, []);
+  useEffect(() => {
+    window.onload = () => setLoading(false);
+  }, []);
 
-    const getComponent = () => (loading ? <Preloader /> : <AllSections />);
+  const getComponent = () => (loading ? <Preloader /> : <AllSections />);
 
-    return (
-        <>
-            <Nav />
-            {getComponent()}
-            <Footer />
-            <BackgroundImage />
-        </>
-    );
+  return (
+    <>
+      <Nav />
+      {getComponent()}
+      <Footer />
+      <BackgroundImage />
+    </>
+  );
 }

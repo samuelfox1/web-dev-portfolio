@@ -1,6 +1,7 @@
 section.about p {
-  text-indent: 2em;
-  text-align: center;
+  /* text-indent: 2em; */
+  /* text-align: center; */
+  text-align:justify
 }
 
 .portrait {

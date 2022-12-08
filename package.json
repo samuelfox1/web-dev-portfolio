@@ -1,48 +1,48 @@
 {
-    "name": "web-dev-portfolio",
-    "version": "1.0.0",
-    "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^5.11.9",
-        "@testing-library/react": "^11.2.5",
-        "@testing-library/user-event": "^12.7.1",
-        "babel-plugin-macros": "^3.1.0",
-        "materialize-css": "^1.0.0",
-        "ping-url": "^1.0.3",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "react-icons": "^4.3.1",
-        "react-materialize": "^3.9.7",
-        "react-scripts": "4.0.2",
-        "react-slide-toggle": "^0.3.5"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-        "prettier": "^2.8.1"
-    }
+  "name": "web-dev-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.7.1",
+    "babel-plugin-macros": "^3.1.0",
+    "materialize-css": "^1.0.0",
+    "ping-url": "^1.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-materialize": "^3.9.7",
+    "react-scripts": "4.0.2",
+    "react-slide-toggle": "^0.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
+    "prettier": "^2.8.1"
+  }
 }

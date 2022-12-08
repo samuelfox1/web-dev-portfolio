@@ -10,7 +10,7 @@ export const useAppContext = () => useContext(AppContext);
 
 // Expose provider component
 const AppProvider = ({ children }) => (
-    <AppContext.Provider>{children}</AppContext.Provider>
+  <AppContext.Provider>{children}</AppContext.Provider>
 );
 
 export default AppProvider;
