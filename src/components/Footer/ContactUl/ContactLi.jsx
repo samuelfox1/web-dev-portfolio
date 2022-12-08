@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 const ContactLi = ({ children, href }) => {
-  const getTarget = () => (href.startsWith("#") ? "" : "_blank");
+  const getTarget = () => (href.startsWith('#') ? '' : '_blank');
 
   return (
     <li>

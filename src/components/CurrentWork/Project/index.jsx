@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import { useAppContext } from "../../../context/AppProvider";
-import Carousel, { getCarouselLocation } from "../../Carousel";
-import ProjectDescription from "../../ProjectDescription";
-import ProjectLinks from "../../ProjectLinks";
-import ProjectTechnologies from "../../ProjectTechnologies";
-import ProjectTitle from "../../ProjectTitle";
+import { useAppContext } from '../../../context/AppProvider';
+import Carousel, { getCarouselLocation } from '../../Carousel';
+import ProjectDescription from '../../ProjectDescription';
+import ProjectLinks from '../../ProjectLinks';
+import ProjectTechnologies from '../../ProjectTechnologies';
+import ProjectTitle from '../../ProjectTitle';
 
-import "./style.css";
+import './style.css';
 
 const Project = () => {
   const {
@@ -22,7 +22,7 @@ const Project = () => {
       },
     },
   } = useAppContext();
-  const id = "current-project";
+  const id = 'current-project';
   const [index, setIndex] = useState(getCarouselLocation(id));
 
   return (

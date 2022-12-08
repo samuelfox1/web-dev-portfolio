@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 import {
   FaGithubSquare,
   FaLinkedin,
   FaFile,
   FaLevelUpAlt,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
-import { useAppContext } from "../../../context/AppProvider";
-import ContactLi from "./ContactLi";
+import { useAppContext } from '../../../context/AppProvider';
+import ContactLi from './ContactLi';
 
-import "./style.css";
+import './style.css';
 
 export default function ContactUl() {
   const {

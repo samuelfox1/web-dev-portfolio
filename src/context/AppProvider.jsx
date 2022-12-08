@@ -1,5 +1,5 @@
-import React, { createContext, useContext } from "react";
-import appData from "../utils/appData.json";
+import React, { createContext, useContext } from 'react';
+import appData from '../utils/appData.json';
 
 // Create store
 export const AppContext = createContext(appData);

@@ -1,8 +1,8 @@
-import React, { useEffect, useMemo } from "react";
-import M from "materialize-css";
-import "materialize-css/dist/css/materialize.min.css";
+import React, { useEffect, useMemo } from 'react';
+import M from 'materialize-css';
+import 'materialize-css/dist/css/materialize.min.css';
 
-import "./style.css";
+import './style.css';
 
 const getLocalStorageKey = (id) => `${id}-idx`;
 

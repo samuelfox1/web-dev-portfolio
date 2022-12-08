@@ -1,7 +1,7 @@
-import React from "react";
-import { Col, Divider } from "react-materialize";
+import React from 'react';
+import { Col, Divider } from 'react-materialize';
 
-import "./style.css";
+import './style.css';
 
 const ListOfItems = ({ children, title }) => {
   return (

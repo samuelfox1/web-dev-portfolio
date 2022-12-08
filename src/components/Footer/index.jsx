@@ -1,12 +1,12 @@
-import React from "react";
-import { Divider } from "react-materialize";
+import React from 'react';
+import { Divider } from 'react-materialize';
 
-import BlurBox from "../BlurBox";
-import Section from "../Section";
-import SectionHeader from "../SectionHeader";
-import ContactUl from "./ContactUl";
+import BlurBox from '../BlurBox';
+import Section from '../Section';
+import SectionHeader from '../SectionHeader';
+import ContactUl from './ContactUl';
 
-import "./style.css";
+import './style.css';
 
 export default function index() {
   return (

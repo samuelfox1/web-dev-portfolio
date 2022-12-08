@@ -1,11 +1,11 @@
-import React from "react";
-import { Navbar, NavItem, Icon } from "react-materialize";
-import { FaGlasses, FaCode, FaAddressCard } from "react-icons/fa";
-import "materialize-css/dist/css/materialize.min.css";
+import React from 'react';
+import { Navbar, NavItem, Icon } from 'react-materialize';
+import { FaGlasses, FaCode, FaAddressCard } from 'react-icons/fa';
+import 'materialize-css/dist/css/materialize.min.css';
 
-import { useAppContext } from "../../context/AppProvider";
-import "./style.css";
-import BlurBox from "../BlurBox";
+import { useAppContext } from '../../context/AppProvider';
+import './style.css';
+import BlurBox from '../BlurBox';
 
 export default function Nav() {
   const {
@@ -14,7 +14,7 @@ export default function Nav() {
 
   const options = {
     draggable: true,
-    edge: "right",
+    edge: 'right',
     inDuration: 250,
     onCloseEnd: null,
     onCloseStart: null,

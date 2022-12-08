@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import ListOfItems from "../../../components/ListOfItems";
-import Section from "../../../components/Section";
-import Shield from "../../../components/Shield";
-import { useAppContext } from "../../../context/AppProvider";
-import BlurBox from "../../BlurBox";
+import ListOfItems from '../../../components/ListOfItems';
+import Section from '../../../components/Section';
+import Shield from '../../../components/Shield';
+import { useAppContext } from '../../../context/AppProvider';
+import BlurBox from '../../BlurBox';
 
-import "./style.css";
+import './style.css';
 
 const SkillsSection = () => {
   const { skills, myTechnologies } = useAppContext();

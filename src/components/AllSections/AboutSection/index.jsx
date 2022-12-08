@@ -1,9 +1,9 @@
-import React from "react";
-import { Col } from "react-materialize";
-import Section from "../../../components/Section";
-import { useAppContext } from "../../../context/AppProvider";
-import BlurBox from "../../BlurBox";
-import "./style.css";
+import React from 'react';
+import { Col } from 'react-materialize';
+import Section from '../../../components/Section';
+import { useAppContext } from '../../../context/AppProvider';
+import BlurBox from '../../BlurBox';
+import './style.css';
 
 const AboutSection = () => {
   const {

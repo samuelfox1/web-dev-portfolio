@@ -1,7 +1,7 @@
-import React from "react";
-import { Preloader as MaterializePreloader } from "react-materialize";
+import React from 'react';
+import { Preloader as MaterializePreloader } from 'react-materialize';
 
-import "./style.css";
+import './style.css';
 
 const Preloader = () => {
   return (

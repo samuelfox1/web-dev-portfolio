@@ -1,7 +1,7 @@
-import React from "react";
-import AboutSection from "./AboutSection";
-import ProjectsSection from "./ProjectsSection";
-import SkillsSection from "./SkillsSection";
+import React from 'react';
+import AboutSection from './AboutSection';
+import ProjectsSection from './ProjectsSection';
+import SkillsSection from './SkillsSection';
 
 export default function AllSections() {
   return (

@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import CurrentWork from "../../../components/CurrentWork";
-import PreviousWork from "../../../components/PreviousWork";
+import CurrentWork from '../../../components/CurrentWork';
+import PreviousWork from '../../../components/PreviousWork';
 
-import "./style.css";
+import './style.css';
 
 const ProjectsSection = () => {
   return (

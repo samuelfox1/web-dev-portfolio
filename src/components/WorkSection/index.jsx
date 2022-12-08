@@ -1,7 +1,7 @@
-import React from "react";
-import { Col } from "react-materialize";
-import BlurBox from "../BlurBox";
-import Section from "../Section";
+import React from 'react';
+import { Col } from 'react-materialize';
+import BlurBox from '../BlurBox';
+import Section from '../Section';
 
 const WorkSection = ({ children, id }) => {
   return (
