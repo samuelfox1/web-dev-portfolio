@@ -20,14 +20,14 @@ const Footer = () => {
             alignItems: 'center',
           }}
         >
-          <div id="badge" className="hover mr-3">
+          <div id="badge" className="hover mr-1">
             <a
               target="_blank"
               href="https://www.credly.com/badges/be423242-abda-493c-9691-80ffed673c46/embedded"
             >
               <img
-                width="230"
-                height="230"
+                width="170"
+                height="170"
                 alt=""
                 src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
               />

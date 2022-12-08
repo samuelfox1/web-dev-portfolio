@@ -10,7 +10,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    window.onload = () => setLoading(false);
+    window.addEventListener('load', () => setLoading(false));
   }, []);
 
   const getComponent = () => (loading ? <Preloader /> : <AllSections />);
