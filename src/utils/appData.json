@@ -130,14 +130,12 @@
     ]
   },
   "skills": [
-    "- Technical & non-technical communication",
-    "- Logical & creative problem solving",
-    "- Self-motivated & team oriented",
-    "- Google, MDN, StackOverflow",
-    "- Continuous development",
+    "- Communication",
+    "- Problem solving",
     "- Deductive reasoning",
-    "- Data Structures",
-    "- Algorithms"
+    "- Pipelines & automation",
+    "- Data structures & algorithms",
+    "- Self-motivated & team oriented"
   ],
   "myTechnologies": {
     "apolloGrapgQL": {
