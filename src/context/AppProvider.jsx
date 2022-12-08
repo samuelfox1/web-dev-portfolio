@@ -1,14 +1,15 @@
-import React, { createContext } from 'react';
-import appData from '../utils/appData.json'
+import React, { createContext, useContext } from "react";
+import appData from "../utils/appData.json";
 
-export const AppContext = createContext(appData)
+// Create store
+export const AppContext = createContext(appData);
 
-const AppProvider = ({ children }) => {
-    return (
-        <AppContext.Provider>
-            {children}
-        </AppContext.Provider>
-    );
-};
+// Expose consumer hook
+export const useAppContext = () => useContext(AppContext);
+
+// Expose provider component
+const AppProvider = ({ children }) => (
+  <AppContext.Provider>{children}</AppContext.Provider>
+);
 
 export default AppProvider;

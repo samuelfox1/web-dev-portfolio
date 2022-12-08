@@ -1,7 +1,6 @@
 import React, { useEffect, useMemo } from "react";
 import M from "materialize-css";
 import "materialize-css/dist/css/materialize.min.css";
-import { v4 } from "uuid";
 
 import "./style.css";
 
@@ -40,7 +39,7 @@ const Carousel = ({ id, images, index, setIndex }) => {
     () => (
       <div className="carousel" id={id}>
         {images.map(({ src, alt }, idx) => (
-          <div className="carousel-item" key={v4()} data-idx={idx}>
+          <div className="carousel-item" key={idx} data-idx={idx}>
             <img alt={alt} src={src} />
           </div>
         ))}

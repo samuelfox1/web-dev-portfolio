@@ -1,18 +1,17 @@
-import React, { useContext } from "react";
-import { v4 } from "uuid";
+import React from "react";
 
-import { AppContext } from "../../context/AppProvider";
+import { useAppContext } from "../../context/AppProvider";
 import Shield from "../Shield";
 
 import "./style.css";
 
 const ProjectTechnologies = ({ className, technologies }) => {
-  const { myTechnologies } = useContext(AppContext);
+  const { myTechnologies } = useAppContext();
 
   return (
     <div className={`project-technologies ${className || ""}`}>
-      {technologies.map((technology) => (
-        <Shield key={v4()} technology={myTechnologies[technology]} />
+      {technologies.map((technology, idx) => (
+        <Shield key={idx} technology={myTechnologies[technology]} />
       ))}
     </div>
   );

@@ -1,7 +1,7 @@
-import React, { useContext, useState } from "react";
-import { AppContext } from "../../../context/AppProvider";
-import Carousel, { getCarouselLocation } from "../../Carousel";
+import React, { useState } from "react";
 
+import { useAppContext } from "../../../context/AppProvider";
+import Carousel, { getCarouselLocation } from "../../Carousel";
 import ProjectDescription from "../../ProjectDescription";
 import ProjectLinks from "../../ProjectLinks";
 import ProjectTechnologies from "../../ProjectTechnologies";
@@ -21,7 +21,7 @@ const Project = () => {
         images,
       },
     },
-  } = useContext(AppContext);
+  } = useAppContext();
   const id = "current-project";
   const [index, setIndex] = useState(getCarouselLocation(id));
 

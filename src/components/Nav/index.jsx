@@ -1,17 +1,16 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Navbar, NavItem, Icon } from "react-materialize";
 import { FaGlasses, FaCode, FaAddressCard } from "react-icons/fa";
-// import "materialize-css/dist/js/materialize.min.js";
 import "materialize-css/dist/css/materialize.min.css";
 
-import { AppContext } from "../../context/AppProvider";
+import { useAppContext } from "../../context/AppProvider";
 import "./style.css";
 import BlurBox from "../BlurBox";
 
 export default function Nav() {
   const {
     about: { firstName, lastName },
-  } = useContext(AppContext);
+  } = useAppContext();
 
   const options = {
     draggable: true,

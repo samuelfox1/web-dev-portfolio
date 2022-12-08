@@ -1,29 +1,27 @@
-import React, { useContext } from "react";
-import { v4 } from "uuid";
+import React from "react";
 
 import ListOfItems from "../../../components/ListOfItems";
 import Section from "../../../components/Section";
 import Shield from "../../../components/Shield";
-
-import { AppContext } from "../../../context/AppProvider";
+import { useAppContext } from "../../../context/AppProvider";
 import BlurBox from "../../BlurBox";
 
 import "./style.css";
 
 const SkillsSection = () => {
-  const { skills, myTechnologies } = useContext(AppContext);
+  const { skills, myTechnologies } = useAppContext();
   return (
     <Section className="skills">
       <BlurBox />
       <ListOfItems title="Technologies">
-        {Object.values(myTechnologies).map((technology) => (
-          <Shield key={v4()} technology={technology} />
+        {Object.values(myTechnologies).map((technology, idx) => (
+          <Shield key={idx} technology={technology} />
         ))}
       </ListOfItems>
 
       <ListOfItems title="Skills">
-        {skills.map((skill) => (
-          <li key={v4()} className="skill">
+        {skills.map((skill, idx) => (
+          <li key={idx} className="skill">
             {skill}
           </li>
         ))}

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import {
   FaGithubSquare,
   FaLinkedin,
@@ -6,7 +6,7 @@ import {
   FaLevelUpAlt,
 } from "react-icons/fa";
 
-import { AppContext } from "../../../context/AppProvider";
+import { useAppContext } from "../../../context/AppProvider";
 import ContactLi from "./ContactLi";
 
 import "./style.css";
@@ -14,7 +14,7 @@ import "./style.css";
 export default function ContactUl() {
   const {
     about: { gitHub, linkedIn, resume },
-  } = useContext(AppContext);
+  } = useAppContext();
 
   return (
     <ul className="contact-ul">

@@ -1,7 +1,7 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Col } from "react-materialize";
 import Section from "../../../components/Section";
-import { AppContext } from "../../../context/AppProvider";
+import { useAppContext } from "../../../context/AppProvider";
 import { aosOptions } from "../../../utils/aosConfig";
 import BlurBox from "../../BlurBox";
 import "./style.css";
@@ -11,14 +11,14 @@ const { fade } = aosOptions;
 const AboutSection = () => {
   const {
     about: { introduction, bio, profilePicture },
-  } = useContext(AppContext);
+  } = useAppContext();
   return (
     <Section className="about">
       <BlurBox />
       <Col data-aos={fade} s={12} m={12} l={12}>
         <img src={profilePicture} className="portrait mt-1" alt="my profile" />
         <h5 className="left-align mt-1">{introduction}</h5>
-        {bio.map((statement,idx) => (
+        {bio.map((statement, idx) => (
           <p key={idx}>{statement}</p>
         ))}
       </Col>
