@@ -4,14 +4,11 @@ import { IoIosRocket } from "react-icons/io";
 
 import Button from "../Button";
 
-import { aosOptions } from "../../utils/aosConfig";
 import "./style.css";
-
-const { fade } = aosOptions;
 
 const ProjectLinks = ({ className, deployment, github }) => {
   return (
-    <div className={`project-links ${className || ""}`} data-aos={fade}>
+    <div className={`project-links ${className || ""}`}>
       <Button href={github}>
         Github
         <FaGithubSquare className="ml-1" size={30} />

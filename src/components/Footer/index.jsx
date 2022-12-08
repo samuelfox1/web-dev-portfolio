@@ -1,12 +1,14 @@
 import React from "react";
 import { Divider } from "react-materialize";
+
 import BlurBox from "../BlurBox";
 import Section from "../Section";
 import SectionHeader from "../SectionHeader";
 import ContactUl from "./ContactUl";
+
 import "./style.css";
 
-export default function index({ aos }) {
+export default function index() {
   return (
     <footer id="contact">
       <Section>
