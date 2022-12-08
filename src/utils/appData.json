@@ -1,304 +1,304 @@
 {
-    "about": {
-        "bio": [
-            "My name is Sam, I am a Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
-            "Graduate from the University of Washington's Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
-        ],
-        "firstName": "Samuel",
-        "introduction": "Welcome!",
-        "lastName": "Fox",
-        "profilePicture": "https://i.imgur.com/zEvf4P4m.jpg",
-        "gitHub": "https://github.com/samuelfox1",
-        "linkedIn": "https://www.linkedin.com/in/samuel-fox-tacoma/",
-        "resume": "https://docs.google.com/document/d/e/2PACX-1vQ6fPlacPr0qKjQBI300n0Dk8TU6UDYxGyK5KLDD5nlxcL94B409jr2MCK3nVCw5f0Zu2OLdwbXidEe/pub"
-    },
-    "projects": {
-        "current": {
-            "appName": "Tutorly",
-            "description": "A progressive web application for tutors to manage courses, meet with students, and automate daily tasks. A Tutor can creates courses, add students, add meetings, connect a calendly account, and create custom email templates.",
-            "deploymentURL": "https://www.tutor-me.io",
-            "gitHubURL": "https://github.com/samuelfox1/tutor-assistant",
-            "repoName": "tutor-assistant",
-            "images": [
-                {
-                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102210/sjf-file-uploader/d7f82a3316ef5bbe474936f63a40bd80.png",
-                    "alt": "PWA splash screen"
-                },
-                {
-                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644104726/sjf-file-uploader/302bbf4388a025705ef85caf4ad8d793.jpg",
-                    "alt": "login"
-                },
-                {
-                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102586/sjf-file-uploader/46ae59f7a52d3e3621ddcc1090c6515f.png",
-                    "alt": "tutor home"
-                },
-                {
-                    "src": "https://res.cloudinary.com/memorybank/image/upload/v1644107090/sjf-file-uploader/b61f73913b6f1c67ffcd0d0cacdceb58.jpg",
-                    "alt": "email template designer"
-                }
-            ],
-            "technologies": [
-                "bulma",
-                "css",
-                "expressJs",
-                "git",
-                "gitHub",
-                "heroku",
-                "html",
-                "javaScript",
-                "mongoDB",
-                "mongoose",
-                "nodeJs",
-                "npm",
-                "postman",
-                "pwa",
-                "reactJs"
-            ]
-        },
-        "other": [
-            {
-                "deployment": "https://radcats-karaoke.herokuapp.com/",
-                "description": "** Best Functionality ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'.",
-                "github": "https://github.com/chomieu/RadCaTS-Karaoke",
-                "src": "https://i.imgur.com/VcL4cwe.gif",
-                "technologies": [
-                    "css",
-                    "expressJs",
-                    "git",
-                    "gitHub",
-                    "heroku",
-                    "html",
-                    "javaScript",
-                    "mongoDB",
-                    "mongoose",
-                    "nodeJs",
-                    "reactSpeechRecognition",
-                    "reactJs"
-                ],
-                "title": "RadCats Karaoke"
-            },
-            {
-                "deployment": "https://samuelfox1.github.io/crypto-keychain/",
-                "description": "Create custom passwords, build encrypted kechains, and generate secure backups with this all in one solution.",
-                "github": "https://github.com/samuelfox1/crypto-keychain",
-                "src": "https://raw.githubusercontent.com/samuelfox1/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
-                "technologies": [
-                    "bootstrap",
-                    "css",
-                    "cryptoJs",
-                    "git",
-                    "gitHub",
-                    "html",
-                    "javaScript",
-                    "npm",
-                    "reactJs"
-                ],
-                "title": "Crypto Keychain"
-            },
-            {
-                "deployment": "https://chomieu.github.io/Voicely/",
-                "description": "** Best Functionality & People's Choice ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. An online speech-to-text notepad, with the ability to parse matching text to emoji.",
-                "github": "https://github.com/samuelfox1/Voicely",
-                "src": "https://i.imgur.com/3aCWbYf.png",
-                "technologies": [
-                    "css",
-                    "git",
-                    "gitHub",
-                    "html",
-                    "javaScript",
-                    "materialize",
-                    "microsoftSpeech"
-                ],
-                "title": "Voicely"
-            },
-            {
-                "deployment": "https://www.samueljfox.com",
-                "description": "A personal portfolio showcasing the knowledge and skills acquired in my web developer journey.",
-                "github": "https://github.com/samuelfox1/web-dev-portfolio",
-                "src": "https://raw.githubusercontent.com/samuelfox1/web-dev-portfolio/main/assets/screenshots/0.png",
-                "technologies": [
-                    "css",
-                    "git",
-                    "gitHub",
-                    "html",
-                    "javaScript",
-                    "materialize",
-                    "reactJs"
-                ],
-                "title": "Personal Portfolio"
-            }
-        ]
-    },
-    "skills": [
-        "- Technical & non-technical communication",
-        "- Logical & creative problem solving",
-        "- Self-motivated & team oriented",
-        "- Google, MDN, StackOverflow",
-        "- Continuous development",
-        "- Deductive reasoning",
-        "- Data Structures",
-        "- Algorithms"
+  "about": {
+    "bio": [
+      "My name is Sam, I am a Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
+      "Graduate from the University of Washington's Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
     ],
-    "myTechnologies": {
-        "apolloGrapgQL": {
-            "href": "https://www.apollographql.com/",
-            "src": "https://img.shields.io/badge/-Apollo%20GraphQL-311C87?logo=Apollo%20GraphQL&logoColor=white",
-            "alt": "Apollo GraphQL"
+    "firstName": "Samuel",
+    "introduction": "Welcome!",
+    "lastName": "Fox",
+    "profilePicture": "https://i.imgur.com/zEvf4P4m.jpg",
+    "gitHub": "https://github.com/sjfcodes",
+    "linkedIn": "https://www.linkedin.com/in/samuel-fox-tacoma/",
+    "resume": "https://docs.google.com/document/d/e/2PACX-1vQ6fPlacPr0qKjQBI300n0Dk8TU6UDYxGyK5KLDD5nlxcL94B409jr2MCK3nVCw5f0Zu2OLdwbXidEe/pub"
+  },
+  "projects": {
+    "current": {
+      "appName": "Tutorly",
+      "description": "A progressive web application for tutors to manage courses, meet with students, and automate daily tasks. A Tutor can creates courses, add students, add meetings, connect a calendly account, and create custom email templates.",
+      "deploymentURL": "https://www.tutor-me.io",
+      "gitHubURL": "https://github.com/sjfcodes/tutor-assistant",
+      "repoName": "tutor-assistant",
+      "images": [
+        {
+          "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102210/sjf-file-uploader/d7f82a3316ef5bbe474936f63a40bd80.png",
+          "alt": "PWA splash screen"
         },
-        "amazonAws": {
-            "href": "https://aws.amazon.com/",
-            "src": "https://img.shields.io/badge/-Amazon%20AWS-232F3E?logo=Amazon%20AWS&logoColor=FF9900",
-            "alt": "Amazon AWS"
+        {
+          "src": "https://res.cloudinary.com/memorybank/image/upload/v1644104726/sjf-file-uploader/302bbf4388a025705ef85caf4ad8d793.jpg",
+          "alt": "login"
         },
-        "bootstrap": {
-            "href": "https://getbootstrap.com/",
-            "src": "https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white",
-            "alt": "Bootstrap"
+        {
+          "src": "https://res.cloudinary.com/memorybank/image/upload/v1644102586/sjf-file-uploader/46ae59f7a52d3e3621ddcc1090c6515f.png",
+          "alt": "tutor home"
         },
-        "bulma": {
-            "href": "https://bulma.io/",
-            "src": "https://img.shields.io/badge/-Bulma-00D1B2?logo=Bulma&logoColor=white",
-            "alt": "Bulma"
-        },
-        "cryptoJs": {
-            "href": "https://github.com/brix/crypto-js",
-            "src": "https://img.shields.io/badge/-cryptoJs-white?logo=javascript&logoColor=black",
-            "alt": "CryptoJs"
-        },
-        "css": {
-            "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
-            "src": "https://img.shields.io/badge/-CSS-white?logo=css3&logoColor=1572B6",
-            "alt": "CSS"
-        },
-        "docker": {
-            "href": "https://www.docker.com/",
-            "src": "https://img.shields.io/badge/-docker-2496ED?logo=docker&logoColor=white",
-            "alt": "docker"
-        },
-        "expressJs": {
-            "href": "https://expressJs.com/",
-            "src": "https://img.shields.io/badge/-ExpressJs-000000?logo=JavaScript&logoColor=yellow",
-            "alt": "ExpressJs"
-        },
-        "git": {
-            "href": "https://git-scm.com/",
-            "src": "https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white",
-            "alt": "Git"
-        },
-        "gitHub": {
-            "href": "https://github.com/",
-            "src": "https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white",
-            "alt": "GitHub"
-        },
-        "graphQL": {
-            "href": "https://graphql.org/",
-            "src": "https://img.shields.io/badge/-GraphQL-E10098?logo=GraphQL&logoColor=white",
-            "alt": "graphQL"
-        },
-        "handlebarsJs": {
-            "href": "https://handlebarsjs.com/",
-            "src": "https://img.shields.io/badge/-HandlebarsJs-FF7D00",
-            "alt": "HandlebarsJs"
-        },
-        "heroku": {
-            "href": "https://dashboard.heroku.com/login",
-            "src": "https://img.shields.io/badge/-Heroku-430098?logo=Heroku&logoColor=white",
-            "alt": "Heroku"
-        },
-        "html": {
-            "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
-            "src": "https://img.shields.io/badge/-HTML-white?logo=html5",
-            "alt": "HTML"
-        },
-        "javaScript": {
-            "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-            "src": "https://img.shields.io/badge/-Javascript-232F3E?logo=javascript",
-            "alt": "JavaScript"
-        },
-        "jQuery": {
-            "href": "https://jquery.com/",
-            "src": "https://img.shields.io/badge/-jQuery-0769AD?logo=jquery",
-            "alt": "jQuery"
-        },
-        "materialize": {
-            "href": "https://materializecss.com/",
-            "src": "https://img.shields.io/badge/-Materialize-FF7F7F?logo=Material%20Design&logoColor=white",
-            "alt": "Materialize"
-        },
-        "microsoftSpeech": {
-            "href": "https://docs.microsoft.com/en-us/javascript/api/microsoft-cognitiveservices-speech-sdk/?view=azure-node-latest",
-            "src": "https://img.shields.io/badge/-microsoft%20speech-5E5E5E?logo=microsoft",
-            "alt": "microsoft speech"
-        },
-        "mongoDB": {
-            "href": "https://www.mongodb.com/",
-            "src": "https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white",
-            "alt": "MongoDB"
-        },
-        "mongoose": {
-            "href": "https://mongoosejs.com/",
-            "src": "https://img.shields.io/badge/-Mongoose%20ODM-47A248",
-            "alt": "Mongoose ODM"
-        },
-        "mySQL": {
-            "href": "https://www.mysql.com/",
-            "src": "https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white",
-            "alt": "MySQL"
-        },
-        "nodeJs": {
-            "href": "https://nodejs.org/",
-            "src": "https://img.shields.io/badge/-NodeJs-339933?logo=node.js&logoColor=white",
-            "alt": "NodeJs"
-        },
-        "npm": {
-            "href": "https://www.npmjs.com/",
-            "src": "https://img.shields.io/badge/-npm-CB3837?logo=NPM",
-            "alt": "npm"
-        },
-        "reactSpeechRecognition": {
-            "href": "https://github.com/JamesBrill/react-speech-recognition",
-            "src": "https://img.shields.io/badge/-react%20speech%20recognition-black",
-            "alt": "react-speech-recognition"
-        },
-        "sequelize": {
-            "href": "https://sequelize.org/",
-            "src": "https://img.shields.io/badge/-Sequelize%20ORM-4479A1",
-            "alt": "Sequelize ORM"
-        },
-        "postman": {
-            "href": "https://www.postman.com/",
-            "src": "https://img.shields.io/badge/-Postman-FF6C37?logo=Postman&logoColor=white",
-            "alt": "Postman"
-        },
-        "pwa": {
-            "href": "https://web.dev/progressive-web-apps/",
-            "src": "https://img.shields.io/badge/-PWA-5A0FC8?logo=PWA&logoColor=white",
-            "alt": "PWA"
-        },
-        "reactJs": {
-            "href": "https://reactjs.org/",
-            "src": "https://img.shields.io/badge/-ReactJs-000000?logo=React&logoColor=61DAFB",
-            "alt": "ReactJs"
-        },
-        "sass": {
-            "href": "https://sass-lang.com/",
-            "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
-            "alt": "Sass"
-        },
-        "socketIo": {
-            "href": "https://socket.io/",
-            "src": "https://img.shields.io/badge/-Socket.io-010101?logo=socket.io",
-            "alt": "Socket.io"
-        },
-        "visualStudioCode": {
-            "href": "https://code.visualstudio.com/",
-            "src": "https://img.shields.io/badge/-Visual%20Studio%20Code-white?logo=Visual%20Studio%20Code&logoColor=007ACC",
-            "alt": "Visual Studio Code"
-        },
-        "webpack": {
-            "href": "https://webpack.js.org/",
-            "src": "https://img.shields.io/badge/-Webpack-8DD6F9?logo=Webpack&logoColor=white",
-            "alt": "Webpack"
+        {
+          "src": "https://res.cloudinary.com/memorybank/image/upload/v1644107090/sjf-file-uploader/b61f73913b6f1c67ffcd0d0cacdceb58.jpg",
+          "alt": "email template designer"
         }
+      ],
+      "technologies": [
+        "bulma",
+        "css",
+        "expressJs",
+        "git",
+        "gitHub",
+        "heroku",
+        "html",
+        "javaScript",
+        "mongoDB",
+        "mongoose",
+        "nodeJs",
+        "npm",
+        "postman",
+        "pwa",
+        "reactJs"
+      ]
+    },
+    "other": [
+      {
+        "deployment": "https://radcats-karaoke.herokuapp.com/",
+        "description": "** Best Functionality ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. A karaoke rhythm game with live session for multiple users, customizable lyrics timing, and 3D elements. Winner of the Best Functionality award for the University of Washington's Winter 2020/21 Coding Bootcamp. Login in and demo the project with USERNAME: 'radcat' PASSWORD: 'password'.",
+        "github": "https://github.com/chomieu/RadCaTS-Karaoke",
+        "src": "https://i.imgur.com/VcL4cwe.gif",
+        "technologies": [
+          "css",
+          "expressJs",
+          "git",
+          "gitHub",
+          "heroku",
+          "html",
+          "javaScript",
+          "mongoDB",
+          "mongoose",
+          "nodeJs",
+          "reactSpeechRecognition",
+          "reactJs"
+        ],
+        "title": "RadCats Karaoke"
+      },
+      {
+        "deployment": "https://sjfcodes.github.io/crypto-keychain/",
+        "description": "Create custom passwords, build encrypted kechains, and generate secure backups with this all in one solution.",
+        "github": "https://github.com/sjfcodes/crypto-keychain",
+        "src": "https://raw.githubusercontent.com/sjfcodes/crypto-keychain/main/assets/screenshots/IMG_9010.PNG",
+        "technologies": [
+          "bootstrap",
+          "css",
+          "cryptoJs",
+          "git",
+          "gitHub",
+          "html",
+          "javaScript",
+          "npm",
+          "reactJs"
+        ],
+        "title": "Crypto Keychain"
+      },
+      {
+        "deployment": "https://chomieu.github.io/Voicely/",
+        "description": "** Best Functionality & People's Choice ** Award Winner for the 2020/2021 UW Full Stack Web Development Bootcamp. An online speech-to-text notepad, with the ability to parse matching text to emoji.",
+        "github": "https://github.com/sjfcodes/Voicely",
+        "src": "https://i.imgur.com/3aCWbYf.png",
+        "technologies": [
+          "css",
+          "git",
+          "gitHub",
+          "html",
+          "javaScript",
+          "materialize",
+          "microsoftSpeech"
+        ],
+        "title": "Voicely"
+      },
+      {
+        "deployment": "https://www.samueljfox.com",
+        "description": "A personal portfolio showcasing the knowledge and skills acquired in my web developer journey.",
+        "github": "https://github.com/sjfcodes/web-dev-portfolio",
+        "src": "https://raw.githubusercontent.com/sjfcodes/web-dev-portfolio/main/assets/screenshots/0.png",
+        "technologies": [
+          "css",
+          "git",
+          "gitHub",
+          "html",
+          "javaScript",
+          "materialize",
+          "reactJs"
+        ],
+        "title": "Personal Portfolio"
+      }
+    ]
+  },
+  "skills": [
+    "- Technical & non-technical communication",
+    "- Logical & creative problem solving",
+    "- Self-motivated & team oriented",
+    "- Google, MDN, StackOverflow",
+    "- Continuous development",
+    "- Deductive reasoning",
+    "- Data Structures",
+    "- Algorithms"
+  ],
+  "myTechnologies": {
+    "apolloGrapgQL": {
+      "href": "https://www.apollographql.com/",
+      "src": "https://img.shields.io/badge/-Apollo%20GraphQL-311C87?logo=Apollo%20GraphQL&logoColor=white",
+      "alt": "Apollo GraphQL"
+    },
+    "amazonAws": {
+      "href": "https://aws.amazon.com/",
+      "src": "https://img.shields.io/badge/-Amazon%20AWS-232F3E?logo=Amazon%20AWS&logoColor=FF9900",
+      "alt": "Amazon AWS"
+    },
+    "bootstrap": {
+      "href": "https://getbootstrap.com/",
+      "src": "https://img.shields.io/badge/-Bootstrap-7952B3?logo=Bootstrap&logoColor=white",
+      "alt": "Bootstrap"
+    },
+    "bulma": {
+      "href": "https://bulma.io/",
+      "src": "https://img.shields.io/badge/-Bulma-00D1B2?logo=Bulma&logoColor=white",
+      "alt": "Bulma"
+    },
+    "cryptoJs": {
+      "href": "https://github.com/brix/crypto-js",
+      "src": "https://img.shields.io/badge/-cryptoJs-white?logo=javascript&logoColor=black",
+      "alt": "CryptoJs"
+    },
+    "css": {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "src": "https://img.shields.io/badge/-CSS-white?logo=css3&logoColor=1572B6",
+      "alt": "CSS"
+    },
+    "docker": {
+      "href": "https://www.docker.com/",
+      "src": "https://img.shields.io/badge/-docker-2496ED?logo=docker&logoColor=white",
+      "alt": "docker"
+    },
+    "expressJs": {
+      "href": "https://expressJs.com/",
+      "src": "https://img.shields.io/badge/-ExpressJs-000000?logo=JavaScript&logoColor=yellow",
+      "alt": "ExpressJs"
+    },
+    "git": {
+      "href": "https://git-scm.com/",
+      "src": "https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white",
+      "alt": "Git"
+    },
+    "gitHub": {
+      "href": "https://github.com/",
+      "src": "https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white",
+      "alt": "GitHub"
+    },
+    "graphQL": {
+      "href": "https://graphql.org/",
+      "src": "https://img.shields.io/badge/-GraphQL-E10098?logo=GraphQL&logoColor=white",
+      "alt": "graphQL"
+    },
+    "handlebarsJs": {
+      "href": "https://handlebarsjs.com/",
+      "src": "https://img.shields.io/badge/-HandlebarsJs-FF7D00",
+      "alt": "HandlebarsJs"
+    },
+    "heroku": {
+      "href": "https://dashboard.heroku.com/login",
+      "src": "https://img.shields.io/badge/-Heroku-430098?logo=Heroku&logoColor=white",
+      "alt": "Heroku"
+    },
+    "html": {
+      "href": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+      "src": "https://img.shields.io/badge/-HTML-white?logo=html5",
+      "alt": "HTML"
+    },
+    "javaScript": {
+      "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "src": "https://img.shields.io/badge/-Javascript-232F3E?logo=javascript",
+      "alt": "JavaScript"
+    },
+    "jQuery": {
+      "href": "https://jquery.com/",
+      "src": "https://img.shields.io/badge/-jQuery-0769AD?logo=jquery",
+      "alt": "jQuery"
+    },
+    "materialize": {
+      "href": "https://materializecss.com/",
+      "src": "https://img.shields.io/badge/-Materialize-FF7F7F?logo=Material%20Design&logoColor=white",
+      "alt": "Materialize"
+    },
+    "microsoftSpeech": {
+      "href": "https://docs.microsoft.com/en-us/javascript/api/microsoft-cognitiveservices-speech-sdk/?view=azure-node-latest",
+      "src": "https://img.shields.io/badge/-microsoft%20speech-5E5E5E?logo=microsoft",
+      "alt": "microsoft speech"
+    },
+    "mongoDB": {
+      "href": "https://www.mongodb.com/",
+      "src": "https://img.shields.io/badge/-MongoDB-47A248?logo=MongoDB&logoColor=white",
+      "alt": "MongoDB"
+    },
+    "mongoose": {
+      "href": "https://mongoosejs.com/",
+      "src": "https://img.shields.io/badge/-Mongoose%20ODM-47A248",
+      "alt": "Mongoose ODM"
+    },
+    "mySQL": {
+      "href": "https://www.mysql.com/",
+      "src": "https://img.shields.io/badge/-MySQL-4479A1?logo=MySQL&logoColor=white",
+      "alt": "MySQL"
+    },
+    "nodeJs": {
+      "href": "https://nodejs.org/",
+      "src": "https://img.shields.io/badge/-NodeJs-339933?logo=node.js&logoColor=white",
+      "alt": "NodeJs"
+    },
+    "npm": {
+      "href": "https://www.npmjs.com/",
+      "src": "https://img.shields.io/badge/-npm-CB3837?logo=NPM",
+      "alt": "npm"
+    },
+    "reactSpeechRecognition": {
+      "href": "https://github.com/JamesBrill/react-speech-recognition",
+      "src": "https://img.shields.io/badge/-react%20speech%20recognition-black",
+      "alt": "react-speech-recognition"
+    },
+    "sequelize": {
+      "href": "https://sequelize.org/",
+      "src": "https://img.shields.io/badge/-Sequelize%20ORM-4479A1",
+      "alt": "Sequelize ORM"
+    },
+    "postman": {
+      "href": "https://www.postman.com/",
+      "src": "https://img.shields.io/badge/-Postman-FF6C37?logo=Postman&logoColor=white",
+      "alt": "Postman"
+    },
+    "pwa": {
+      "href": "https://web.dev/progressive-web-apps/",
+      "src": "https://img.shields.io/badge/-PWA-5A0FC8?logo=PWA&logoColor=white",
+      "alt": "PWA"
+    },
+    "reactJs": {
+      "href": "https://reactjs.org/",
+      "src": "https://img.shields.io/badge/-ReactJs-000000?logo=React&logoColor=61DAFB",
+      "alt": "ReactJs"
+    },
+    "sass": {
+      "href": "https://sass-lang.com/",
+      "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
+      "alt": "Sass"
+    },
+    "socketIo": {
+      "href": "https://socket.io/",
+      "src": "https://img.shields.io/badge/-Socket.io-010101?logo=socket.io",
+      "alt": "Socket.io"
+    },
+    "visualStudioCode": {
+      "href": "https://code.visualstudio.com/",
+      "src": "https://img.shields.io/badge/-Visual%20Studio%20Code-white?logo=Visual%20Studio%20Code&logoColor=007ACC",
+      "alt": "Visual Studio Code"
+    },
+    "webpack": {
+      "href": "https://webpack.js.org/",
+      "src": "https://img.shields.io/badge/-Webpack-8DD6F9?logo=Webpack&logoColor=white",
+      "alt": "Webpack"
     }
+  }
 }

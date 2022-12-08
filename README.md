@@ -1,9 +1,8 @@
-
 # Portfolio
 
 A personal portfolio showcasing the knowledge and skills acquired in my web developer journey.
 
-[Check it out!](https://samueljfox.com/) 
+[Check it out!](https://samueljfox.com/)
 
 <br>
 
@@ -30,10 +29,9 @@ A personal portfolio showcasing the knowledge and skills acquired in my web deve
 
 ## Questions
 
-| Name | Email  | Github  | LinkedIn |
-| :--: | :----: | :-----: | :------: |
-| Samuel Fox | samueljasonfox@gmail.com | [![Github](./public/logo/github/GitHub-Mark-Light-64px.png)](https://github.com/samuelfox1) | [![LinkedIn](./public/logo/linkedin/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
-
+|    Name    |          Email           |                                          Github                                           |                                             LinkedIn                                              |
+| :--------: | :----------------------: | :---------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+| Samuel Fox | samueljasonfox@gmail.com | [![Github](./public/logo/github/GitHub-Mark-Light-64px.png)](https://github.com/sjfcodes) | [![LinkedIn](./public/logo/linkedin/linkedin.png)](https://www.linkedin.com/in/samuel-fox-tacoma) |
 
 ## License
 
