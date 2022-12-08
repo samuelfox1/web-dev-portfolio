@@ -1,11 +1,10 @@
 {
   "about": {
+    "introduction": "Hello!",
     "bio": [
-      "My name is Sam, I am a Full Stack Web Developer experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow.",
-      "Graduate from the University of Washington's Full Stack Flex Web Development program. Backed by 10 years of hands-on experience with various top-down, bottom-up, and end-to-end design strategies for residential spaces."
+      "My name is Sam and I love to build! I am a certified AWS Solutions Architect and graduate from the University of Washington's Full Stack Web Development program. Experienced with design, optimization, and security, utilizing a collection of industry-standard tools & technologies. Quality-focused for product resiliency and longevity. Capable of automating systems with an intuitive UI while detecting vulnerabilities and optimizing workflow."
     ],
     "firstName": "Samuel",
-    "introduction": "Welcome!",
     "lastName": "Fox",
     "profilePicture": "https://i.imgur.com/zEvf4P4m.jpg",
     "gitHub": "https://github.com/sjfcodes",
@@ -188,6 +187,11 @@
       "src": "https://img.shields.io/badge/-GitHub-181717?logo=GitHub&logoColor=white",
       "alt": "GitHub"
     },
+    "gitLab": {
+      "href": "https://about.gitlab.com/",
+      "src": "https://img.shields.io/badge/-GitLab-554488?logo=GitLab&logoColor=fc6d26",
+      "alt": "GitLab"
+    },
     "graphQL": {
       "href": "https://graphql.org/",
       "src": "https://img.shields.io/badge/-GraphQL-E10098?logo=GraphQL&logoColor=white",
@@ -283,10 +287,20 @@
       "src": "https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white",
       "alt": "Sass"
     },
+    "selenium": {
+      "href": "https://www.selenium.dev/",
+      "src": "https://img.shields.io/badge/-Selemium-white?logo=Selenium",
+      "alt": "Selenium"
+    },
     "socketIo": {
       "href": "https://socket.io/",
       "src": "https://img.shields.io/badge/-Socket.io-010101?logo=socket.io",
       "alt": "Socket.io"
+    },
+    "typescript": {
+      "href": "https://www.typescriptlang.org/",
+      "src": "https://img.shields.io/badge/-Typescript-00273f?logo=Typescript",
+      "alt": "typescript"
     },
     "visualStudioCode": {
       "href": "https://code.visualstudio.com/",

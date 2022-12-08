@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Col } from "react-materialize";
-import { v4 } from "uuid";
 import Section from "../../../components/Section";
 import { AppContext } from "../../../context/AppProvider";
 import { aosOptions } from "../../../utils/aosConfig";
@@ -19,8 +18,8 @@ const AboutSection = () => {
       <Col data-aos={fade} s={12} m={12} l={12}>
         <img src={profilePicture} className="portrait mt-1" alt="my profile" />
         <h5 className="left-align mt-1">{introduction}</h5>
-        {bio.map((statement) => (
-          <p key={v4()}>{statement}</p>
+        {bio.map((statement,idx) => (
+          <p key={idx}>{statement}</p>
         ))}
       </Col>
     </Section>

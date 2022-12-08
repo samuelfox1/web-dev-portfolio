@@ -1,5 +1,6 @@
 section.about p {
   text-indent: 2em;
+  text-align: center;
 }
 
 .portrait {
@@ -7,7 +8,7 @@ section.about p {
   margin: 0 1em 0;
   float: left;
   width: 200px;
-  border-radius: 50%;
+  border-radius: var(--border-radius);
 }
 
 @media screen and (max-width: 480px) {
