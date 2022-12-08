@@ -36,6 +36,7 @@ export default function Nav() {
         options={options}
         alignLinks="right"
         menuIcon={menuIcon}
+        onClick={() => window.location.reload()}
       >
         <NavItem href="/#current-work" className="sidenav-close">
           Current Work
