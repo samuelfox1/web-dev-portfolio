@@ -19,7 +19,7 @@
     "current": {
       "appName": "Tutorly",
       "description": "A progressive web application for tutors to manage courses, meet with students, and automate daily tasks. A Tutor can creates courses, add students, add meetings, connect a calendly account, and create custom email templates.",
-      "deploymentURL": "https://www.tutor-me.io",
+      "deploymentURL": "https://aqueous-ravine-28565.herokuapp.com/",
       "gitHubURL": "https://github.com/sjfcodes/tutor-assistant",
       "repoName": "tutor-assistant",
       "images": [
